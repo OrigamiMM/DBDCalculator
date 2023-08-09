@@ -43,7 +43,7 @@ for itemIndex, itemTable in enumerate(tables[2:7]):
             'name': name,
             'description': description,
             'imgUrl': imgUrl,
-            'stats': []
+            'stats': None
         })
 
 #getAddons
