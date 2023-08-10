@@ -142,55 +142,82 @@
         "name": "Worn-Out Tools",
         "description": "A metal box containing out of condition tools that could break at any moment.Even without training, can be used to repair or break various mechanical components.\nIncreased Generator Repair speed of +50\u00a0%.\nReduced Good Skill Check Success zone of -10\u00a0%.\nUnlocks the Sabotage action.\nThe Worn-Out Toolbox has a Capacity of 16 Charges.\n\"You call these tools? ... Really?\"\n\n",
         "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/92/FulliconItems_worn-outTools.png/revision/latest?cb=20200713233518",
-        "stats": null
+        "stats": {
+          "speed": null,
+          "charges": "16"
+        }
       },
       {
         "name": "Toolbox",
         "description": "A metal box containing a set of basic tools.Even without training, can be used to repair or break various mechanical components.\nIncreased Generator Repair speed of +50\u00a0%.\nUnlocks the Sabotage action.\nIncreased Hook Sabotage speed of +10\u00a0%.\nThe Toolbox has a Capacity of 20 Charges.\n\"It is unclear as to where these tools come from. Were they brought in by one of us or did they belong to one of the monsters?\"\n\n",
         "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/04/FulliconItems_toolbox.png/revision/latest?cb=20200713233523",
-        "stats": null
+        "stats": {
+          "speed": null,
+          "charges": "20"
+        }
       },
       {
         "name": "Mechanic's Toolbox",
         "description": "A metal box with specialised mechanics tools.Even without training, can be used to repair or break various mechanical components.\nIncreased Generator Repair speed of +75\u00a0%.\nUnlocks the Sabotage action.\nDecreased Hook Sabotage speed of -10\u00a0%.\nThe Mechanic's Toolbox has a Capacity of 16 Charges.\n\n",
         "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/22/FulliconItems_mechanicsToolbox.png/revision/latest?cb=20200713233530",
-        "stats": null
+        "stats": {
+          "speed": null,
+          "charges": "16"
+        }
       },
       {
         "name": "Commodious Toolbox",
         "description": "A large metal box containing basic tool and extra mechanical parts.Even without training, can be used to repair or break various mechanical components.\nIncreased Generator Repair speed by +50\u00a0%.\nUnlocks the Sabotage action.\nThe Commodious Toolbox has a Capacity of 32 Charges.\n\n",
         "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6a/FulliconItems_commodiousToolbox.png/revision/latest?cb=20200713233535",
-        "stats": null
+        "stats": {
+          "speed": null,
+          "charges": "32"
+        }
       },
       {
         "name": "Engineer's Toolbox",
         "description": "A metal box with highly specialised tools meant for engineering.Most of the tools can be used by neophytes to make quick repairs or break various mechanical components.\nIncreased Generator Repair speed of +100\u00a0%.\nUnlocks the Sabotage action.\nDecreased Hook Sabotage speed of -25\u00a0%.\nThe Engineer's Toolbox has a Capacity of 16 Charges.\n\"I've created tools beyond compare and stood paralysed as they were stolen from me. These are but a poor replica, spat out by The Fog.\" \u2014 Vigo's Journal\n\n",
         "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7d/FulliconItems_engineersToolbox.png/revision/latest?cb=20200713233542",
-        "stats": null
+        "stats": {
+          "speed": null,
+          "charges": "16"
+        }
       },
       {
         "name": "Alex's Toolbox",
         "description": "A metal box containing mainly saws and vice grips of varying sizes but also other tools.Even though the content of this Toolbox is clearly aimed at destructive deeds, it can be used to repair various mechanical components as well.\nIncreased Generator Repair speed of +10\u00a0%.\nUnlocks the Sabotage action.\nIncreased Hook Sabotage speed of +50\u00a0%.\nAlex's Toolbox has a Capacity of 24 Charges.\n\"Most of the tools are identified as 'owned by Alex'.\"\n\n",
         "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/58/FulliconItems_alexsToolbox.png/revision/latest?cb=20200713233547",
-        "stats": null
+        "stats": {
+          "speed": null,
+          "charges": "24"
+        }
       },
       {
         "name": "Anniversary Toolbox",
         "description": "NO LONGER AVAILABLE IN THE BLOODWEB.\nA Toolbox that is slightly explosive.\n\nIncreased Generator Repair speed of +50\u00a0%.\nDetonates a firework once depleted.Yay!\nUnlocks the Sabotage action.\nThe Anniversary Toolbox has a Capacity of 32 Charges.\n\"Nothing says happy anniversary like detonating a firework and praying the Killer does not notice.Good luck and thank you for celebrating with us!\" \u2014 The Dead by Daylight Team\n\n",
         "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7a/FulliconItems_anniversaryToolbox.png/revision/latest?cb=20210630151412",
-        "stats": null
+        "stats": {
+          "speed": null,
+          "charges": "32"
+        }
       },
       {
         "name": "Festive Toolbox",
         "description": "NO LONGER AVAILABLE IN THE BLOODWEB.\nA Toolbox packed to the brim with fireworks, it is prepared to celebrate all your life's successes... and failures.\n\nIncreased Generator Repair speed of +50\u00a0%.\nSucceeding a Great Skill Check detonates a small cluster of firecrackers.\nMissing a Skill Check detonates fireworks.\nUnlocks the Sabotage action.\nThe Festive Toolbox has a Capacity of 32 Charges.\n\n",
         "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/FulliconItems_festiveToolbox.png/revision/latest?cb=20210210114841",
-        "stats": null
+        "stats": {
+          "speed": null,
+          "charges": "32"
+        }
       },
       {
         "name": "Masquerade Toolbox",
         "description": "A Toolbox with all of the standard gadgets: wrenches, screwdrivers, fireworks, a hammer...\nIncreased Generator Repair speed of +50\u00a0%.\nDetonates a firework once depleted.Yay!\nUnlocks the Sabotage action.\nThe Masquerade Toolbox has a Capacity of 32 Charges.\n\"Happy Anniversary! We're fixin' to have a big party!\" \u2014 The Dead by Daylight Team\n\n",
         "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/63/FulliconItems_masqueradeToolbox.png/revision/latest?cb=20220608162325",
-        "stats": null
+        "stats": {
+          "speed": null,
+          "charges": "32"
+        }
       }
     ]
   },

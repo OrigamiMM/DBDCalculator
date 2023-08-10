@@ -39,17 +39,23 @@ for itemIndex, itemTable in enumerate(tables[2:7]):
         name = cols[1].find('a').text
         stats = None
         description = cols[2].get_text()
-        print(item)
         if item == "med-kits":
             pattern = re.compile(r'Altruistic Healing speed of (\S+)')
             match = pattern.search(description)
             if match:
-                print("hello")
+                
                 stats = {
                     'speed':match.group(1).strip(),
                     'charges':None
                 }
-        #else if item == ""
+        elif item == "toolboxes":
+            pattern = re.compile(r'Capacity of (\S+)')
+            match = pattern.search(description)
+            if match:
+                stats = {
+                    'speed':None,
+                    'charges':match.group(1).strip()
+                }
             
         
         data['items'][item].append({
