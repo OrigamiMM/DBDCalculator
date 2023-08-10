@@ -38,26 +38,26 @@ for itemIndex, itemTable in enumerate(tables[2:7]):
         imgUrl = cols[0].find('a')["href"]
         name = cols[1].find('a').text
         stats = None
+        speed=None
+        charges = None
         description = cols[2].get_text()
         if item == "med-kits":
             pattern = re.compile(r'Altruistic Healing speed of (\S+)')
             match = pattern.search(description)
             if match:
-                
-                stats = {
-                    'speed':match.group(1).strip(),
-                    'charges':None
-                }
+               speed = match.group(1).strip()
+               speed = int(speed[1:-1])*.01
         elif item == "toolboxes":
             pattern = re.compile(r'Capacity of (\S+)')
             match = pattern.search(description)
             if match:
-                stats = {
-                    'speed':None,
-                    'charges':match.group(1).strip()
-                }
+                charges=int(match.group(1).strip())
+                
             
-        
+        stats = {
+                    'speed': speed,
+                    'charges':charges
+                }   
         data['items'][item].append({
             'name': name,
             'description': description,
@@ -80,14 +80,40 @@ for addonIndex, addonTable in enumerate(tables[3:8]):
 
         imgUrl = cols[0].find('a')["href"]
         name = cols[1].find('a').text
-        
-        description = cols[2].decode_contents()
-
+       
+        stats = None
+        description = cols[2].get_text()
+        speed=None
+        charges = None
+        if addon == "med-kit":
+            pattern = re.compile(r'Healing speed of Med-Kits by (\S+)')
+            match = pattern.search(description)
+            if match:
+                speed = match.group(1).strip()
+                speed = int(speed)*.01
+            pattern2 = re.compile(r'Charges of Med-Kits by (\S+)')
+            match2 = pattern2.search(description)
+            if match2:
+                charges = int(match2.group(1).strip())
+        elif addon == "toolbox":
+            pattern = re.compile(r'Repair speed of the Toolbox by (\S+)')
+            match = pattern.search(description)
+            if match:
+                speed = match.group(1).strip()
+                speed = int(speed)*.01
+            pattern2 = re.compile(r'Capacity of the Toolbox by (\S+)')
+            match2 = pattern2.search(description.strip())
+            if match2:
+                charges = int(match2.group(1).strip())
+        stats = {
+                    'speed': speed,
+                    'charges':charges
+                }   
         data['addons'][addon].append({
             'name': name,
             'description': description,
             'imgUrl': imgUrl,
-            'stats': None
+            'stats': stats
         })
 
 
