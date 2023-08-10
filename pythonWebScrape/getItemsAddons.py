@@ -1,7 +1,7 @@
 import json
 import requests
 from bs4 import BeautifulSoup
-
+import re
 addonsURL = 'https://deadbydaylight.fandom.com/wiki/Add-ons'
 itemsURL = 'https://deadbydaylight.fandom.com/wiki/Items'
 
@@ -37,13 +37,26 @@ for itemIndex, itemTable in enumerate(tables[2:7]):
 
         imgUrl = cols[0].find('a')["href"]
         name = cols[1].find('a').text
-        description = cols[2].decode_contents()
+        stats = None
+        description = cols[2].get_text()
+        print(item)
+        if item == "med-kits":
+            pattern = re.compile(r'Altruistic Healing speed of (\S+)')
+            match = pattern.search(description)
+            if match:
+                print("hello")
+                stats = {
+                    'speed':match.group(1).strip(),
+                    'charges':None
+                }
+        #else if item == ""
+            
         
         data['items'][item].append({
             'name': name,
             'description': description,
             'imgUrl': imgUrl,
-            'stats': None
+            'stats': stats
         })
 
 #getAddons
@@ -61,13 +74,14 @@ for addonIndex, addonTable in enumerate(tables[3:8]):
 
         imgUrl = cols[0].find('a')["href"]
         name = cols[1].find('a').text
-        description = cols[2].decode_contents()
         
+        description = cols[2].decode_contents()
+
         data['addons'][addon].append({
             'name': name,
             'description': description,
             'imgUrl': imgUrl,
-            'stats': []
+            'stats': None
         })
 
 
