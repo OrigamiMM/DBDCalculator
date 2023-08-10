@@ -21,18 +21,18 @@ for entry in entries[1:]:
     name = trs[1].find('a').text
     description = tdText.find("div", class_="formattedPerkDesc").decode_contents()
     imgUrl = trs[0].find('a')['href']
-    source = 'Any'
+    sourceSurvivor = 'Any'
     sourceUrl = None
     
-    if(len(trs[2].find_all('a')) == 2):
-        sourceSurvivor = trs[2].find_all('a')[0]['href'][6:].replace('_', ' ')
+    if(trs[2].find_all('a') != []):
+        sourceSurvivor = trs[2].find_all('a')[0]['title']
         sourceUrl = trs[2].find_all('a')[1]['href']
 
     data['perks'].append({
         'name':  name,
         'description':  description,
         'imgUrl': imgUrl,
-        'sourceSurvivor': source,
+        'sourceSurvivor': sourceSurvivor,
         'sourceUrl': sourceUrl,
         'modifiers': []
     })
