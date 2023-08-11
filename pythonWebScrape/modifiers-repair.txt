@@ -1,0 +1,59 @@
+Deja Vu
+self
+toggle
+any
+repair; 6%
+-----
+Fast Track
+self
+token 27
+any
+progression; 1%
+-----
+Friendly Competition
+all
+toggle
+any 
+repair; 5%
+-----
+Object of Obsession
+self
+toggle
+any
+repair; 6%
+-----
+Overzealous
+self
+toggle 2
+repair; 10%
+repair; 20%
+-----
+Potential Energy
+self
+token 20
+any
+repair-progression; 1%
+-----
+Prove Thyself
+all
+stack 3
+any
+base-repair; 30%
+-----
+Quick Gambit
+other
+toggle
+any
+repair; 8%
+-----
+Resilience
+self
+none
+injured
+repair; 9%
+-----
+Spine Chill
+self
+toggle
+any
+repair; 6%
