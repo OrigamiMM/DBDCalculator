@@ -4,12 +4,11 @@ import math
 # calc single player with simple perk effects
 #
 
-item = {
-    'speed': .8,
-    'charges': 44,
-}
+item = None
 
 def generateItemFunction(item):
+    if item == None: 
+        return lambda c: 0
     def itemSpeed(c):
         if c <= item['charges']:
             return item['speed']
@@ -31,7 +30,7 @@ def calculateObjectiveTime(objectiveCharges, speed):
     return seconds
 
 def calcGenTime(player):
-    genCharges = 80
+    genCharges = 90
     def speed(c):
         chargesPerSecond = player['baseRepair'] + player['perkModifiers'] + player['itemSpeedFunction'](c)
         return chargesPerSecond

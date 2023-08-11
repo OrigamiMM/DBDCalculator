@@ -59,10 +59,10 @@ for itemIndex, itemTable in enumerate(tables[2:7]):
             if capMatch:
                 charges=int(capMatch.group(1).strip()) 
             
-        stats = {
-                    'speed': speed,
-                    'charges':charges
-                }   
+            stats = {
+                        'speed': speed,
+                        'charges':charges
+                    }   
         data['items'][item].append({
             'name': name,
             'description': description,
@@ -88,8 +88,8 @@ for addonIndex, addonTable in enumerate(tables[3:8]):
        
         stats = None
         description = cols[2].get_text()
-        speed=None
-        charges = None
+        speed= 0
+        charges = 0
         if addon == "med-kit":
             pattern = re.compile(r'Healing speed of Med-Kits by (\S+)')
             match = pattern.search(description)
@@ -110,10 +110,11 @@ for addonIndex, addonTable in enumerate(tables[3:8]):
             match2 = pattern2.search(description.strip())
             if match2:
                 charges = int(match2.group(1).strip())
-        stats = {
-                    'speed': speed,
-                    'charges':charges
-                }   
+        if addon == 'toolbox' or addon == 'med-kit': 
+            stats = {
+                        'speed': speed,
+                        'charges':charges
+                    }   
         data['addons'][addon].append({
             'name': name,
             'description': description,
