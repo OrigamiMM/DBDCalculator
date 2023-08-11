@@ -1,7 +1,7 @@
 import json
 import requests
 from bs4 import BeautifulSoup
-
+import re
 addonsURL = 'https://deadbydaylight.fandom.com/wiki/Add-ons'
 itemsURL = 'https://deadbydaylight.fandom.com/wiki/Items'
 
@@ -37,13 +37,37 @@ for itemIndex, itemTable in enumerate(tables[2:7]):
 
         imgUrl = cols[0].find('a')["href"]
         name = cols[1].find('a').text
-        description = cols[2].decode_contents()
-        
+        stats = None
+        speed=None
+        charges = None
+        description = cols[2].get_text()
+
+        speedPattern = re.compile(r'speed of (\S+)')
+        capacityPattern = re.compile(r'Capacity of (\S+)')
+
+        if item == "med-kits" or item == "toolboxes":
+            speedMatch = speedPattern.search(description)
+            capMatch = capacityPattern.search(description)
+            if speedMatch:
+               speed = speedMatch.group(1).strip()
+               #speed = int(speed[1:])*.01
+               speed = float(speed[1:])/100
+            else:
+                #Commodious Toolbox is the only item that uses phrase 'speed by'
+                #since only 1 item, think this single else is fine
+                speed = 0.5
+            if capMatch:
+                charges=int(capMatch.group(1).strip()) 
+            
+        stats = {
+                    'speed': speed,
+                    'charges':charges
+                }   
         data['items'][item].append({
             'name': name,
             'description': description,
             'imgUrl': imgUrl,
-            'stats': None
+            'stats': stats
         })
 
 #getAddons
@@ -61,13 +85,40 @@ for addonIndex, addonTable in enumerate(tables[3:8]):
 
         imgUrl = cols[0].find('a')["href"]
         name = cols[1].find('a').text
-        description = cols[2].decode_contents()
-        
+       
+        stats = None
+        description = cols[2].get_text()
+        speed=None
+        charges = None
+        if addon == "med-kit":
+            pattern = re.compile(r'Healing speed of Med-Kits by (\S+)')
+            match = pattern.search(description)
+            if match:
+                speed = match.group(1).strip()
+                speed = int(speed)*.01
+            pattern2 = re.compile(r'Charges of Med-Kits by (\S+)')
+            match2 = pattern2.search(description)
+            if match2:
+                charges = int(match2.group(1).strip())
+        elif addon == "toolbox":
+            pattern = re.compile(r'Repair speed of the Toolbox by (\S+)')
+            match = pattern.search(description)
+            if match:
+                speed = match.group(1).strip()
+                speed = int(speed)*.01
+            pattern2 = re.compile(r'Capacity of the Toolbox by (\S+)')
+            match2 = pattern2.search(description.strip())
+            if match2:
+                charges = int(match2.group(1).strip())
+        stats = {
+                    'speed': speed,
+                    'charges':charges
+                }   
         data['addons'][addon].append({
             'name': name,
             'description': description,
             'imgUrl': imgUrl,
-            'stats': []
+            'stats': stats
         })
 
 
