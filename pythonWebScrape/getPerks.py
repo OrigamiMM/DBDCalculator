@@ -18,7 +18,8 @@ for entry in entries[1:]:
     tdText = entry.find("td")
     
     #wired encoding for accented characters
-    name = trs[1].find('a').text
+    name = trs[1].find('a')['title']
+    if name == 'Déjà Vu': name = 'Deja Vu'
     description = tdText.find("div", class_="formattedPerkDesc").decode_contents()
     imgUrl = trs[0].find('a')['href']
     sourceSurvivor = 'Any'
@@ -34,7 +35,7 @@ for entry in entries[1:]:
         'imgUrl': imgUrl,
         'sourceSurvivor': sourceSurvivor,
         'sourceUrl': sourceUrl,
-        'modifiers': []
+        'modifiers': None
     })
 
 json_string = json.dumps(data, indent=2)

@@ -6,7 +6,7 @@
       "imgUrl": "../assets/perkImages/AceintheHole.png",
       "sourceSurvivor": "Ace Visconti",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/S07_charSelect_portrait.png/revision/latest?cb=20230705190028",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Adrenaline",
@@ -14,7 +14,7 @@
       "imgUrl": "../assets/perkImages/Adrenaline.png",
       "sourceSurvivor": "Meg Thomas",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/77/S02_charSelect_portrait.png/revision/latest?cb=20230705190636",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Aftercare",
@@ -22,7 +22,7 @@
       "imgUrl": "../assets/perkImages/Aftercare.png",
       "sourceSurvivor": "Jeffrey \"Jeff\" Johansen",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b9/S15_charSelect_portrait.png/revision/latest?cb=20230725192434",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Alert",
@@ -30,7 +30,7 @@
       "imgUrl": "../assets/perkImages/Alert.png",
       "sourceSurvivor": "Feng Min",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/S09_charSelect_portrait.png/revision/latest?cb=20230725191813",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Any Means Necessary",
@@ -38,7 +38,7 @@
       "imgUrl": "../assets/perkImages/AnyMeansNecessary.png",
       "sourceSurvivor": "Yui Kimura",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/S20_charSelect_portrait.png/revision/latest?cb=20230705193537",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Appraisal",
@@ -46,7 +46,7 @@
       "imgUrl": "../assets/perkImages/Appraisal.png",
       "sourceSurvivor": "\u00c9lodie Rakoto",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/45/S24_charSelect_portrait.png/revision/latest?cb=20230705193628",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Autodidact",
@@ -54,7 +54,7 @@
       "imgUrl": "../assets/perkImages/Autodidact.png",
       "sourceSurvivor": "Adam Francis",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e1/S14_charSelect_portrait.png/revision/latest?cb=20230725192408",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Background Player",
@@ -62,7 +62,7 @@
       "imgUrl": "../assets/perkImages/BackgroundPlayer.png",
       "sourceSurvivor": "Renato Lyra",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/59/S36_charSelect_portrait.png/revision/latest?cb=20230705193833",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Balanced Landing",
@@ -70,7 +70,7 @@
       "imgUrl": "../assets/perkImages/BalancedLanding.png",
       "sourceSurvivor": "Nea Karlsson",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/14/S05_charSelect_portrait.png/revision/latest?cb=20230705185446",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Better than New",
@@ -78,7 +78,7 @@
       "imgUrl": "../assets/perkImages/BetterthanNew.png",
       "sourceSurvivor": "Rebecca Chambers",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/93/S33_charSelect_portrait.png/revision/latest?cb=20230705184830",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Bite the Bullet",
@@ -86,7 +86,7 @@
       "imgUrl": "../assets/perkImages/BitetheBullet.png",
       "sourceSurvivor": "Leon Scott Kennedy",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/S27_charSelect_portrait.png/revision/latest?cb=20230705184450",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Blast Mine",
@@ -94,7 +94,7 @@
       "imgUrl": "../assets/perkImages/BlastMine.png",
       "sourceSurvivor": "Jill Valentine",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/99/S26_charSelect_portrait.png/revision/latest?cb=20230705184445",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Blood Pact",
@@ -102,7 +102,7 @@
       "imgUrl": "../assets/perkImages/BloodPact.png",
       "sourceSurvivor": "Cheryl Mason",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/38/S22_charSelect_portrait.png/revision/latest?cb=20230705193841",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Blood Rush",
@@ -110,7 +110,7 @@
       "imgUrl": "../assets/perkImages/BloodRush.png",
       "sourceSurvivor": "Renato Lyra",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/59/S36_charSelect_portrait.png/revision/latest?cb=20230705193833",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Boil Over",
@@ -118,7 +118,7 @@
       "imgUrl": "../assets/perkImages/BoilOver.png",
       "sourceSurvivor": "Kate Denson",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/19/S13_charSelect_portrait.png/revision/latest?cb=20230705192155",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Bond",
@@ -126,7 +126,7 @@
       "imgUrl": "../assets/perkImages/Bond.png",
       "sourceSurvivor": "Dwight Fairfield",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/S01_charSelect_portrait.png/revision/latest?cb=20230705190630",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Boon: Circle of Healing",
@@ -134,7 +134,7 @@
       "imgUrl": "../assets/perkImages/BoonCircleofHealing.png",
       "sourceSurvivor": "Mikaela Reid",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/42/S28_charSelect_portrait.png/revision/latest?cb=20230705191728",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Boon: Dark Theory",
@@ -142,7 +142,7 @@
       "imgUrl": "../assets/perkImages/BoonDarkTheory.png",
       "sourceSurvivor": "Yoichi Asakawa",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/S30_charSelect_portrait.png/revision/latest?cb=20230725192537",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Boon: Exponential",
@@ -150,7 +150,7 @@
       "imgUrl": "../assets/perkImages/BoonExponential.png",
       "sourceSurvivor": "Jonah Vasquez",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/S29_charSelect_portrait.png/revision/latest?cb=20230725192519",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Boon: Shadow Step",
@@ -158,7 +158,7 @@
       "imgUrl": "../assets/perkImages/BoonShadowStep.png",
       "sourceSurvivor": "Mikaela Reid",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/42/S28_charSelect_portrait.png/revision/latest?cb=20230705191728",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Borrowed Time",
@@ -166,7 +166,7 @@
       "imgUrl": "../assets/perkImages/BorrowedTime.png",
       "sourceSurvivor": "William \"Bill\" Overbeck",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/66/S08_charSelect_portrait.png/revision/latest?cb=20230705190755",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Botany Knowledge",
@@ -174,7 +174,7 @@
       "imgUrl": "../assets/perkImages/BotanyKnowledge.png",
       "sourceSurvivor": "Claudette Morel",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/65/S03_charSelect_portrait.png/revision/latest?cb=20230725191927",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Breakdown",
@@ -182,7 +182,7 @@
       "imgUrl": "../assets/perkImages/Breakdown.png",
       "sourceSurvivor": "Jeffrey \"Jeff\" Johansen",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b9/S15_charSelect_portrait.png/revision/latest?cb=20230725192434",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Breakout",
@@ -190,7 +190,7 @@
       "imgUrl": "../assets/perkImages/Breakout.png",
       "sourceSurvivor": "Yui Kimura",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/S20_charSelect_portrait.png/revision/latest?cb=20230705193537",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Buckle Up",
@@ -198,7 +198,7 @@
       "imgUrl": "../assets/perkImages/BuckleUp.png",
       "sourceSurvivor": "Ashley J. Williams",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/S17_charSelect_portrait.png/revision/latest?cb=20230725192546",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Built to Last",
@@ -206,7 +206,7 @@
       "imgUrl": "../assets/perkImages/BuilttoLast.png",
       "sourceSurvivor": "Felix Richter",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2e/S23_charSelect_portrait.png/revision/latest?cb=20230705194042",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Calm Spirit",
@@ -214,7 +214,7 @@
       "imgUrl": "../assets/perkImages/CalmSpirit.png",
       "sourceSurvivor": "Jake Park",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cb/S04_charSelect_portrait.png/revision/latest?cb=20230725191755",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Chemical Trap",
@@ -222,7 +222,7 @@
       "imgUrl": "../assets/perkImages/ChemicalTrap.png",
       "sourceSurvivor": "Ellen Ripley",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/S39_charSelect_portrait.png/revision/latest?cb=20230808155833",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Clairvoyance",
@@ -230,7 +230,7 @@
       "imgUrl": "../assets/perkImages/Clairvoyance.png",
       "sourceSurvivor": "Mikaela Reid",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/42/S28_charSelect_portrait.png/revision/latest?cb=20230705191728",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Corrective Action",
@@ -238,7 +238,7 @@
       "imgUrl": "../assets/perkImages/CorrectiveAction.png",
       "sourceSurvivor": "Jonah Vasquez",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/S29_charSelect_portrait.png/revision/latest?cb=20230725192519",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Counterforce",
@@ -246,7 +246,7 @@
       "imgUrl": "../assets/perkImages/Counterforce.png",
       "sourceSurvivor": "Jill Valentine",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/99/S26_charSelect_portrait.png/revision/latest?cb=20230705184445",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Cut Loose",
@@ -254,7 +254,7 @@
       "imgUrl": "../assets/perkImages/CutLoose.png",
       "sourceSurvivor": "Thalita Lyra",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/20/S35_charSelect_portrait.png/revision/latest?cb=20230705194105",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Dance With Me",
@@ -262,7 +262,7 @@
       "imgUrl": "../assets/perkImages/DanceWithMe.png",
       "sourceSurvivor": "Kate Denson",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/19/S13_charSelect_portrait.png/revision/latest?cb=20230705192155",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Dark Sense",
@@ -270,7 +270,7 @@
       "imgUrl": "../assets/perkImages/DarkSense.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Dead Hard",
@@ -278,7 +278,7 @@
       "imgUrl": "../assets/perkImages/DeadHard.png",
       "sourceSurvivor": "David King",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/57/S10_charSelect_portrait.png/revision/latest?cb=20230725192207",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Deception",
@@ -286,7 +286,7 @@
       "imgUrl": "../assets/perkImages/Deception.png",
       "sourceSurvivor": "\u00c9lodie Rakoto",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/45/S24_charSelect_portrait.png/revision/latest?cb=20230705193628",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Decisive Strike",
@@ -294,7 +294,7 @@
       "imgUrl": "../assets/perkImages/DecisiveStrike.png",
       "sourceSurvivor": "Laurie Strode",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cc/S06_charSelect_portrait.png/revision/latest?cb=20230705185657",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Deliverance",
@@ -302,7 +302,7 @@
       "imgUrl": "../assets/perkImages/Deliverance.png",
       "sourceSurvivor": "Adam Francis",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e1/S14_charSelect_portrait.png/revision/latest?cb=20230725192408",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Desperate Measures",
@@ -310,7 +310,7 @@
       "imgUrl": "../assets/perkImages/DesperateMeasures.png",
       "sourceSurvivor": "Felix Richter",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2e/S23_charSelect_portrait.png/revision/latest?cb=20230705194042",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Detective's Hunch",
@@ -318,7 +318,7 @@
       "imgUrl": "../assets/perkImages/Detective'sHunch.png",
       "sourceSurvivor": "Detective David Tapp",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/S12_charSelect_portrait.png/revision/latest?cb=20230705191928",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Distortion",
@@ -326,7 +326,7 @@
       "imgUrl": "../assets/perkImages/Distortion.png",
       "sourceSurvivor": "Jeffrey \"Jeff\" Johansen",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b9/S15_charSelect_portrait.png/revision/latest?cb=20230725192434",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Diversion",
@@ -334,7 +334,7 @@
       "imgUrl": "../assets/perkImages/Diversion.png",
       "sourceSurvivor": "Adam Francis",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e1/S14_charSelect_portrait.png/revision/latest?cb=20230725192408",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Dramaturgy",
@@ -342,15 +342,25 @@
       "imgUrl": "../assets/perkImages/Dramaturgy.png",
       "sourceSurvivor": "Nicolas Cage",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/16/S38_charSelect_portrait.png/revision/latest?cb=20230705182818",
-      "modifiers": []
+      "modifiers": null
     },
     {
-      "name": "D\u00e9j\u00e0 Vu",
+      "name": "Deja Vu",
       "description": "Unlocks potential in your Aura-reading ability:\n<p>Paranoia paired with your horror of failure helps prepare you from repeating the same mistakes.\n</p><ul><li>The <a href=\"/wiki/Auras\" title=\"Auras\">Auras</a><span style=\"padding: 0 0 0 0\"><span class=\"pcView\" style=\"display:none\"><span class=\"tooltip linkIncluded iconless borderless\"><span class=\"tooltipBaseText\"><a href=\"/wiki/Auras\" title=\"Auras\"><img alt=\"IconHelp auras\" class=\"lazyload\" data-image-key=\"IconHelp_auras.png\" data-image-name=\"IconHelp auras.png\" data-relevant=\"0\" data-src=\"https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/03/IconHelp_auras.png/revision/latest/scale-to-width-down/32?cb=20170907143115\" decoding=\"async\" height=\"32\" loading=\"lazy\" src=\"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D\" width=\"32\"/></a></span><span class=\"tooltiptext\"><span class=\"tooltipTextWrapper\"><a href=\"/wiki/Auras\" title=\"Auras\"><img alt=\"IconHelp auras\" class=\"lazyload\" data-image-key=\"IconHelp_auras.png\" data-image-name=\"IconHelp auras.png\" data-relevant=\"0\" data-src=\"https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/03/IconHelp_auras.png/revision/latest/scale-to-width-down/96?cb=20170907143115\" decoding=\"async\" height=\"96\" loading=\"lazy\" src=\"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D\" width=\"96\"/></a></span></span></span></span><span class=\"mobileView\"><a href=\"/wiki/Auras\" title=\"Auras\"><img alt=\"IconHelp auras\" class=\"lazyload\" data-image-key=\"IconHelp_auras.png\" data-image-name=\"IconHelp auras.png\" data-relevant=\"0\" data-src=\"https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/03/IconHelp_auras.png/revision/latest/scale-to-width-down/32?cb=20170907143115\" decoding=\"async\" height=\"32\" loading=\"lazy\" src=\"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D\" width=\"32\"/></a></span></span> of the <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">3</span></b> <a href=\"/wiki/Generators\" title=\"Generators\">Generators</a><span style=\"padding: 0 0 0 0\"><span class=\"pcView\" style=\"display:none\"><span class=\"tooltip linkIncluded iconless borderless\"><span class=\"tooltipBaseText\"><a href=\"/wiki/Generators\" title=\"Generators\"><img alt=\"IconHelpLoading generators\" class=\"lazyload\" data-image-key=\"IconHelpLoading_generators.png\" data-image-name=\"IconHelpLoading generators.png\" data-relevant=\"0\" data-src=\"https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c4/IconHelpLoading_generators.png/revision/latest/scale-to-width-down/32?cb=20170625095337\" decoding=\"async\" height=\"32\" loading=\"lazy\" src=\"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D\" width=\"32\"/></a></span><span class=\"tooltiptext\"><span class=\"tooltipTextWrapper\"><a href=\"/wiki/Generators\" title=\"Generators\"><img alt=\"IconHelpLoading generators\" class=\"lazyload\" data-image-key=\"IconHelpLoading_generators.png\" data-image-name=\"IconHelpLoading generators.png\" data-relevant=\"0\" data-src=\"https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c4/IconHelpLoading_generators.png/revision/latest/scale-to-width-down/96?cb=20170625095337\" decoding=\"async\" height=\"96\" loading=\"lazy\" src=\"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D\" width=\"96\"/></a></span></span></span></span><span class=\"mobileView\"><a href=\"/wiki/Generators\" title=\"Generators\"><img alt=\"IconHelpLoading generators\" class=\"lazyload\" data-image-key=\"IconHelpLoading_generators.png\" data-image-name=\"IconHelpLoading generators.png\" data-relevant=\"0\" data-src=\"https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c4/IconHelpLoading_generators.png/revision/latest/scale-to-width-down/32?cb=20170625095337\" decoding=\"async\" height=\"32\" loading=\"lazy\" src=\"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D\" width=\"32\"/></a></span></span>, who are currently in closest proximity to one another, are revealed to you at all times.</li>\n<li><b>Increases</b> your Repair speed on those Generators by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">4</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">5</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">6</span></b> <b>%</b>.</li></ul>\n<ul><li>If you are holding a <a href=\"/wiki/Maps\" title=\"Maps\">Map</a><span style=\"padding: 0 0 0 0\"><span class=\"pcView\" style=\"display:none\"><span class=\"tooltip linkIncluded iconless borderless\"><span class=\"tooltipBaseText\"><a href=\"/wiki/Maps\" title=\"Maps\"><img alt=\"IconItems map\" class=\"lazyload\" data-image-key=\"IconItems_map.png\" data-image-name=\"IconItems map.png\" data-relevant=\"0\" data-src=\"https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/92/IconItems_map.png/revision/latest/scale-to-width-down/32?cb=20160911065008\" decoding=\"async\" height=\"32\" loading=\"lazy\" src=\"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D\" width=\"32\"/></a></span><span class=\"tooltiptext\"><span class=\"tooltipTextWrapper\"><a href=\"/wiki/Maps\" title=\"Maps\"><img alt=\"IconItems map\" class=\"lazyload\" data-image-key=\"IconItems_map.png\" data-image-name=\"IconItems map.png\" data-relevant=\"0\" data-src=\"https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/92/IconItems_map.png/revision/latest/scale-to-width-down/96?cb=20160911065008\" decoding=\"async\" height=\"96\" loading=\"lazy\" src=\"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D\" width=\"96\"/></a></span></span></span></span><span class=\"mobileView\"><a href=\"/wiki/Maps\" title=\"Maps\"><img alt=\"IconItems map\" class=\"lazyload\" data-image-key=\"IconItems_map.png\" data-image-name=\"IconItems map.png\" data-relevant=\"0\" data-src=\"https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/92/IconItems_map.png/revision/latest/scale-to-width-down/32?cb=20160911065008\" decoding=\"async\" height=\"32\" loading=\"lazy\" src=\"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D\" width=\"32\"/></a></span></span>, all Generators revealed by <i>D\u00e9j\u00e0 Vu</i> are automatically added to it.</li></ul>",
-      "imgUrl": "../assets/perkImages/D\u00e9j\u00e0Vu.png",
+      "imgUrl": "../assets/perkImages/DejaVu.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": {
+        "reciever": "self",
+        "activation": "toggle",
+        "healthActivation": "any",
+        "stats": [
+          {
+            "action": "repair",
+            "percent": 0.06
+          }
+        ]
+      }
     },
     {
       "name": "Empathic Connection",
@@ -358,7 +368,7 @@
       "imgUrl": "../assets/perkImages/EmpathicConnection.png",
       "sourceSurvivor": "Yoichi Asakawa",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/S30_charSelect_portrait.png/revision/latest?cb=20230725192537",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Empathy",
@@ -366,7 +376,7 @@
       "imgUrl": "../assets/perkImages/Empathy.png",
       "sourceSurvivor": "Claudette Morel",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/65/S03_charSelect_portrait.png/revision/latest?cb=20230725191927",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Fast Track",
@@ -374,7 +384,17 @@
       "imgUrl": "../assets/perkImages/FastTrack.png",
       "sourceSurvivor": "Yun-Jin Lee",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/79/S25_charSelect_portrait.png/revision/latest?cb=20230705194144",
-      "modifiers": []
+      "modifiers": {
+        "reciever": "self",
+        "activation": "token 27",
+        "healthActivation": "any",
+        "stats": [
+          {
+            "action": "progression",
+            "percent": 0.01
+          }
+        ]
+      }
     },
     {
       "name": "Flashbang",
@@ -382,7 +402,7 @@
       "imgUrl": "../assets/perkImages/Flashbang.png",
       "sourceSurvivor": "Leon Scott Kennedy",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/S27_charSelect_portrait.png/revision/latest?cb=20230705184450",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Flip-Flop",
@@ -390,7 +410,7 @@
       "imgUrl": "../assets/perkImages/Flip-Flop.png",
       "sourceSurvivor": "Ashley J. Williams",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/S17_charSelect_portrait.png/revision/latest?cb=20230725192546",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Fogwise",
@@ -398,7 +418,7 @@
       "imgUrl": "../assets/perkImages/Fogwise.png",
       "sourceSurvivor": "Vittorio Toscano",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/64/S34_charSelect_portrait.png/revision/latest?cb=20230705194225",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "For the People",
@@ -406,7 +426,7 @@
       "imgUrl": "../assets/perkImages/ForthePeople.png",
       "sourceSurvivor": "Zarina Kassir",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3d/S21_charSelect_portrait.png/revision/latest?cb=20230726125017",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Friendly Competition",
@@ -414,7 +434,17 @@
       "imgUrl": "../assets/perkImages/FriendlyCompetition.png",
       "sourceSurvivor": "Thalita Lyra",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/20/S35_charSelect_portrait.png/revision/latest?cb=20230705194105",
-      "modifiers": []
+      "modifiers": {
+        "reciever": "all",
+        "activation": "toggle",
+        "healthActivation": "any",
+        "stats": [
+          {
+            "action": "repair",
+            "percent": 0.05
+          }
+        ]
+      }
     },
     {
       "name": "Guardian",
@@ -422,7 +452,7 @@
       "imgUrl": "../assets/perkImages/Guardian.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Head On",
@@ -430,7 +460,7 @@
       "imgUrl": "../assets/perkImages/HeadOn.png",
       "sourceSurvivor": "Jane Romero",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d7/S16_charSelect_portrait.png/revision/latest?cb=20230725192359",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Hope",
@@ -438,7 +468,7 @@
       "imgUrl": "../assets/perkImages/Hope.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Hyperfocus",
@@ -446,7 +476,7 @@
       "imgUrl": "../assets/perkImages/Hyperfocus.png",
       "sourceSurvivor": "Rebecca Chambers",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/93/S33_charSelect_portrait.png/revision/latest?cb=20230705184830",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Inner Focus",
@@ -454,7 +484,7 @@
       "imgUrl": "../assets/perkImages/InnerFocus.png",
       "sourceSurvivor": "Haddie Kaur",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/S31_charSelect_portrait.png/revision/latest?cb=20230705194521",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Inner Healing",
@@ -462,7 +492,7 @@
       "imgUrl": "../assets/perkImages/InnerHealing.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Iron Will",
@@ -470,7 +500,7 @@
       "imgUrl": "../assets/perkImages/IronWill.png",
       "sourceSurvivor": "Jake Park",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cb/S04_charSelect_portrait.png/revision/latest?cb=20230725191755",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Kindred",
@@ -478,7 +508,7 @@
       "imgUrl": "../assets/perkImages/Kindred.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Kinship",
@@ -486,7 +516,7 @@
       "imgUrl": "../assets/perkImages/Kinship.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Leader",
@@ -494,7 +524,7 @@
       "imgUrl": "../assets/perkImages/Leader.png",
       "sourceSurvivor": "Dwight Fairfield",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/S01_charSelect_portrait.png/revision/latest?cb=20230705190630",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Left Behind",
@@ -502,7 +532,7 @@
       "imgUrl": "../assets/perkImages/LeftBehind.png",
       "sourceSurvivor": "William \"Bill\" Overbeck",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/66/S08_charSelect_portrait.png/revision/latest?cb=20230705190755",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Light-Footed",
@@ -510,7 +540,7 @@
       "imgUrl": "../assets/perkImages/Light-Footed.png",
       "sourceSurvivor": "Ellen Ripley",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/S39_charSelect_portrait.png/revision/latest?cb=20230808155833",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Lightweight",
@@ -518,7 +548,7 @@
       "imgUrl": "../assets/perkImages/Lightweight.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Lithe",
@@ -526,7 +556,7 @@
       "imgUrl": "../assets/perkImages/Lithe.png",
       "sourceSurvivor": "Feng Min",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/S09_charSelect_portrait.png/revision/latest?cb=20230725191813",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Low Profile",
@@ -534,7 +564,7 @@
       "imgUrl": "../assets/perkImages/LowProfile.png",
       "sourceSurvivor": "Ada Wong",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f7/S32_charSelect_portrait.png/revision/latest?cb=20230725192508",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Lucky Break",
@@ -542,7 +572,7 @@
       "imgUrl": "../assets/perkImages/LuckyBreak.png",
       "sourceSurvivor": "Yui Kimura",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/S20_charSelect_portrait.png/revision/latest?cb=20230705193537",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Lucky Star",
@@ -550,7 +580,7 @@
       "imgUrl": "../assets/perkImages/LuckyStar.png",
       "sourceSurvivor": "Ellen Ripley",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/S39_charSelect_portrait.png/revision/latest?cb=20230808155833",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Made for This",
@@ -558,7 +588,7 @@
       "imgUrl": "../assets/perkImages/MadeforThis.png",
       "sourceSurvivor": "Gabriel Soma",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/S37_charSelect_portrait.png/revision/latest?cb=20230705194559",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Mettle of Man",
@@ -566,7 +596,7 @@
       "imgUrl": "../assets/perkImages/MettleofMan.png",
       "sourceSurvivor": "Ashley J. Williams",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/S17_charSelect_portrait.png/revision/latest?cb=20230725192546",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "No Mither",
@@ -574,7 +604,7 @@
       "imgUrl": "../assets/perkImages/NoMither.png",
       "sourceSurvivor": "David King",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/57/S10_charSelect_portrait.png/revision/latest?cb=20230725192207",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "No One Left Behind",
@@ -582,7 +612,7 @@
       "imgUrl": "../assets/perkImages/NoOneLeftBehind.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Object of Obsession",
@@ -590,7 +620,17 @@
       "imgUrl": "../assets/perkImages/ObjectofObsession.png",
       "sourceSurvivor": "Laurie Strode",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cc/S06_charSelect_portrait.png/revision/latest?cb=20230705185657",
-      "modifiers": []
+      "modifiers": {
+        "reciever": "self",
+        "activation": "toggle",
+        "healthActivation": "any",
+        "stats": [
+          {
+            "action": "repair",
+            "percent": 0.06
+          }
+        ]
+      }
     },
     {
       "name": "Off the Record",
@@ -598,7 +638,7 @@
       "imgUrl": "../assets/perkImages/OfftheRecord.png",
       "sourceSurvivor": "Zarina Kassir",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3d/S21_charSelect_portrait.png/revision/latest?cb=20230726125017",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Open-Handed",
@@ -606,7 +646,7 @@
       "imgUrl": "../assets/perkImages/Open-Handed.png",
       "sourceSurvivor": "Ace Visconti",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/S07_charSelect_portrait.png/revision/latest?cb=20230705190028",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Overcome",
@@ -614,7 +654,7 @@
       "imgUrl": "../assets/perkImages/Overcome.png",
       "sourceSurvivor": "Jonah Vasquez",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/S29_charSelect_portrait.png/revision/latest?cb=20230725192519",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Overzealous",
@@ -622,7 +662,17 @@
       "imgUrl": "../assets/perkImages/Overzealous.png",
       "sourceSurvivor": "Haddie Kaur",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/S31_charSelect_portrait.png/revision/latest?cb=20230705194521",
-      "modifiers": []
+      "modifiers": {
+        "reciever": "self",
+        "activation": "toggle 2",
+        "healthActivation": "repair; 10%",
+        "stats": [
+          {
+            "action": "repair",
+            "percent": 0.2
+          }
+        ]
+      }
     },
     {
       "name": "Parental Guidance",
@@ -630,7 +680,7 @@
       "imgUrl": "../assets/perkImages/ParentalGuidance.png",
       "sourceSurvivor": "Yoichi Asakawa",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/S30_charSelect_portrait.png/revision/latest?cb=20230725192537",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Pharmacy",
@@ -638,7 +688,7 @@
       "imgUrl": "../assets/perkImages/Pharmacy.png",
       "sourceSurvivor": "Quentin Smith",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/S11_charSelect_portrait.png/revision/latest?cb=20230725192602",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Plot Twist",
@@ -646,7 +696,7 @@
       "imgUrl": "../assets/perkImages/PlotTwist.png",
       "sourceSurvivor": "Nicolas Cage",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/16/S38_charSelect_portrait.png/revision/latest?cb=20230705182818",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Plunderer's Instinct",
@@ -654,7 +704,7 @@
       "imgUrl": "../assets/perkImages/Plunderer'sInstinct.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Poised",
@@ -662,7 +712,7 @@
       "imgUrl": "../assets/perkImages/Poised.png",
       "sourceSurvivor": "Jane Romero",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d7/S16_charSelect_portrait.png/revision/latest?cb=20230725192359",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Potential Energy",
@@ -670,7 +720,17 @@
       "imgUrl": "../assets/perkImages/PotentialEnergy.png",
       "sourceSurvivor": "Vittorio Toscano",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/64/S34_charSelect_portrait.png/revision/latest?cb=20230705194225",
-      "modifiers": []
+      "modifiers": {
+        "reciever": "self",
+        "activation": "token 20",
+        "healthActivation": "any",
+        "stats": [
+          {
+            "action": "repair-progression",
+            "percent": 0.01
+          }
+        ]
+      }
     },
     {
       "name": "Power Struggle",
@@ -678,7 +738,7 @@
       "imgUrl": "../assets/perkImages/PowerStruggle.png",
       "sourceSurvivor": "\u00c9lodie Rakoto",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/45/S24_charSelect_portrait.png/revision/latest?cb=20230705193628",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Premonition",
@@ -686,7 +746,7 @@
       "imgUrl": "../assets/perkImages/Premonition.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Prove Thyself",
@@ -694,7 +754,17 @@
       "imgUrl": "../assets/perkImages/ProveThyself.png",
       "sourceSurvivor": "Dwight Fairfield",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/S01_charSelect_portrait.png/revision/latest?cb=20230705190630",
-      "modifiers": []
+      "modifiers": {
+        "reciever": "all",
+        "activation": "stack 3",
+        "healthActivation": "any",
+        "stats": [
+          {
+            "action": "base-repair",
+            "percent": 0.3
+          }
+        ]
+      }
     },
     {
       "name": "Quick & Quiet",
@@ -702,7 +772,7 @@
       "imgUrl": "../assets/perkImages/Quick&Quiet.png",
       "sourceSurvivor": "Meg Thomas",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/77/S02_charSelect_portrait.png/revision/latest?cb=20230705190636",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Quick Gambit",
@@ -710,7 +780,17 @@
       "imgUrl": "../assets/perkImages/QuickGambit.png",
       "sourceSurvivor": "Vittorio Toscano",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/64/S34_charSelect_portrait.png/revision/latest?cb=20230705194225",
-      "modifiers": []
+      "modifiers": {
+        "reciever": "other",
+        "activation": "toggle",
+        "healthActivation": "any",
+        "stats": [
+          {
+            "action": "repair",
+            "percent": 0.08
+          }
+        ]
+      }
     },
     {
       "name": "Reactive Healing",
@@ -718,7 +798,7 @@
       "imgUrl": "../assets/perkImages/ReactiveHealing.png",
       "sourceSurvivor": "Ada Wong",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f7/S32_charSelect_portrait.png/revision/latest?cb=20230725192508",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Reassurance",
@@ -726,7 +806,7 @@
       "imgUrl": "../assets/perkImages/Reassurance.png",
       "sourceSurvivor": "Rebecca Chambers",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/93/S33_charSelect_portrait.png/revision/latest?cb=20230705184830",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Red Herring",
@@ -734,7 +814,7 @@
       "imgUrl": "../assets/perkImages/RedHerring.png",
       "sourceSurvivor": "Zarina Kassir",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3d/S21_charSelect_portrait.png/revision/latest?cb=20230726125017",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Renewal",
@@ -742,7 +822,7 @@
       "imgUrl": "../assets/perkImages/Renewal.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Repressed Alliance",
@@ -750,7 +830,7 @@
       "imgUrl": "../assets/perkImages/RepressedAlliance.png",
       "sourceSurvivor": "Cheryl Mason",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/38/S22_charSelect_portrait.png/revision/latest?cb=20230705193841",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Residual Manifest",
@@ -758,7 +838,7 @@
       "imgUrl": "../assets/perkImages/ResidualManifest.png",
       "sourceSurvivor": "Haddie Kaur",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/S31_charSelect_portrait.png/revision/latest?cb=20230705194521",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Resilience",
@@ -766,7 +846,17 @@
       "imgUrl": "../assets/perkImages/Resilience.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": {
+        "reciever": "self",
+        "activation": "none",
+        "healthActivation": "injured",
+        "stats": [
+          {
+            "action": "repair",
+            "percent": 0.09
+          }
+        ]
+      }
     },
     {
       "name": "Resurgence",
@@ -774,7 +864,7 @@
       "imgUrl": "../assets/perkImages/Resurgence.png",
       "sourceSurvivor": "Jill Valentine",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/99/S26_charSelect_portrait.png/revision/latest?cb=20230705184445",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Rookie Spirit",
@@ -782,7 +872,7 @@
       "imgUrl": "../assets/perkImages/RookieSpirit.png",
       "sourceSurvivor": "Leon Scott Kennedy",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/S27_charSelect_portrait.png/revision/latest?cb=20230705184450",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Saboteur",
@@ -790,7 +880,7 @@
       "imgUrl": "../assets/perkImages/Saboteur.png",
       "sourceSurvivor": "Jake Park",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cb/S04_charSelect_portrait.png/revision/latest?cb=20230725191755",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Scavenger",
@@ -798,7 +888,7 @@
       "imgUrl": "../assets/perkImages/Scavenger.png",
       "sourceSurvivor": "Gabriel Soma",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/S37_charSelect_portrait.png/revision/latest?cb=20230705194559",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Scene Partner",
@@ -806,7 +896,7 @@
       "imgUrl": "../assets/perkImages/ScenePartner.png",
       "sourceSurvivor": "Nicolas Cage",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/16/S38_charSelect_portrait.png/revision/latest?cb=20230705182818",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Self-Aware",
@@ -814,7 +904,7 @@
       "imgUrl": "../assets/perkImages/Self-Aware.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Self-Care",
@@ -822,7 +912,7 @@
       "imgUrl": "../assets/perkImages/Self-Care.png",
       "sourceSurvivor": "Claudette Morel",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/65/S03_charSelect_portrait.png/revision/latest?cb=20230725191927",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Self-Preservation",
@@ -830,7 +920,7 @@
       "imgUrl": "../assets/perkImages/Self-Preservation.png",
       "sourceSurvivor": "Yun-Jin Lee",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/79/S25_charSelect_portrait.png/revision/latest?cb=20230705194144",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Situational Awareness",
@@ -838,7 +928,7 @@
       "imgUrl": "../assets/perkImages/SituationalAwareness.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Slippery Meat",
@@ -846,7 +936,7 @@
       "imgUrl": "../assets/perkImages/SlipperyMeat.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Small Game",
@@ -854,7 +944,7 @@
       "imgUrl": "../assets/perkImages/SmallGame.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Smash Hit",
@@ -862,7 +952,7 @@
       "imgUrl": "../assets/perkImages/SmashHit.png",
       "sourceSurvivor": "Yun-Jin Lee",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/79/S25_charSelect_portrait.png/revision/latest?cb=20230705194144",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Sole Survivor",
@@ -870,7 +960,7 @@
       "imgUrl": "../assets/perkImages/SoleSurvivor.png",
       "sourceSurvivor": "Laurie Strode",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cc/S06_charSelect_portrait.png/revision/latest?cb=20230705185657",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Solidarity",
@@ -878,7 +968,7 @@
       "imgUrl": "../assets/perkImages/Solidarity.png",
       "sourceSurvivor": "Jane Romero",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d7/S16_charSelect_portrait.png/revision/latest?cb=20230725192359",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Soul Guard",
@@ -886,7 +976,7 @@
       "imgUrl": "../assets/perkImages/SoulGuard.png",
       "sourceSurvivor": "Cheryl Mason",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/38/S22_charSelect_portrait.png/revision/latest?cb=20230705193841",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Spine Chill",
@@ -894,7 +984,17 @@
       "imgUrl": "../assets/perkImages/SpineChill.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": {
+        "reciever": "self",
+        "activation": "toggle",
+        "healthActivation": "any",
+        "stats": [
+          {
+            "action": "repair",
+            "percent": 0.06
+          }
+        ]
+      }
     },
     {
       "name": "Sprint Burst",
@@ -902,7 +1002,7 @@
       "imgUrl": "../assets/perkImages/SprintBurst.png",
       "sourceSurvivor": "Meg Thomas",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/77/S02_charSelect_portrait.png/revision/latest?cb=20230705190636",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Stake Out",
@@ -910,7 +1010,7 @@
       "imgUrl": "../assets/perkImages/StakeOut.png",
       "sourceSurvivor": "Detective David Tapp",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/S12_charSelect_portrait.png/revision/latest?cb=20230705191928",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Streetwise",
@@ -918,7 +1018,7 @@
       "imgUrl": "../assets/perkImages/Streetwise.png",
       "sourceSurvivor": "Nea Karlsson",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/14/S05_charSelect_portrait.png/revision/latest?cb=20230705185446",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Teamwork: Collective Stealth",
@@ -926,7 +1026,7 @@
       "imgUrl": "../assets/perkImages/TeamworkCollectiveStealth.png",
       "sourceSurvivor": "Renato Lyra",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/59/S36_charSelect_portrait.png/revision/latest?cb=20230705193833",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Teamwork: Power of Two",
@@ -934,7 +1034,7 @@
       "imgUrl": "../assets/perkImages/TeamworkPowerofTwo.png",
       "sourceSurvivor": "Thalita Lyra",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/20/S35_charSelect_portrait.png/revision/latest?cb=20230705194105",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Technician",
@@ -942,7 +1042,7 @@
       "imgUrl": "../assets/perkImages/Technician.png",
       "sourceSurvivor": "Feng Min",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/S09_charSelect_portrait.png/revision/latest?cb=20230725191813",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Tenacity",
@@ -950,7 +1050,7 @@
       "imgUrl": "../assets/perkImages/Tenacity.png",
       "sourceSurvivor": "Detective David Tapp",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/S12_charSelect_portrait.png/revision/latest?cb=20230705191928",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "This Is Not Happening",
@@ -958,7 +1058,7 @@
       "imgUrl": "../assets/perkImages/ThisIsNotHappening.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Troubleshooter",
@@ -966,7 +1066,7 @@
       "imgUrl": "../assets/perkImages/Troubleshooter.png",
       "sourceSurvivor": "Gabriel Soma",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/S37_charSelect_portrait.png/revision/latest?cb=20230705194559",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Unbreakable",
@@ -974,7 +1074,7 @@
       "imgUrl": "../assets/perkImages/Unbreakable.png",
       "sourceSurvivor": "William \"Bill\" Overbeck",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/66/S08_charSelect_portrait.png/revision/latest?cb=20230705190755",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Up the Ante",
@@ -982,7 +1082,7 @@
       "imgUrl": "../assets/perkImages/UptheAnte.png",
       "sourceSurvivor": "Ace Visconti",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/S07_charSelect_portrait.png/revision/latest?cb=20230705190028",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Urban Evasion",
@@ -990,7 +1090,7 @@
       "imgUrl": "../assets/perkImages/UrbanEvasion.png",
       "sourceSurvivor": "Nea Karlsson",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/14/S05_charSelect_portrait.png/revision/latest?cb=20230705185446",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Vigil",
@@ -998,7 +1098,7 @@
       "imgUrl": "../assets/perkImages/Vigil.png",
       "sourceSurvivor": "Quentin Smith",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/S11_charSelect_portrait.png/revision/latest?cb=20230725192602",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Visionary",
@@ -1006,7 +1106,7 @@
       "imgUrl": "../assets/perkImages/Visionary.png",
       "sourceSurvivor": "Felix Richter",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2e/S23_charSelect_portrait.png/revision/latest?cb=20230705194042",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Wake Up!",
@@ -1014,7 +1114,7 @@
       "imgUrl": "../assets/perkImages/WakeUp!.png",
       "sourceSurvivor": "Quentin Smith",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/S11_charSelect_portrait.png/revision/latest?cb=20230725192602",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "We'll Make It",
@@ -1022,7 +1122,7 @@
       "imgUrl": "../assets/perkImages/We'llMakeIt.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "We're Gonna Live Forever",
@@ -1030,7 +1130,7 @@
       "imgUrl": "../assets/perkImages/We'reGonnaLiveForever.png",
       "sourceSurvivor": "David King",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/57/S10_charSelect_portrait.png/revision/latest?cb=20230725192207",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Windows of Opportunity",
@@ -1038,7 +1138,7 @@
       "imgUrl": "../assets/perkImages/WindowsofOpportunity.png",
       "sourceSurvivor": "Kate Denson",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/19/S13_charSelect_portrait.png/revision/latest?cb=20230705192155",
-      "modifiers": []
+      "modifiers": null
     },
     {
       "name": "Wiretap",
@@ -1046,7 +1146,7 @@
       "imgUrl": "../assets/perkImages/Wiretap.png",
       "sourceSurvivor": "Ada Wong",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f7/S32_charSelect_portrait.png/revision/latest?cb=20230725192508",
-      "modifiers": []
+      "modifiers": null
     }
   ]
 }
