@@ -41,18 +41,23 @@ for itemIndex, itemTable in enumerate(tables[2:7]):
         speed=None
         charges = None
         description = cols[2].get_text()
-        if item == "med-kits":
-            pattern = re.compile(r'Altruistic Healing speed of (\S+)')
-            match = pattern.search(description)
-            if match:
-               speed = match.group(1).strip()
-               speed = int(speed[1:-1])*.01
-        elif item == "toolboxes":
-            pattern = re.compile(r'Capacity of (\S+)')
-            match = pattern.search(description)
-            if match:
-                charges=int(match.group(1).strip())
-                
+
+        speedPattern = re.compile(r'speed of (\S+)')
+        capacityPattern = re.compile(r'Capacity of (\S+)')
+
+        if item == "med-kits" or item == "toolboxes":
+            speedMatch = speedPattern.search(description)
+            capMatch = capacityPattern.search(description)
+            if speedMatch:
+               speed = speedMatch.group(1).strip()
+               #speed = int(speed[1:])*.01
+               speed = float(speed[1:])/100
+            else:
+                #Commodious Toolbox is the only item that uses phrase 'speed by'
+                #since only 1 item, think this single else is fine
+                speed = 0.5
+            if capMatch:
+                charges=int(capMatch.group(1).strip()) 
             
         stats = {
                     'speed': speed,
