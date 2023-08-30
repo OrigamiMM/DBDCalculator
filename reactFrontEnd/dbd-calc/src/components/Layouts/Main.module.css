@@ -1,0 +1,6 @@
+.layout {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 1.5em auto;
+  width: 90%;
+}

@@ -1,0 +1,72 @@
+body {
+  background-color: gray;
+}
+
+.builder {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(118, 115, 115);
+}
+
+.selectedPerks {
+  height: 200px;
+  width: 60%;
+  background-color: red;
+}
+
+.perkSelector {
+  background-color: darkgray;
+  padding: 1em 2em;
+}
+
+.standardTrack {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.middleTrack {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3rem;
+  gap: 10%;
+}
+
+.perkDisplay {
+  display: grid;
+  grid-template-columns: 100% 1fr;
+  grid-template-rows: 100% 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.perkDisplay img {
+    width: 100%;
+    max-width: 6em;
+    grid-area: 1/1;
+}
+.perkDisplay .selected {
+    width: 115%;
+    max-width: 6.9em;
+}
+
+@media (min-width: 55em) {
+    .builder {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(118, 115, 115);
+      }
+      .perkDisplay img {
+        width: 7em;
+        grid-area: 1/1;
+      }
+      .perkDisplay .selected {
+        width: 7.9em;
+      }
+      
+}

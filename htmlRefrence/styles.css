@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c1f21;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+header {
+  background: #2f3437;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+#webTitle {
+  padding: 1em 0.5em 1em 1.75em;
+}
+
+#navButtons {
+  margin-right: 0em 1.5em;
+}
+
+#navButtons button {
+  color: lightgray;
+  font-size: 1em;
+  background-color: #1c1f21;
+  border: none;
+  border-radius: 25px;
+  padding: 0.75em 1.25em;
+  margin: 0.25em;
+  border: 0.25em solid transparent;
+  transition: all 0.05s ease-in;
+}
+#navButtons button:hover {
+  background-color: white;
+  color: black;
+  border: 0.25em solid rgb(0, 0, 0);
+}
+#navButtons button:active {
+  background-color: #8a8a8a;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 1.5em auto;
+  width: 90%;
+}
+
+.card {
+  background-color: #2f3437;
+  border: 0.25em #1c1f21 solid;
+  border-radius: 2em;
+  padding: 1em 2em;
+  align-items: center;
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.darkLabel {
+  font-weight: 600;
+}
+.darkInput {
+  background-color: #1c1f21;
+  border-color: #4b5358;
+  color: white;
+  padding: 0.25em;
+  margin: 0 0.25em;
+}
+.card hr {
+  border: none;
+  height: 3px;
+  width: 90%;
+  background-color: #1c1f21;
+  margin: 0 auto;
+}
+
+.objectiveSelect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5em 0em;
+}
+
+.objectiveSelect select {
+  background-color: #1c1f21;
+  border-color: #4b5358;
+  color: white;
+  padding: 0.25em 1em;
+  margin: 0 0.25em;
+}
+
+.times {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.times hr {
+  display: none;
+}
+
+.time {
+  text-align: center;
+}
+
+.time h3 {
+  font-size: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+.timeDisplay {
+  color: #e8c252;
+  padding-bottom: 1em;
+}
+
+.timeDisplay .baseTime {
+  font-size: 1em;
+  color: gray;
+}
+
+.timeDisplay .calcTime {
+  font-size: 2.5em;
+}
+
+.timeDisplay .timeSaved {
+  font-size: 1.2em;
+}
+
+.incrementer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.incrementer .teammateBtn {
+  border: 0.25em solid #1c1f21;
+  color: #1c1f21;
+  padding: 0.25em;
+  background: #3b3e40;
+}
+
+.incrementer .teammateCount {
+  font-size: 2em;
+}
+.teammateCounter p {
+  color: gray;
+  font-size: 0.7em;
+}
+
+.loadout h3 {
+  font-size: 1em;
+  color: lightgray;
+  margin: 0.5em 1.75em;
+}
+.perk{
+  width: min(100%, 6em);
+}
+
+.itemsDisplay {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.itemsDisplay img {
+  width: min(100%, 6em);
+  grid-area: 1/1;
+}
+
+/* .itemsDisplay .selected {
+  width: 115%;
+  max-width: 6.9em;
+  grid-area: 1/1;
+} */
+
+.selectedItemsAddons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+  padding-bottom: 1em;
+}
+
+.addonDisplay {
+  display: grid;
+  grid-template-columns: 3em 1fr;
+  grid-template-rows: 3em 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.addonDisplay img {
+  max-width: 3em;
+  grid-area: 1/1;
+}
+
+.selectedPerksRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+  padding-bottom: 1em;
+}
+
+
+.inventoryBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.inventoryBar h3 {
+  margin-bottom: 0;
+}
+.inventoryBar h4 {
+  margin: 0 1.75em;
+}
+
+.inventoryBar .search {
+  margin-left: 1.75em;
+  margin-right: 1em;
+}
+
+.inventoryBar .label {
+  font-weight: 500;
+}
+
+.perks-inventory {
+  display: grid;
+  grid-template-rows: repeat(1fr, 5);
+}
+
+.maininventory{
+    display: grid;
+    grid-template-areas: 
+    "btn1 perks btn2"
+    ". nav .";
+    justify-content: center;
+}
+
+.maininventory button {
+    height: 2.5em;
+    width: 2.5em;
+    margin: auto 0;
+}
+
+.maininventory .prev{
+    grid-area: btn1;
+}
+.maininventory .perks-inventory{
+    grid-area: perks;
+}
+.maininventory .pages{
+    background: radial-gradient(circle at center, #242729, transparent);
+    padding: 0.25em 0em;
+    grid-area: nav;
+    display: flex;
+    justify-content: center;
+    gap: 0.35em;
+}
+
+.maininventory .pages button{
+    background-color: #1c1f21;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 0.75em;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.maininventory .pages button:hover{
+    background-color: #242729;
+    border: 1px solid white;
+    color: white;
+    font-size: 0.75em;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.maininventory .pages .current{
+    background-color: #2f3437;
+    border: 1px solid #3b3e40;
+    color: white;
+}
+
+.maininventory .next{
+    grid-area: btn2;
+}
+
+.standardRow {
+  grid-row: 1/ 2;
+  display: flex;
+  justify-content: center;
+  margin-right: min(50%, 3em);
+  gap: 1em;
+}
+.offsetRow {
+  grid-row: 2/ 3;
+  /* height: 4em; */
+  display: flex;
+  margin-left: min(50%, 3em);
+  justify-content: center;
+  gap: 1em;
+}
+
+.standardbotRow {
+  grid-row: 4/ 5;
+  /* height: 4em; */
+  display: flex;
+  justify-content: center;
+  margin-right: min(50%, 3em);
+  gap: 1em;
+}
