@@ -2,7 +2,22 @@ import classes from "./Loadout.module.css";
 import Inventory from "./Inventory/Inventory";
 import SelectedPerks from "./SelectedPerks/SelectedPerks";
 import { useState } from "react";
+
 import PerkData from "../../models/PerkData";
+import perks from "../../assets/PerksData";
+import items from "../../assets/ItemsData";
+import addons from "../../assets/addonData";
+import DataArray from "../../models/DataArray";
+
+const getData = (type: string): DataArray => {
+  if (type === "perk") {
+    return perks;
+  } else if (type === "item") {
+    return items;
+  } else {
+    return addons;
+  }
+};
 
 const Loadout = () => {
   const [invType, setInvType] = useState("perk");
@@ -23,7 +38,7 @@ const Loadout = () => {
 
   const updatePerkHandler = (perk: PerkData) => {
     setCurrentPerks((prevPerks) => {
-      let newPerks = [...prevPerks];
+      const newPerks = [...prevPerks];
       if (prevPerks.includes(perk)) {
         if (prevPerks[activeItemIndex] === perk) {
           newPerks[activeItemIndex] = null;
@@ -41,6 +56,7 @@ const Loadout = () => {
 
   return (
     <article className={classes.loadout}>
+      <h2>LOADOUT</h2>
       <button
         onClick={() => {
           setInvType("item");
@@ -49,7 +65,7 @@ const Loadout = () => {
         Items
       </button>
       <hr />
-      <h2>LOADOUT</h2>
+
       <SelectedPerks
         isActive={invType === "perk"}
         selectedPerks={currentPerks}
@@ -58,8 +74,9 @@ const Loadout = () => {
       />
       <hr />
       <Inventory
-        activeIndex={activeItemIndex}
         activeSelection={currentPerks}
+        activeIndex={activeItemIndex}
+        data={getData(invType)}
         onPerkClick={updatePerkHandler}
         active={invType}
       />

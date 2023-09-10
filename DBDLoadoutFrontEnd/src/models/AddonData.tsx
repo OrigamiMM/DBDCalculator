@@ -1,4 +1,5 @@
 interface AddonData {
+    type: string;
     name: string;
     imgUrl: string;
 }

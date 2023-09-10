@@ -1,11 +1,22 @@
 import PerkData from "./PerkData";
-import AddonData from "./AddonData";
 import ItemData from "./Itemdata";
+import AddonData from "./AddonData";
 
-
-interface DataArray {
-    type: string;
-    data: (PerkData[] | AddonData[] | ItemData[]);
+export interface PerkDataArray {
+    type: 'perk';
+    data: PerkData[];
 }
+
+export interface ItemDataArray {
+    type: 'item';
+    data: ItemData[];
+}
+
+export interface AddonDataArray {
+    type: 'addon';
+    data: AddonData[];
+}
+
+type DataArray = PerkDataArray | ItemDataArray | AddonDataArray;
 
 export default DataArray;

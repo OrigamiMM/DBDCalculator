@@ -4,7 +4,7 @@
       {
         "name": "Flashlight",
         "description": "A standard Flashlight.Can be used to light your way in the darkness.\n8 Charges, allowing for a Battery Life of 8 seconds.\nCan be used to temporarily blind the Killer.\n\"Most of the battery life was wastefully used by the previous owner.\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/82/FulliconItems_flashlight.png/revision/latest?cb=20230207123804",
+        "imgUrl": "Flashlight.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -13,7 +13,7 @@
       {
         "name": "Sport Flashlight",
         "description": "A very portable Flashlight with a good grip.Its efficient technology produces a powerful light while consuming less power.\n8 Charges, allowing for a Battery Life of 8 seconds.\nCan be used to temporarily blind the Killer.\nIncreased Aim accuracy of +20\u00a0%.\nDecreased Battery Depletion rate of -11\u00a0%.\n\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/03/FulliconItems_sportFlashlight.png/revision/latest?cb=20200713233330",
+        "imgUrl": "SportFlashlight.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -22,7 +22,7 @@
       {
         "name": "Utility Flashlight",
         "description": "A sturdy but heavy Flashlight that packs a lot of power.\n12 Charges, allowing for a Battery Life of 12 seconds.\nCan be used to temporarily blind the Killer.\nIncreased Beam brightness of +30\u00a0%.\nIncreased Blindness duration of +15\u00a0%.\nReduced Aim accuracy of -20\u00a0%.\n\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2f/FulliconItems_utilityFlashlight.png/revision/latest?cb=20200713233335",
+        "imgUrl": "UtilityFlashlight.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -31,7 +31,7 @@
       {
         "name": "Will O' Wisp",
         "description": "NO LONGER AVAILABLE IN THE BLOODWEB.\nA Flashlight equipped with a special lens cover that adds an orange tint and a little Ghost to the beam.\n\n8 Charges, allowing for a Battery Life of 8 seconds.\nCan be used to temporarily blind the Killer.\nMorefriendly Ghosts in your life.\n\"Happy Trick or Treating!\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/03/FulliconItems_willOWisp.png/revision/latest?cb=20200713233341",
+        "imgUrl": "WillO'Wisp.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -40,7 +40,7 @@
       {
         "name": "Anniversary Flashlight",
         "description": "NO LONGER AVAILABLE IN THE BLOODWEB.\nA festive Flashlight.\n\n8 Charges, allowing for a Battery Life of 8 seconds.\nCan be used to temporarily blind the Killer.\nExplodes with confetti upon blinding the Killer.Surprise!\n\"\"Happy Anniversary! Here is to many more!\" \u2014 The Dead by Daylight Team\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2b/FulliconItems_anniversaryFlashlight.png/revision/latest?cb=20200713233347",
+        "imgUrl": "AnniversaryFlashlight.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -49,7 +49,7 @@
       {
         "name": "Masquerade Flashlight",
         "description": "Not even a mask can protect you from this Flashlight's bright beam.\n8 Charges, allowing for a Battery Life of 8 seconds.\nCan be used to temporarily blind the Killer.\n\"\"Happy Anniversary! The future looks bright!\" \u2014 The Dead by Daylight Team\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/79/FulliconItems_masqueradeFlashlight.png/revision/latest?cb=20220608162313",
+        "imgUrl": "MasqueradeFlashlight.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -60,7 +60,7 @@
       {
         "name": "Broken Key",
         "description": "The bow and shank of a key, vibrating with remnant power.The Broken Key's power cannot be triggered by itself.\nVarious objects can be attached to its jump ring, which channels the Broken Key's power into various effects.\nPress the Use Item button to perform the Mind Channel Action for up to 10 seconds.\n\nActivates the Broken Key's Aura-reading abilities, depending on its equipped Add-ons.\n\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/29/FulliconItems_brokenKey.png/revision/latest?cb=20200713233355",
+        "imgUrl": "BrokenKey.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -69,7 +69,7 @@
       {
         "name": "Dull Key",
         "description": "A bent and dull Key that once held great power.The Dull Key's power cannot be triggered by itself.\nVarious objects can be attached to its jump ring, which channels the Dull Key's power into various effects.\nPress the Use Item button to perform the Mind Channel Action for up to 5 seconds.\n\nActivates the Dull Key's Aura-reading abilities, depending on its equipped Add-ons.\nThe  Dull Key can be consumed to open the Hatch, if it has not been depleted of its Charges.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/FulliconItems_dullKey.png/revision/latest?cb=20200713233401",
+        "imgUrl": "DullKey.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -78,7 +78,7 @@
       {
         "name": "Skeleton Key",
         "description": "A tarnished and crooked Key, vibrating with ominous power.The Skeleton Key's power cannot be triggered by itself.\nVarious objects can be attached to its jump ring, which channels the Skeleton Key's power into various effects.\nPress the Use Item button to perform the Mind Channel Action for up to 30 seconds.\n\nActivates the Skeleton Key's  Aura-reading abilities, depending on its equipped Add-ons.\nThe  Skeleton Key can be consumed to open the Hatch, if it has not been depleted of its Charges.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5a/FulliconItems_skeletonKey.png/revision/latest?cb=20200713233406",
+        "imgUrl": "SkeletonKey.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -89,7 +89,7 @@
       {
         "name": "Map",
         "description": "An old piece of parchment made out of a skin-like material that is rolled and sealed with an uncoloured leather string.\nHolding and channelling the Map unlocks great potential in your Aura-reading abilities, revealing the Aura of all tracked objects at the cost of slowly burning it.\n\nStart the Trial with 1 Generator tracked.\nThe Map tracks any of the following objects:\n\nGenerators within 8 metres.\nGenerators, Chest, and Totem revealed by Detective's Hunch.\nThe Map lasts for 20 seconds.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c2/FulliconItems_map.png/revision/latest?cb=20200713233413",
+        "imgUrl": "Map.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -98,7 +98,7 @@
       {
         "name": "Rainbow Map",
         "description": "An piece of parchment made out of oddly fresh skin with blood on its edge that has yet to dry, and that is rolled and sealed with multiple coloured ropes and cords.\nHolding and channelling the Rainbow Map unlocks great potential in your Aura-reading abilities, revealing the Aura of all tracked objects at the cost of slowly burning it.\n\nStart the Trial with 3 random objects tracked.\nThe Rainbow Map tracks any of the following objects:\n\nExit Gate Switches, Generators, and the Hatch when you come within 8 metres.\nVarious Killer Belongings when you come within 8 metres.\nGenerators, Chests, and Totems revealed by Detective's Hunch.\nThe Rainbow Map lasts for 20 seconds.\n\"It disheartens me. All this unspeakable knowledge and gruelling effort and yet nothing tangible, nothing usable to get out of this nightmare.\" \u2014 Vigo's Journal\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e3/FulliconItems_rainbowMap.png/revision/latest?cb=20200713233419",
+        "imgUrl": "RainbowMap.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -109,7 +109,7 @@
       {
         "name": "Camping Aid Kit",
         "description": "A rudimentary First Aid Kit which can save lives in emergencies, even if it's lacking some of its supplies.Can be used to heal other Survivors:\nIncreased Altruistic Healing speed of +35\u00a0%.\nUnlocks the Self-Heal action:\n\nReduced Personal Healing speed of -33\u00a0%.\nReduced Item efficiency of -33\u00a0%.\nThe Camping Aid Kit has a Capacity of 24 Charges.\n\"Barely has enough material for a decent patch-up.\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/62/FulliconItems_campingAidKit.png/revision/latest?cb=20200713233435",
+        "imgUrl": "CampingAidKit.png",
         "stats": {
           "speed": 0.35,
           "charges": 24
@@ -118,7 +118,7 @@
       {
         "name": "First Aid Kit",
         "description": "A standard First Aid Kit with all the necessary equipment for treating common to more serious injuries.Can be used to heal other Survivors:\nIncreased Altruistic Healing speed of +40\u00a0%.\nUnlocks the Self-Heal action:\n\nReduced Personal Healing speed of -33\u00a0%.\nReduced Item efficiency of -33\u00a0%.\nThe First Aid Kit has a Capacity of 24 Charges.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/FulliconItems_firstAidKit.png/revision/latest?cb=20200713233445",
+        "imgUrl": "FirstAidKit.png",
         "stats": {
           "speed": 0.4,
           "charges": 24
@@ -127,7 +127,7 @@
       {
         "name": "Emergency Med-Kit",
         "description": "A sturdy and well organised Med-Kit equipped with top condition emergency supplies.Can be used to heal other Survivors:\nIncreased Altruistic Healing speed of +45\u00a0%.\nUnlocks the Self-Heal action:\n\nReduced Personal Healing speed of -33\u00a0%.\nReduced Item efficiency of -33\u00a0%.\nThe Emergency Med-Kit has a Capacity of 24 Charges.\n\"There is a cure for almost everything...but not for this.\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c9/FulliconItems_emergencyMed-Kit.png/revision/latest?cb=20200713233450",
+        "imgUrl": "EmergencyMed-Kit.png",
         "stats": {
           "speed": 0.45,
           "charges": 24
@@ -136,7 +136,7 @@
       {
         "name": "Ranger Med-Kit",
         "description": "A large metal box containing medical supplies aimed at emergency rescues in hard to reach, often isolated locations.Can be used to heal other Survivors:\nIncreased Altruistic Healing speed of +50\u00a0%.\nUnlocks the Self-Heal action:\n\nReduced Personal Healing speed of -33\u00a0%.\nReduced Item efficiency of -33\u00a0%.\nThe Ranger Med-Kit has a Capacity of 24 Charges.\n\"A small engraved label can be found glued to the back panel: VK.ID-3994723.\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ea/FulliconItems_rangerMed-Kit.png/revision/latest?cb=20200713233456",
+        "imgUrl": "RangerMed-Kit.png",
         "stats": {
           "speed": 0.5,
           "charges": 24
@@ -145,7 +145,7 @@
       {
         "name": "All Hallows' Eve Lunchbox",
         "description": "NO LONGER AVAILABLE IN THE BLOODWEB.\nA plastic lunchbox with phosphorescent Halloween Stickers that has been packed with First-Aid equipment.\n\nMakes you considerably more visible.\nCan be used to heal other Survivors:\n\nIncreased Altruistic Healing speed of +40\u00a0%.\nUnlocks the Self-Heal action:\n\nReduced Personal Healing speed of -33\u00a0%.\nReduced Item efficiency of -33\u00a0%.\nThe All Hallows' Eve Lunchbox has a Capacity of 24 Charges.\n\"Safety first! Make sure you can be seen when trick or treating.\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a3/FulliconItems_allHallowsEveLunchbox.png/revision/latest?cb=20200713233502",
+        "imgUrl": "AllHallows'EveLunchbox.png",
         "stats": {
           "speed": 0.4,
           "charges": 24
@@ -154,7 +154,7 @@
       {
         "name": "Anniversary Med-Kit",
         "description": "NO LONGER AVAILABLE IN THE BLOODWEB.\nA festive Med-Kit that explodes with confetti upon fully healing a Survivor. Surprise!\n\nIncreased confetti of +100\u00a0%.\nCan be used to heal other Survivors:\n\nIncreased Altruistic Healing speed of +40\u00a0%.\nUnlocks the Self-Heal action:\n\nReduced Personal Healing speed of -33\u00a0%.\nReduced Item efficiency of -33\u00a0%.\nThe Anniversary Med-Kit has a Capacity of 24 Charges.\n\"Happy Anniversary! Here's to many more!\" \u2014 The Dead by Daylight Team\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/FulliconItems_anniversaryMed-Kit.png/revision/latest?cb=20200713233509",
+        "imgUrl": "AnniversaryMed-Kit.png",
         "stats": {
           "speed": 0.4,
           "charges": 24
@@ -163,7 +163,7 @@
       {
         "name": "Masquerade Med-Kit",
         "description": "A festive Med-Kit with a shocking surprise, giving a whole new meaning to the term \"Health Scare\".\nIncreased confetti of +100\u00a0%.\nCan be used to heal other Survivors:\n\nIncreased Altruistic Healing speed of +40\u00a0%.\nUnlocks the Self-Heal action:\n\nReduced Personal Healing speed of -33\u00a0%.\nReduced Item efficiency of -33\u00a0%.\nThe Masquerade Med-Kit has a Capacity of 24 Charges.\n\"Happy Anniversary! To your health!\" \u2014 The Dead by Daylight Team\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/28/FulliconItems_masqueradeMed-Kit.png/revision/latest?cb=20220608162318",
+        "imgUrl": "MasqueradeMed-Kit.png",
         "stats": {
           "speed": 0.4,
           "charges": 24
@@ -174,7 +174,7 @@
       {
         "name": "Worn-Out Tools",
         "description": "A metal box containing out of condition tools that could break at any moment.Even without training, can be used to repair or break various mechanical components.\nIncreased Generator Repair speed of +50\u00a0%.\nReduced Good Skill Check Success zone of -10\u00a0%.\nUnlocks the Sabotage action.\nThe Worn-Out Toolbox has a Capacity of 16 Charges.\n\"You call these tools? ... Really?\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/92/FulliconItems_worn-outTools.png/revision/latest?cb=20200713233518",
+        "imgUrl": "Worn-OutTools.png",
         "stats": {
           "speed": 0.5,
           "charges": 16
@@ -183,7 +183,7 @@
       {
         "name": "Toolbox",
         "description": "A metal box containing a set of basic tools.Even without training, can be used to repair or break various mechanical components.\nIncreased Generator Repair speed of +50\u00a0%.\nUnlocks the Sabotage action.\nIncreased Hook Sabotage speed of +10\u00a0%.\nThe Toolbox has a Capacity of 20 Charges.\n\"It is unclear as to where these tools come from. Were they brought in by one of us or did they belong to one of the monsters?\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/04/FulliconItems_toolbox.png/revision/latest?cb=20200713233523",
+        "imgUrl": "Toolbox.png",
         "stats": {
           "speed": 0.5,
           "charges": 20
@@ -192,7 +192,7 @@
       {
         "name": "Mechanic's Toolbox",
         "description": "A metal box with specialised mechanics tools.Even without training, can be used to repair or break various mechanical components.\nIncreased Generator Repair speed of +75\u00a0%.\nUnlocks the Sabotage action.\nDecreased Hook Sabotage speed of -10\u00a0%.\nThe Mechanic's Toolbox has a Capacity of 16 Charges.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/22/FulliconItems_mechanicsToolbox.png/revision/latest?cb=20200713233530",
+        "imgUrl": "Mechanic'sToolbox.png",
         "stats": {
           "speed": 0.75,
           "charges": 16
@@ -201,7 +201,7 @@
       {
         "name": "Commodious Toolbox",
         "description": "A large metal box containing basic tool and extra mechanical parts.Even without training, can be used to repair or break various mechanical components.\nIncreased Generator Repair speed by +50\u00a0%.\nUnlocks the Sabotage action.\nThe Commodious Toolbox has a Capacity of 32 Charges.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6a/FulliconItems_commodiousToolbox.png/revision/latest?cb=20200713233535",
+        "imgUrl": "CommodiousToolbox.png",
         "stats": {
           "speed": 0.5,
           "charges": 32
@@ -210,7 +210,7 @@
       {
         "name": "Engineer's Toolbox",
         "description": "A metal box with highly specialised tools meant for engineering.Most of the tools can be used by neophytes to make quick repairs or break various mechanical components.\nIncreased Generator Repair speed of +100\u00a0%.\nUnlocks the Sabotage action.\nDecreased Hook Sabotage speed of -25\u00a0%.\nThe Engineer's Toolbox has a Capacity of 16 Charges.\n\"I've created tools beyond compare and stood paralysed as they were stolen from me. These are but a poor replica, spat out by The Fog.\" \u2014 Vigo's Journal\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7d/FulliconItems_engineersToolbox.png/revision/latest?cb=20200713233542",
+        "imgUrl": "Engineer'sToolbox.png",
         "stats": {
           "speed": 1.0,
           "charges": 16
@@ -219,7 +219,7 @@
       {
         "name": "Alex's Toolbox",
         "description": "A metal box containing mainly saws and vice grips of varying sizes but also other tools.Even though the content of this Toolbox is clearly aimed at destructive deeds, it can be used to repair various mechanical components as well.\nIncreased Generator Repair speed of +10\u00a0%.\nUnlocks the Sabotage action.\nIncreased Hook Sabotage speed of +50\u00a0%.\nAlex's Toolbox has a Capacity of 24 Charges.\n\"Most of the tools are identified as 'owned by Alex'.\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/58/FulliconItems_alexsToolbox.png/revision/latest?cb=20200713233547",
+        "imgUrl": "Alex'sToolbox.png",
         "stats": {
           "speed": 0.1,
           "charges": 24
@@ -228,7 +228,7 @@
       {
         "name": "Anniversary Toolbox",
         "description": "NO LONGER AVAILABLE IN THE BLOODWEB.\nA Toolbox that is slightly explosive.\n\nIncreased Generator Repair speed of +50\u00a0%.\nDetonates a firework once depleted.Yay!\nUnlocks the Sabotage action.\nThe Anniversary Toolbox has a Capacity of 32 Charges.\n\"Nothing says happy anniversary like detonating a firework and praying the Killer does not notice.Good luck and thank you for celebrating with us!\" \u2014 The Dead by Daylight Team\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7a/FulliconItems_anniversaryToolbox.png/revision/latest?cb=20210630151412",
+        "imgUrl": "AnniversaryToolbox.png",
         "stats": {
           "speed": 0.5,
           "charges": 32
@@ -237,7 +237,7 @@
       {
         "name": "Festive Toolbox",
         "description": "NO LONGER AVAILABLE IN THE BLOODWEB.\nA Toolbox packed to the brim with fireworks, it is prepared to celebrate all your life's successes... and failures.\n\nIncreased Generator Repair speed of +50\u00a0%.\nSucceeding a Great Skill Check detonates a small cluster of firecrackers.\nMissing a Skill Check detonates fireworks.\nUnlocks the Sabotage action.\nThe Festive Toolbox has a Capacity of 32 Charges.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/FulliconItems_festiveToolbox.png/revision/latest?cb=20210210114841",
+        "imgUrl": "FestiveToolbox.png",
         "stats": {
           "speed": 0.5,
           "charges": 32
@@ -246,7 +246,7 @@
       {
         "name": "Masquerade Toolbox",
         "description": "A Toolbox with all of the standard gadgets: wrenches, screwdrivers, fireworks, a hammer...\nIncreased Generator Repair speed of +50\u00a0%.\nDetonates a firework once depleted.Yay!\nUnlocks the Sabotage action.\nThe Masquerade Toolbox has a Capacity of 32 Charges.\n\"Happy Anniversary! We're fixin' to have a big party!\" \u2014 The Dead by Daylight Team\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/63/FulliconItems_masqueradeToolbox.png/revision/latest?cb=20220608162325",
+        "imgUrl": "MasqueradeToolbox.png",
         "stats": {
           "speed": 0.5,
           "charges": 32
@@ -259,7 +259,7 @@
       {
         "name": "Broken Bulb",
         "description": "NO LONGER AVAILABLE IN THE BLOODWEB\nA damaged bulb that causes a spooky flickering effect.\n\nCauses the Flashlight to flicker.\nIncreases the Beam brightness of the Flashlight by +15\u00a0%.\nIncreases the Blindness duration of the Flashlight by +30\u00a0%.\nIncreases the spookiness.\nHaunted by Daylight Event Item.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4a/FulliconAddon_brokenBulb.png/revision/latest?cb=20201001112643",
+        "imgUrl": "BrokenBulb.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -268,7 +268,7 @@
       {
         "name": "Wide Lens",
         "description": "A thing wide lens in perfect condition.Designed to spread the Flashlight beam at the cost of reducing its range of effectiveness.\nIncreases the Beam width of the Flashlight by +25\u00a0%.\nShortens the Beam reach of the Flashlight by -25\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9b/FulliconAddon_wideLens.png/revision/latest?cb=20200719170048",
+        "imgUrl": "WideLens.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -277,7 +277,7 @@
       {
         "name": "Power Bulb",
         "description": "A tiny Flashlight bulb that packs more wattage for a brighter, more powerful light beam.\nIncreases the Beam brightness of the Flashlight by +20\u00a0%.\nIncreases the Blindness duration of the Flashlight by +10\u00a0%.\n\"Even the most powerful light cannot pierce through The Black Fog's darkness.\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bc/FulliconAddon_powerBulb.png/revision/latest?cb=20200719170053",
+        "imgUrl": "PowerBulb.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -286,7 +286,7 @@
       {
         "name": "Leather Grip",
         "description": "A leather strip wrapped around the Flashlight for more grip.\nIncreases the Aim accuracy of the Flashlight by +20\u00a0%.\n\"Too many have fallen due to sweaty hands.\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/FulliconAddon_leatherGrip.png/revision/latest?cb=20200719170057",
+        "imgUrl": "LeatherGrip.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -295,7 +295,7 @@
       {
         "name": "Battery",
         "description": "A standard battery of unknown brand.\nExtends the Battery life of the Flashlight by +2 seconds.\n\"Another nearly empty battery.\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/22/FulliconAddon_battery.png/revision/latest?cb=20200719170102",
+        "imgUrl": "Battery.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -304,7 +304,7 @@
       {
         "name": "TIR Optic",
         "description": "A lens and reflector combo which can magnify a Flashlight's beam.\nIncreases the Beam brightness of the Flashlight by +30\u00a0%.\nIncreases the Blindness duration of the Flashlight by +15\u00a0%.\n\"Let the light burn them out of their dark shroud.\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/57/FulliconAddon_tirOptic.png/revision/latest?cb=20200719170107",
+        "imgUrl": "TIROptic.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -313,7 +313,7 @@
       {
         "name": "Rubber Grip",
         "description": "A rubber grip specifically fitting Flashlights for more grip.\nIncreases the Aim accuracy of the Flashlight by +40\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/75/FulliconAddon_rubberGrip.png/revision/latest?cb=20200719170111",
+        "imgUrl": "RubberGrip.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -322,7 +322,7 @@
       {
         "name": "Low Amp Filament",
         "description": "A filament bulb designed to extend a Flashlight battery's life.\nDecreases the Battery Depletion rate of the Flashlight by -20\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/FulliconAddon_lowAmpFilament.png/revision/latest?cb=20200719170116",
+        "imgUrl": "LowAmpFilament.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -331,7 +331,7 @@
       {
         "name": "Heavy Duty Battery",
         "description": "A battery marked as \"industrial strength\".\nExtends the Battery life of the Flashlight by +4 seconds.\n\"A battery advertised as lasting 8 hours lasts only a couple of seconds in The Black Fog.\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ad/FulliconAddon_heavyDutyBattery.png/revision/latest?cb=20200719170121",
+        "imgUrl": "HeavyDutyBattery.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -340,7 +340,7 @@
       {
         "name": "Focus Lens",
         "description": "A thick glass lens that focuses the Flashlight beam to increase its intensity.\nExtends the Beam reach of the Flashlight by +25\u00a0%.\nIncreases the Beam brightness of the Flashlight by +20\u00a0%.\nIncreases the Blindness duration of the Flashlight by +10\u00a0%.\nDecreases the Beam width of the Flashlight by -15\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a3/FulliconAddon_focusLens.png/revision/latest?cb=20200719170125",
+        "imgUrl": "FocusLens.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -349,7 +349,7 @@
       {
         "name": "Long Life Battery",
         "description": "A recent model of battery that lasts longer.\nExtends the Battery life of the Flashlight by +6 seconds.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a3/FulliconAddon_longLifeBattery.png/revision/latest?cb=20200719170129",
+        "imgUrl": "LongLifeBattery.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -358,7 +358,7 @@
       {
         "name": "Intense Halogen",
         "description": "A chemical bulb that generates an intensely clear light.\nIncreases the Beam brightness of the Flashlight by +40\u00a0%.\nIncreases the Blindness duration of the Flashlight by +20\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/09/FulliconAddon_intenseHalogen.png/revision/latest?cb=20200719170134",
+        "imgUrl": "IntenseHalogen.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -367,7 +367,7 @@
       {
         "name": "High-End Sapphire Lens",
         "description": "A wide lens made of un-scratch-able sapphire that optimises the power and range of the light beam.\nExtends the Beam reach of the Flashlight by +25\u00a0%.\nIncreases the Beam brightness of the Flashlight by +30\u00a0%.\nIncreases the Blindness duration of the Flashlight by +15\u00a0%.\nDecreases the Beam width of the Flashlight by +25\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fe/FulliconAddon_high-EndSapphireLens.png/revision/latest?cb=20200719170144",
+        "imgUrl": "High-EndSapphireLens.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -376,7 +376,7 @@
       {
         "name": "Odd Bulb",
         "description": "A heavy and completely opaque bulb of unknown origin which emits a faint light even when turned off.\nIncreases the Beam brightness of the Flashlight by +50\u00a0%.\nIncreases the Blindness duration of the Flashlight by +25\u00a0%.\nIncreases the Battery Depletion rate of the Flashlight by +14\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/83/FulliconAddon_oddBulb.png/revision/latest?cb=20200719170148",
+        "imgUrl": "OddBulb.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -387,7 +387,7 @@
       {
         "name": "Prayer Rope",
         "description": "Tightly knitted rope used in praying rituals.\nAdds 10 seconds of use to the Key.\n\"Pray all you want, your words are getting lost somewhere up there, in The Fog.\"\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5e/FulliconAddon_prayerRope.png/revision/latest?cb=20200719165227",
+        "imgUrl": "PrayerRope.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -396,7 +396,7 @@
       {
         "name": "Scratched Pearl",
         "description": "A porous and scratched white pearl.A minuscule jump ring allows the pearl to be attached to the Key.\nIncreases the Key's Aura-reading range by +12 metres.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/ce/FulliconAddon_scratchedPearl.png/revision/latest?cb=20200719165232",
+        "imgUrl": "ScratchedPearl.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -405,7 +405,7 @@
       {
         "name": "Prayer Beads",
         "description": "A chain of matte beads of various sizes used in praying ritual.\nAdds 15 seconds of use to the Key.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/FulliconAddon_prayerBeads.png/revision/latest?cb=20200719165236",
+        "imgUrl": "PrayerBeads.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -414,7 +414,7 @@
       {
         "name": "Eroded Token",
         "description": "A heavily worn out token made of brass.If an inscription or drawing was once engraved in it, it has today completely disappeared.Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\nUnlocks the ability to reveal the Auras of other Survivors within 24 metres.\nDoes not stack with Gold Token.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/31/FulliconAddon_erodedToken.png/revision/latest?cb=20200719165241",
+        "imgUrl": "ErodedToken.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -423,7 +423,7 @@
       {
         "name": "Gold Token",
         "description": "A gold token with a dull appearance.Both faces are smooth and void of any inscriptions.Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\nUnlocks the ability to reveal the Auras of other Survivors within 48 metres.\nDoes not stack with Eroded Token.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/FulliconAddon_goldToken.png/revision/latest?cb=20200719165246",
+        "imgUrl": "GoldToken.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -432,7 +432,7 @@
       {
         "name": "Weaved Ring",
         "description": "A mundane key ring in appearance with an unusual bluish dark sheen.The ring binds the Key to the user, preventing its loss even in the darkest of times.\nIn case of death, lose this Add-on instead of the Key itself.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/FulliconAddon_weavedRing.png/revision/latest?cb=20200719165250",
+        "imgUrl": "WeavedRing.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -441,7 +441,7 @@
       {
         "name": "Milky Glass",
         "description": "This opaque piece of glass emits a dull vibrating noise.When the Key is used to unlock the Hatch, the glass token protects the Key from breaking, channelling The Black Fog's energy into the glass instead.\nOpening the Hatch with a Key loses this Add-on instead of the Key itself.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e5/FulliconAddon_milkyGlass.png/revision/latest?cb=20200719165255",
+        "imgUrl": "MilkyGlass.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -450,7 +450,7 @@
       {
         "name": "Blood Amber",
         "description": "A blood-red amber striped with black veins.The amber is warm to the touch.Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\nUnlocks the ability to reveal the Aura of the Killer within 32 metres.\nIncreases the Key's Depletion rate by +100\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6a/FulliconAddon_bloodAmber.png/revision/latest?cb=20200719165259",
+        "imgUrl": "BloodAmber.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -459,7 +459,7 @@
       {
         "name": "Unique Wedding Ring",
         "description": "An engraved wedding ring that emerged from The Fog and resonates with an indescribable and incomprehensible energy.\nReveals the Aura of the Obsession at all times, without the need to channel the Key's energy.\nLowers the odds of becoming the Killer's initial Obsession by -100\u00a0%.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c4/FulliconAddon_uniqueWeddingRing.png/revision/latest?cb=20200719165304",
+        "imgUrl": "UniqueWeddingRing.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -470,7 +470,7 @@
       {
         "name": "Map Addendum",
         "description": "A fragmented piece of a thick fibrous material.A partial and faded map is drawn on it which by itself is useless.\nAdds 5 seconds of use to the Map.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/FulliconAddon_mapAddendum.png/revision/latest?cb=20200719165432",
+        "imgUrl": "MapAddendum.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -479,7 +479,7 @@
       {
         "name": "Yellow Wire",
         "description": "A small electrical wire.Both ends are heavily damaged like it has been forcefully torn out of its intended location.Can be tied around the Map to enhance its Aura-reading ability.\nUnlocks the ability to track the Exit Gate Switches.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/71/FulliconAddon_yellowWire.png/revision/latest?cb=20200719165437",
+        "imgUrl": "YellowWire.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -488,7 +488,7 @@
       {
         "name": "Unusual Stamp",
         "description": "A wooden stamp with a cross-hatched rubber pad used to mark documents.It is unclear as to how or by whom this stamp was originally used.\nIncreases the Map's Tracking range by +8 metres.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/FulliconAddon_unusualStamp.png/revision/latest?cb=20200719165442",
+        "imgUrl": "UnusualStamp.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -497,7 +497,7 @@
       {
         "name": "Retardant Jelly",
         "description": "A slimy, translucent substance with a ghastly lavender shade.This jelly from unknown origin is highly resistant to heat.\nDecreases the Map's Depletion rate by -20\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/dd/FulliconAddon_retardantJelly.png/revision/latest?cb=20200719165446",
+        "imgUrl": "RetardantJelly.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -506,7 +506,7 @@
       {
         "name": "Red Twine",
         "description": "A bristly and rough piece of twine of a deep red colour.Can be tied around the Map to enhance its Aura-reading ability.\nUnlocks the ability to track Killer Belongings.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/FulliconAddon_redTwine.png/revision/latest?cb=20200719165451",
+        "imgUrl": "RedTwine.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -515,7 +515,7 @@
       {
         "name": "Glass Bead",
         "description": "A strange bead circled with gold that can be used to magnify the map and mark a specific position.The bead emits an energy which can be felt and seen by Survivors.\nPress the Secondary Action button while using the Map to use the Glass Bead:\n\nPlace a Pillar of Light at your current location that can be seen by all Survivors.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1a/FulliconAddon_glassBead.png/revision/latest?cb=20200719165526",
+        "imgUrl": "GlassBead.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -524,7 +524,7 @@
       {
         "name": "Odd Stamp",
         "description": "A stamp carved out of sturdy blonde wood.The text found at the base is incomprehensible: \"kw'zvre'od\".\nIncreases the Map's Tracking range by +12 metres.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ed/FulliconAddon_oddStamp.png/revision/latest?cb=20200719165507",
+        "imgUrl": "OddStamp.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -533,7 +533,7 @@
       {
         "name": "Black Silk Cord",
         "description": "A smooth black cord with a soft appearance.Can be tied around the Map to enhance its Aura-reading ability.\nUnlocks the ability to track the Hatch.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c1/FulliconAddon_blackSilkCord.png/revision/latest?cb=20200719165511",
+        "imgUrl": "BlackSilkCord.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -542,7 +542,7 @@
       {
         "name": "Crystal Bead",
         "description": "An intricate set of lenses wrapped up in an astonishingly complex apparatus.The gears controlling the lenses' focus move by themselves as to focus on something invisible to humans.\nReveals the Auras generated by the Map to all Survivors.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0b/FulliconAddon_crystalBead.png/revision/latest?cb=20200719165516",
+        "imgUrl": "CrystalBead.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -553,7 +553,7 @@
       {
         "name": "Refined Serum",
         "description": "NO LONGER AVAILABLE IN THE BLOODWEB\nA refined version of the Putrid Serum that is mostly safe for human consumption.Mostly.\nPress the Secondary Action button while yourself or another Survivor with a Med-Kit to use the Refined Serum:\n\nIncreases the Movement speed of the affected Survivor by +5\u00a0% for the next 16 seconds.\nCreates a Blight trail behind the affected Survivor.\nRefined Serum consumes the Med-Kit on use.\nHaunted by Daylight Event Item.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2e/FulliconAddon_refinedSerum.png/revision/latest?cb=20201001112644",
+        "imgUrl": "RefinedSerum.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -562,7 +562,7 @@
       {
         "name": "Rubber Gloves",
         "description": "Disposable medical gloves to avoid cross-contamination.\nIncreases the Great Success zone of Healing Skill Checks by +10\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a6/FulliconAddon_rubberGloves.png/revision/latest?cb=20200716211756",
+        "imgUrl": "RubberGloves.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -571,7 +571,7 @@
       {
         "name": "Butterfly Tape",
         "description": "Medical quality tape used to close small wounds.\nIncreases the Healing speed of Med-Kits by +5\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f9/FulliconAddon_butterflyTape.png/revision/latest?cb=20200716211801",
+        "imgUrl": "ButterflyTape.png",
         "stats": {
           "speed": 0.05,
           "charges": null
@@ -580,7 +580,7 @@
       {
         "name": "Bandages",
         "description": "A pack of bandages usually found in First Aid Kits.\nIncreases the Charges of Med-Kits by +8 Charges.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/65/FulliconAddon_bandages.png/revision/latest?cb=20200716211806",
+        "imgUrl": "Bandages.png",
         "stats": {
           "speed": null,
           "charges": 8
@@ -589,7 +589,7 @@
       {
         "name": "Sponge",
         "description": "A mundane sponge used to soak up extra blood, providing easier access to wounds.\nIncreases the Great Success zone of Healing Skill Checks by +20\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fe/FulliconAddon_sponge.png/revision/latest?cb=20200716211811",
+        "imgUrl": "Sponge.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -598,7 +598,7 @@
       {
         "name": "Self Adherent Wrap",
         "description": "A pack of bandages that stick to themselves without the need of clips for a faster patch-up that requires less readjustments.\nIncreases the Healing speed of Med-Kits by +5\u00a0%.\nIncreases the Charges of Med-Kits by +8 Charges.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cf/FulliconAddon_selfAdherentWrap.png/revision/latest?cb=20200716211815",
+        "imgUrl": "SelfAdherentWrap.png",
         "stats": {
           "speed": 0.05,
           "charges": 8
@@ -607,7 +607,7 @@
       {
         "name": "Needle & Thread",
         "description": "Not exactly a medical device.However, it can be used to quickly and painfully close up a wound.\nIncreases the Odds of triggering Healing Skill Checks by +10\u00a0%.\nIncreases the Progression bonus for succeeding at Great Healing Skill Checks by +5\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/99/FulliconAddon_needle%26Thread.png/revision/latest?cb=20200716211819",
+        "imgUrl": "Needle&Thread.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -616,7 +616,7 @@
       {
         "name": "Medical Scissors",
         "description": "Scissors designed to easily cut through textiles.\nIncreases the Healing speed of Med-Kits by +10\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a9/FulliconAddon_medicalScissors.png/revision/latest?cb=20200716211824",
+        "imgUrl": "MedicalScissors.png",
         "stats": {
           "speed": 0.1,
           "charges": null
@@ -625,7 +625,7 @@
       {
         "name": "Surgical Suture",
         "description": "A medical device used to close and hold body tissue.Even though it is very effective, the surgical suture is challenging to use.\nIncreases the Odds of triggering Healing Skill Checks by +15\u00a0%.\nIncreases the Progression bonus for succeeding at Great Healing Skill Checks by +10\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/65/FulliconAddon_surgicalSuture.png/revision/latest?cb=20200716211833",
+        "imgUrl": "SurgicalSuture.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -634,7 +634,7 @@
       {
         "name": "Gauze Roll",
         "description": "A sterile gauze used for a variety of wounds.Part of a total wound care system.\nIncreases the Charges of Med-Kits by +10 Charges.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b1/FulliconAddon_gauzeRoll.png/revision/latest?cb=20230418184907",
+        "imgUrl": "GauzeRoll.png",
         "stats": {
           "speed": null,
           "charges": 10
@@ -643,7 +643,7 @@
       {
         "name": "Styptic Agent",
         "description": "A white powder with coagulant properties.Apply the agent to a wound to stop it from haemorrhaging.\nPress the Secondary Action button while healing yourself or another Survivor with a Med-Kit to use the Styptic Agent:\n\nGrants the Endurance Status Effect for 5 seconds.\nStyptic Agent consumes the Med-Kit on use.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/89/FulliconAddon_stypticAgent.png/revision/latest?cb=20200716211848",
+        "imgUrl": "StypticAgent.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -652,7 +652,7 @@
       {
         "name": "Abdominal Dressing",
         "description": "A highly absorbent pad that prevents bodily fluid leakage when applied to large abdominal wounds.\nIncreases the Healing speed of Med-Kits by +15\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/10/FulliconAddon_abdominalDressing.png/revision/latest?cb=20230418120254",
+        "imgUrl": "AbdominalDressing.png",
         "stats": {
           "speed": 0.15,
           "charges": null
@@ -661,7 +661,7 @@
       {
         "name": "Gel Dressings",
         "description": "A pack of gel forming pads used to patch up heavily exuding wounds.\nIncreases the Charges of Med-Kits by +16 Charges.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4f/FulliconAddon_gelDressings.png/revision/latest?cb=20230418120742",
+        "imgUrl": "GelDressings.png",
         "stats": {
           "speed": null,
           "charges": 16
@@ -670,7 +670,7 @@
       {
         "name": "Anti-Haemorrhagic Syringe",
         "description": "An anti-haemorrhagic substance that stops the bleeding in a matter of seconds.\nPress the Secondary Action button while healing yourself or another Survivor with a Med-Kit to use the Anti-Haemorrhagic Syringe:\n\nAutomatically heals the affected Survivor 1 Health State over the next 16 seconds.\nHealing Speed modifiers affect the Healing time.\nTaking damage or being picked up by the Killer cancels the Healing effect.\nAnti-Haemorrhagic Syringe consumes the Med-Kit on use.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/96/FulliconAddon_anti-haemorrhagicSyringe.png/revision/latest?cb=20200716211853",
+        "imgUrl": "Anti-HaemorrhagicSyringe.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -681,7 +681,7 @@
       {
         "name": "Scraps",
         "description": "Springs, screws and gears.Mostly unusable junk.\nIncreases the Capacity of the Toolbox by +8 charges.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/FulliconAddon_scraps.png/revision/latest?cb=20200716210624",
+        "imgUrl": "Scraps.png",
         "stats": {
           "speed": null,
           "charges": 8
@@ -690,7 +690,7 @@
       {
         "name": "Instructions",
         "description": "Someone quickly painted what seems to be repair instructions on this piece of bark.\nSuppresses all normal Skill Checks that are usually triggered while repairing a Generator.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cd/FulliconAddon_instructions.png/revision/latest?cb=20200716210635",
+        "imgUrl": "Instructions.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -699,7 +699,7 @@
       {
         "name": "Clean Rag",
         "description": "A mundane rag.Suspiciously clean.\nIncreases the Repair speed of the Toolbox by +20\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4e/FulliconAddon_cleanRag.png/revision/latest?cb=20200716210639",
+        "imgUrl": "CleanRag.png",
         "stats": {
           "speed": 0.2,
           "charges": null
@@ -708,7 +708,7 @@
       {
         "name": "Wire Spool",
         "description": "A portable but heavy spool of copper wire.\nIncreases the Capacity of the Toolbox by +12 charges.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/33/FulliconAddon_wireSpool.png/revision/latest?cb=20200716210645",
+        "imgUrl": "WireSpool.png",
         "stats": {
           "speed": null,
           "charges": 12
@@ -717,7 +717,7 @@
       {
         "name": "Spring Clamp",
         "description": "Useful tool to clamp hoses or hold wires in place and prevent damage or injury.\nReduces the range at which your Generator-Repair noises can be heard by -8 metres.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0d/FulliconAddon_springClamp.png/revision/latest?cb=20200716210653",
+        "imgUrl": "SpringClamp.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -726,7 +726,7 @@
       {
         "name": "Socket Swivels",
         "description": "Swivels provide bend and flexibility for bolts that are out of reach, deep within mechanical devices.\nIncreases the Repair speed of the Toolbox by +30\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/FulliconAddon_socketSwivels.png/revision/latest?cb=20200716210658",
+        "imgUrl": "SocketSwivels.png",
         "stats": {
           "speed": 0.3,
           "charges": null
@@ -735,7 +735,7 @@
       {
         "name": "Protective Gloves",
         "description": "Thick gloves, which reduce manual dexterity but protect hands from injury.\nSuppresses the Loud Noise Notification to the Killer that is usually triggered after sabotaging a Hook .\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c7/FulliconAddon_protectiveGloves.png/revision/latest?cb=20200716210702",
+        "imgUrl": "ProtectiveGloves.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -744,7 +744,7 @@
       {
         "name": "Cutting Wire",
         "description": "A rudimentary cutting tool made from a jagged metal wire and two wooden handles.\nIncreases the Sabotage speed of the Toolbox by +15\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/51/FulliconAddon_cuttingWire.png/revision/latest?cb=20200716210706",
+        "imgUrl": "CuttingWire.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -753,7 +753,7 @@
       {
         "name": "Hacksaw",
         "description": "A small hand saw mounted with a metal cutting blade.\nIncreases the Sabotage speed of the Toolbox by +20\u00a0%.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d1/FulliconAddon_hacksaw.png/revision/latest?cb=20200716210711",
+        "imgUrl": "Hacksaw.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -762,7 +762,7 @@
       {
         "name": "Grip Wrench",
         "description": "An adjustable wrench with a tough grip.Essential in any Toolbox.\nIncreases the Auto-Repair timer for sabotaged Hooks by +15 seconds.\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f3/FulliconAddon_gripWrench.png/revision/latest?cb=20200716210717",
+        "imgUrl": "GripWrench.png",
         "stats": {
           "speed": null,
           "charges": null
@@ -771,7 +771,7 @@
       {
         "name": "Brand New Part",
         "description": "This intricate mechanical part feels oddly out of place.It is clean and shiny as if straight out of the factory.\nReplaces the Toolbox Repair prompt with an Install Brand New Part prompt instead:\n\nInstalling the Brand New Part triggers 1 difficult Skill Check.\nReduces that Generator's Repair requirement permanently by -10 Charges after succeeding the Skill Check.\nBrand New Part is consumed on use.\n\n",
-        "imgUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d9/FulliconAddon_brandNewPart.png/revision/latest?cb=20200716210722",
+        "imgUrl": "BrandNewPart.png",
         "stats": {
           "speed": null,
           "charges": null

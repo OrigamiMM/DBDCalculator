@@ -1,10 +1,9 @@
-import AddonData from "../../../models/AddonData";
 import DataArray from "../../../models/DataArray";
-import ItemData from "../../../models/Itemdata";
 import PerkData from "../../../models/PerkData";
-import Perk from "../../UI/Perk/Perk";
-import classes from "./InventorySelect.module.css";
+import ItemData from "../../../models/Itemdata";
+import ItemInventory from "./ItemInventory/ItemInventory";
 import PerkInventory from "./PerkInventory/PerkInventory";
+import AddonData from "../../../models/AddonData";
 
 type Props = {
   activeInventory: (PerkData | null)[];
@@ -13,18 +12,17 @@ type Props = {
   toDisplay: DataArray;
 };
 
-function InventorySelect(props: Props) {
-  let displayArray = props.toDisplay.data;
-  if (displayArray.length < 15) {
-    const emptyElements = 15 - displayArray.length;
-    displayArray = displayArray.concat(new Array(emptyElements).fill(null));
+const padArray = <T,>(startArray: T[]): (T | null)[] => {
+  if (startArray.length < 15) {
+    const toPad = 15 - startArray.length;
+    return startArray.concat(new Array(toPad).fill(null))
   }
+  return startArray;
+};
 
-  console.log(props.toDisplay.type);
-
-  const invType = props.toDisplay.type;
-
-  if (invType === "perk") {
+function InventorySelect(props: Props) {
+  if (props.toDisplay.type === "perk") {
+    const displayArray: (PerkData | null)[] = padArray(props.toDisplay.data);
     return (
       <PerkInventory
         activePerks={props.activeInventory}
@@ -32,6 +30,14 @@ function InventorySelect(props: Props) {
         className={props.className}
         displayPerks={displayArray}
       />
+    );
+  } else if (props.toDisplay.type === "addon") {
+    const displayArray: (AddonData | null)[] = padArray(props.toDisplay.data);
+    console.log(displayArray);
+  } else if (props.toDisplay.type === "item") {
+    const displayArray: (ItemData | null)[] = padArray(props.toDisplay.data);
+    return (
+      <ItemInventory displayItems={displayArray} className={props.className} />
     );
   } else {
     return <li></li>;

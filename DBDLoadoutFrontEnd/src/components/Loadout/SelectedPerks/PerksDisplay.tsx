@@ -11,7 +11,6 @@ type Props = {
 };
 
 const PerksDisplay = (props: Props) => {
-  console.log(props.currentSelected.length);
   return (
     <ul className={classes.perkSelection}>
       {props.currentSelected.map((p, i) => {

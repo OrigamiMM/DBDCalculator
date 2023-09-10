@@ -1,6 +1,5 @@
-import classes from './EmptyPerk.module.css'
-import emptyBackground from '../../../../assets/EmptyPerk.svg'
-
+import classes from "./EmptyPerk.module.css";
+import emptyBackground from "/src/assets/perkImages/allPerkAssets/EmptyPerk.svg";
 type Props = {
   className?: string;
 };
@@ -8,11 +7,13 @@ type Props = {
 const EmptyPerk = (props: Props) => {
   return (
     <li className={`${props.className}`}>
-      <img
-        className={classes.emptyPerk}
-        src={emptyBackground}
-        alt="Empty Perk"
-      />
+      <div className={classes.emptyPerkDisplay}>
+        <img
+          className={classes.emptyPerk}
+          src={emptyBackground}
+          alt="Empty Perk"
+        />
+      </div>
     </li>
   );
 };

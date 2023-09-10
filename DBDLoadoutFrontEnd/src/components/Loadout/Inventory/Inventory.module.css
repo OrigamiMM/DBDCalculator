@@ -27,6 +27,7 @@
     grid-area: inventory;
 }
 
+
 .pages{
     grid-area: pages;
     justify-self: center;

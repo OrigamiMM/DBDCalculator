@@ -1,7 +1,7 @@
 import classes from "./AddPerk.module.css";
-import selectedOverlay from "../../../assets/Selected.svg";
-import hoverOverlay from "../../../assets/Hover.svg";
-import addImage from "../../../assets/EmptyPerk.svg"
+import selectedOverlay from "/src/assets/perkImages/allPerkAssets/Selected.svg";
+import hoverOverlay from "/src/assets/perkImages/allPerkAssets/Hover.svg";
+import addImage from "/src/assets/perkImages/allPerkAssets/EmptyPerk.svg";
 
 type Props = {
   onSetActive: () => void;
@@ -19,11 +19,7 @@ const AddPerk = (props: Props) => {
       <div className={classes.perkInteractable}>
         <div className={classes.perkDisplay}>
           {overlay}
-          <img
-            className={classes.addPerk}
-            src={addImage}
-            alt="Add Perk"
-          />
+          <img className={classes.addPerk} src={addImage} alt="Add Perk" />
         </div>
       </div>
     </li>
