@@ -13,7 +13,7 @@ for perk in perks:
     #urllib.request.urlretrieve(perk['imgUrl'], imgName)
     #img = Image.open(imgName)
     #img.save(path, 'png')
-    perk['imgUrl'] = path
+    perk['imgUrl'] = imgName
 
 json_string = json.dumps(data, indent=2)
 with open('perks.json', 'w') as outfile:

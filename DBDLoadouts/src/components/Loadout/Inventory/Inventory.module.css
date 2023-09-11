@@ -1,0 +1,35 @@
+.inventory {
+  display: grid;
+  grid-template-areas:
+    "title title search search"
+    "prev invDisplay invDisplay next"
+    ". pages pages .";
+    align-items: center;
+}
+
+.title {
+  grid-area: title;
+}
+
+.search {
+  grid-area: search;
+}
+
+.prev {
+  grid-area: prev;
+}
+
+.next {
+  grid-area: next;
+}
+
+.invDisplay {
+  grid-area: invDisplay;
+  min-height: calc(3 * var(--invItemSize));
+}
+
+.pages{
+    grid-area: pages;
+    text-align: center;
+    padding-top: 0.5em;
+}

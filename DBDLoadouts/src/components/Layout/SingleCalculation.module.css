@@ -1,0 +1,8 @@
+.soloCalcContainer {
+  margin: 2.5em 2em;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 2.5em;
+  align-items: center;
+  justify-content: center;
+}
