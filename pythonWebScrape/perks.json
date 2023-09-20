@@ -58,7 +58,7 @@
     },
     {
       "name": "Background Player",
-      "description": "You are not usually the centre of attention and in some cases, this can be a good thing.\n<p>When another Survivor is picked up, <i>Background Player</i> activates for the next <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">10 seconds</span></b>:\n</p><ul><li>When you start running, break into a sprint at <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">150\u00a0%</span></b> of your normal Running Movement speed for <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">4 seconds</span></b>.</li></ul>\n<p><i>Background Player</i> causes the <i><b>Exhausted</b></i> <b>Status Effect</b> for <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">60</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">50</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">40</span></b> <b>seconds</b>.\n</p><p><i>Background Player</i> cannot be used when <i><b>Exhausted</b></i>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"You forget about me?\" \u2014 Renato Lyra</span></i></p>",
+      "description": "<div class=\"dynamicBox ptb\"><div class=\"dynamicTitle ptb\">This description is based on the changes featured in the upcoming Patch: 7.3.0</div><div class=\"dynamicContent ptb\">You are not usually the centre of attention and in some cases, this can be a good thing.\n<p>When another Survivor is picked up, <i>Background Player</i> activates for the next <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">10 seconds</span></b>:\n</p><ul><li>When you start running, break into a sprint at <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">150\u00a0%</span></b> of your normal Running Movement speed for <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">5 seconds</span></b>.</li></ul>\n<p><i>Background Player</i> causes the <i><b>Exhausted</b></i> <b>Status Effect</b> for <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">60</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">50</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">40</span></b> <b>seconds</b>.\n</p><p><i>Background Player</i> cannot be used when <i><b>Exhausted</b></i>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"You forget about me?\" \u2014 Renato Lyra</span></i></p></div></div>",
       "imgUrl": "BackgroundPlayer.png",
       "sourceSurvivor": "Renato Lyra",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/59/S36_charSelect_portrait.png/revision/latest?cb=20230705193833",
@@ -315,7 +315,7 @@
     {
       "name": "Detective's Hunch",
       "description": "Unlocks potential in your Aura-reading ability.<br/>\n<p>Each time a Generator is completed, the Auras of any Generators, Chests, and Totemswithin <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">32</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">48</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">64</span></b> <b>metres</b> are revealed to you for <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">10 seconds</span></b>.\n</p>\n<ul><li>If you are holding a Map, any objects revealed by <i>Detective's Hunch</i> will automatically be tracked by it.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Are you able to tell us where you were last night?\" \u2014 Detective David Tapp</span></i></p>",
-      "imgUrl": "Detective'sHunch.png",
+      "imgUrl": "DetectivesHunch.png",
       "sourceSurvivor": "Detective David Tapp",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/S12_charSelect_portrait.png/revision/latest?cb=20230705191928",
       "modifiers": null
@@ -387,7 +387,7 @@
     {
       "name": "Flip-Flop",
       "description": "You have an uncanny ability to escape the inevitable.<br/>\n<p>While in the Dying State,  <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">50\u00a0%</span></b> of your Recovery progression is converted into Wiggling progression, up to a maximum of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">40</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">45</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">50</span></b> <b>%</b>, once you are picked up by the Killer.<br/>\n</p>\n<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Catch ya on the flip-flop.\" \u2014 Ash Williams</span></i>",
-      "imgUrl": "Flip-Flop.png",
+      "imgUrl": "FlipFlop.png",
       "sourceSurvivor": "Ashley J. Williams",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/S17_charSelect_portrait.png/revision/latest?cb=20230725192546",
       "modifiers": null
@@ -507,7 +507,7 @@
     {
       "name": "Light-Footed",
       "description": "Crossing paths with deadly Killers has taught you the value of discretion.\n<p>Whenever you are healthy, <i>Light-Footed</i> activates:\n</p><ul><li><b>Suppresses</b> the sound of your footsteps while running.</li></ul>\n<i>Light-Footed</i> has a cool-down of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">28</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">24</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">20</span></b> <b>seconds</b> after performing a <i>Rush Vault action</i>.\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Come on, cat.\" \u2014 Ellen Ripley</span></i></p>",
-      "imgUrl": "Light-Footed.png",
+      "imgUrl": "LightFooted.png",
       "sourceSurvivor": "Ellen Ripley",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/S39_charSelect_portrait.png/revision/latest?cb=20230808155833",
       "modifiers": null
@@ -603,7 +603,7 @@
     {
       "name": "Open-Handed",
       "description": "Strengthens the potential in your and your team's Aura-reading abilities.\n<ul><li><b>Increases</b> the radius of all Aura-reading abilities emanating from yourself or other Survivors by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">8</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">12</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">16</span></b> <b>metres</b>.</li></ul>\n<p>Survivors can only be affected by one instance of <i>Open-Handed</i> at a time.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Paying attention is what kept me alive through the years. That, and my good looks of course.\" \u2014 Ace Visconti</span></i></p>",
-      "imgUrl": "Open-Handed.png",
+      "imgUrl": "OpenHanded.png",
       "sourceSurvivor": "Ace Visconti",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/S07_charSelect_portrait.png/revision/latest?cb=20230705190028",
       "modifiers": null
@@ -651,7 +651,7 @@
     {
       "name": "Plunderer's Instinct",
       "description": "Unlocks potential in your Aura-reading ability:\n<ul><li>The Auras of closed Chests and dropped Items in the environment within <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">16</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">24</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">32</span></b> <b>metres</b> of your location are revealed to you.</li>\n<li>Grants a <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">considerably</span></b> better chance at finding an Item of a higher Rarity from Chests.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"The pioneers used to loot these babies for hours.\" \u2014 Aizeyu, The Lost Tapes</span></i></p>",
-      "imgUrl": "Plunderer'sInstinct.png",
+      "imgUrl": "PlunderersInstinct.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
       "modifiers": null
@@ -699,7 +699,7 @@
     {
       "name": "Quick & Quiet",
       "description": "You do not make as much noise as others when quickly vaulting over obstacles or hiding in Lockers.\n<ul><li><b>Suppresses</b> both the <i>Loud Noise Notification</i> and the sound effects triggered by rushing to vault Windows, Pallets, or rushing to enter or exit Lockers.</li></ul>\n<p><i>Quick &amp; Quiet</i> has a cool-down of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">30</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">25</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">20</span></b> <b>seconds</b>.</p>",
-      "imgUrl": "Quick&Quiet.png",
+      "imgUrl": "QuickQuiet.png",
       "sourceSurvivor": "Meg Thomas",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/77/S02_charSelect_portrait.png/revision/latest?cb=20230705190636",
       "modifiers": null
@@ -811,7 +811,7 @@
     {
       "name": "Self-Aware",
       "description": "You know your weaknesses and refuse to hide from them.\n<ul><li><b>Increases</b> your Walking speed by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">10</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">15</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">20</span></b> <b>%</b>.</li>\n<li>Unlocks the ability to see your own Scratch Marks.</li></ul>\n",
-      "imgUrl": "Self-Aware.png",
+      "imgUrl": "SelfAware.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
       "modifiers": null
@@ -819,7 +819,7 @@
     {
       "name": "Self-Care",
       "description": "\n<ul><li>Unlocks the <i>Self-Care</i> ability, allowing you to self-heal without needing a Med-Kit at <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">25</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">30</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">35</span></b> <b>%</b> of the normal Healing speed.</li></ul>\n",
-      "imgUrl": "Self-Care.png",
+      "imgUrl": "SelfCare.png",
       "sourceSurvivor": "Claudette Morel",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/65/S03_charSelect_portrait.png/revision/latest?cb=20230725191927",
       "modifiers": null
@@ -827,7 +827,7 @@
     {
       "name": "Self-Preservation",
       "description": "Life is unforgiving.<br/>\n<p>The more confirmation you get of that, the more prepared you become.<br/>\nWhenever another Survivor is hit with a <i>Basic Attack</i> or <i>Special Attack</i> within <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">16 metres</span></b> of you, <i>Self-Preservation</i> activates:\n</p>\n<ul><li>Scratch Marks, <i>Grunts of Pain</i> when injured, and Bleeding are suppressed for the next <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">6</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">8</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">10</span></b> <b>seconds</b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Something I learnt in the industry: when the axe is swinging, keep your head down.\" \u2014 Yun-Jin Lee</span></i></p>",
-      "imgUrl": "Self-Preservation.png",
+      "imgUrl": "SelfPreservation.png",
       "sourceSurvivor": "Yun-Jin Lee",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/79/S25_charSelect_portrait.png/revision/latest?cb=20230705194144",
       "modifiers": null
@@ -1011,7 +1011,7 @@
     {
       "name": "Wake Up!",
       "description": "Unlocks potential in your Aura-reading ability.\n<p>Once all Generators are completed, <i>Wake Up!</i> activates:\n</p><ul><li>The Auras of the Exit Gate Switches are revealed to you within <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">128 metres</span></b>.</li>\n<li>Your Aura is revealed to all other Survivors within <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">128 metres</span></b> of your location while opening an Exit Gate.</li>\n<li><b>Increases</b> your Gate Opening speed by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">15</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">20</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">25</span></b> <b>%</b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Ok, look. If we survive the next 24 hours, then I'll take you out on a real date.\" \u2014 Quentin Smith</span></i></p>",
-      "imgUrl": "WakeUp!.png",
+      "imgUrl": "WakeUp.png",
       "sourceSurvivor": "Quentin Smith",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/S11_charSelect_portrait.png/revision/latest?cb=20230725192602",
       "modifiers": null
@@ -1019,7 +1019,7 @@
     {
       "name": "We'll Make It",
       "description": "Helping others heightens your morale.\n<ul><li><b>Increases</b> your Altruistic Healing speed by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">100\u00a0%</span></b> for the next <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">30</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">60</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">90</span></b> <b>seconds</b> whenever you rescue another Survivor from a Hook</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"I am confident we can all escape in one piece if we help each other.\"</span></i></p>",
-      "imgUrl": "We'llMakeIt.png",
+      "imgUrl": "WellMakeIt.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
       "modifiers": null
@@ -1027,7 +1027,7 @@
     {
       "name": "We're Gonna Live Forever",
       "description": "Your few friends deserve the best protection.\n<ul><li><b>Increases</b> your Healing speed by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">100\u00a0%</span></b> when healing a dying Survivor.</li></ul>\n<p>When performing any of the following actions, <i>We're Gonna Live Forever</i> gains <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">1 Token</span></b>:\n</p><ul><li>Performing a Safe Hook Rescue</li>\n<li>Taking a <i>Protection Hit</i> for an injured Survivor.</li>\n<li>Stunning or Blinding the Killer to rescue a carried Survivor</li></ul>\n<p>Consume <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">1 Token</span></b> to grant the <i><b>Endurance</b></i> <b>Status Effect</b> for <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">6</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">8</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">10</span></b> <b>seconds</b> to any Survivor healed from the Dying State\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Come on then, let's ave' it! I don't give a shit pal.\" \u2014 David King</span></i></p>",
-      "imgUrl": "We'reGonnaLiveForever.png",
+      "imgUrl": "WereGonnaLiveForever.png",
       "sourceSurvivor": "David King",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/57/S10_charSelect_portrait.png/revision/latest?cb=20230725192207",
       "modifiers": null
