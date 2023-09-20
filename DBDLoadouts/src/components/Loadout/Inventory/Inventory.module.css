@@ -4,7 +4,7 @@
     "title title search search"
     "prev invDisplay invDisplay next"
     ". pages pages .";
-    align-items: center;
+  align-items: center;
 }
 
 .title {
@@ -25,11 +25,11 @@
 
 .invDisplay {
   grid-area: invDisplay;
-  min-height: calc(3 * var(--invItemSize));
+  min-height: calc(3.5 * var(--invItemSize));
+  min-width: calc(7 * var(--invItemSize));
 }
 
-.pages{
-    grid-area: pages;
-    text-align: center;
-    padding-top: 0.5em;
+.pages {
+  grid-area: pages;
+  text-align: center;
 }

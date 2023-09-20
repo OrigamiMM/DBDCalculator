@@ -6,9 +6,10 @@ import selectOutline from "../../../assets/perkImages/allPerkAssets/Selected.svg
 import purpleBack from "../../../assets/perkImages/allPerkAssets/PurpleBackground.svg";
 
 import classes from "./Perk.module.css";
-import PerkDescription from "./PerkDescription";
+import PerkDescription from "../Description";
 
 type Props = {
+  onClick: () => {};
   position: string;
   data: PerkData;
   selected: boolean;
@@ -16,6 +17,11 @@ type Props = {
 };
 
 const Perk = (props: Props) => {
+  const descData = {
+    name: props.data.name,
+    text: props.data.description,
+    source: props.data.source,
+  };
   const [hovered, setHovered] = useState(false);
   const toggleHover = () => {
     setHovered((prev) => !prev);
@@ -48,11 +54,16 @@ const Perk = (props: Props) => {
         />
       </section>
       <div
+        onClick={props.onClick}
         className={classes.hoverArea}
         onMouseEnter={toggleHover}
         onMouseLeave={toggleHover}
       />
-      <PerkDescription hovered={hovered} data={props.data} position={props.direction} />
+      <PerkDescription
+        hovered={hovered}
+        data={descData}
+        position={props.direction}
+      />
     </li>
   );
 };

@@ -1,0 +1,26 @@
+.stack {
+  display: grid;
+  grid-template-areas: "stack";
+  place-items: center;
+}
+.stack > * {
+  grid-area: stack;
+}
+
+.selected {
+  width: 108%;
+  transition: scale 0.1s ease-in-out;
+}
+
+.hover {
+  opacity: 0;
+  width: 105%;
+}
+
+.stack:hover .hover {
+  opacity: 1;
+}
+
+.stack:hover .selected {
+  scale: 1.07;
+}

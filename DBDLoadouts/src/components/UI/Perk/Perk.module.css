@@ -42,6 +42,7 @@
 
 .selectImg {
   z-index: 1;
+  width: 105%;
   transition: scale 0.15s ease-in-out;
 }
 

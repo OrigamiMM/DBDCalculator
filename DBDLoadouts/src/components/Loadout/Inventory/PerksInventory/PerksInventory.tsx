@@ -1,26 +1,37 @@
+import type { RootState } from "../../../../store/store";
+import { useSelector, useDispatch } from "react-redux";
+import { updatePerks } from "../../../../store/inventorySlice";
+
 import classes from "./PerksInventory.module.css";
-import perks from "../../../../assets/PerksData";
 import Perk from "../../../UI/Perk/Perk";
+import PerkData from "../../../../models/PerkData";
 type Props = {
-  className: string;
-  page: number;
+  invPosition: string;
+  displayPerks: PerkData[];
 };
 
-const PerksInventory = (props: Props) => {
+const PerksInventory = ({ invPosition, displayPerks }: Props) => {
+  const selectedPerks = useSelector(
+    (state: RootState) => state.inventory.selectedPerks
+  );
+  console.log(selectedPerks);
+
+  const dispatch = useDispatch();
   let row = -1;
   const leftPositions = [3, 4, 8, 9, 13, 14];
-  const displaySlice = perks.slice(15 * (props.page - 1), 15 * props.page);
   return (
-    <ul className={`${props.className} ${classes.perkInventory}`}>
-      {displaySlice.map((perk, i) => {
+    <ul className={`${invPosition} ${classes.perkInventory}`}>
+      {displayPerks.map((perk, i) => {
         if (i % 5 == 0) row++;
         let direction = "right";
         const position = `perk${i + 1}`;
         if (leftPositions.includes(i)) direction = "left";
         return (
           <Perk
+            key={i}
+            onClick={() => dispatch(updatePerks(perk))}
             direction={[direction, row.toString()]}
-            selected={i === 1}
+            selected={selectedPerks.includes(perk)}
             position={classes[position]}
             data={perk}
           />

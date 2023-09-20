@@ -1,0 +1,35 @@
+.stack {
+  display: grid;
+  grid-template-areas: "stack";
+  place-items: center;
+}
+.stack > * {
+  grid-area: stack;
+}
+.mainItemImg {
+  z-index: 2;
+  width: 100%;
+}
+.inactive {
+  opacity: 0.5;
+}
+
+.hoverArea {
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+
+.selected {
+  width: 110%;
+}
+
+.hover {
+  opacity: 0;
+  width: 105%;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.stack:hover .hover {
+  opacity: 1;
+}

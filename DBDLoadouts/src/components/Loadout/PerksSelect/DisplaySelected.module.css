@@ -1,0 +1,8 @@
+.perkSelection {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, var(--invItemSize));
+  justify-content: center;
+}
