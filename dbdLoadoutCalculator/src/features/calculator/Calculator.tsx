@@ -5,9 +5,8 @@ import { DisplayCard } from "../../components/UI/DisplayCard";
 import { getLoadoutState } from "../loadout";
 import { GeneratorTime } from "./components";
 import { selectAddonByName, selectItemByName } from "../DBDData/dbdDataSlice";
-type Props = {};
 
-export const Calculator = (props: Props) => {
+export const Calculator = () => {
   const [objectiveTask, setObjectiveTask] = useState("generator");
   const itemName = useAppSelector(
     (state) => getLoadoutState(state).selectedItem

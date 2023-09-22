@@ -1,4 +1,3 @@
-import React from "react";
 import { useAppDispatch, useAppSelector } from "../../../app/hooks";
 import { Addon } from "../../DBDData/components/DBDAddon/Addon";
 import { updateActive } from "../../loadout";
