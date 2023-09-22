@@ -9,7 +9,7 @@ type Props = {};
 export const Loadout = () => {
   const current = useAppSelector(state => state.loadout.currentActive);
   return (
-    <DisplayCard title="LOADOUT">
+    <DisplayCard className="z-20" title="LOADOUT">
       <ItemAddonDisplay />
       <PerksDisplay />
       <Inventory current={current}/>

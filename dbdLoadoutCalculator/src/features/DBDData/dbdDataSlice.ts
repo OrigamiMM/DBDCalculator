@@ -40,7 +40,7 @@ interface basic {
 }
 
 interface basicWithStats extends basic {
-  stats: { charges: number | null; speed: number | null };
+  stats?: { charges: number; speed: number };
 }
 
 const itemAddonTypes = ["flashlight", "key", "map", "medkit", "toolbox"];
@@ -79,27 +79,60 @@ export const dbdDataSlice = createSlice({
         } = action.payload.addons;
 
         const cleanItems: ItemData[] = [];
-        Object.keys(rawItems).forEach((type, i) =>
-          rawItems[type as keyof typeof rawItems].forEach((item) =>
-            cleanItems.push({
-              type: itemAddonTypes[i],
-              description: item.description,
-              imgUrl: item.imgUrl,
-              name: item.name,
-            })
-          )
-        );
+        Object.keys(rawItems)
+          .slice(0, 3)
+          .forEach((type, i) =>
+            rawItems[type as keyof typeof rawItems].forEach((item: basic) =>
+              cleanItems.push({
+                type: itemAddonTypes[i],
+                description: item.description,
+                imgUrl: item.imgUrl,
+                name: item.name,
+              })
+            )
+          );
+        Object.keys(rawItems)
+          .slice(3, 5)
+          .forEach((type, i) =>
+            rawItems[type as keyof typeof rawItems].forEach(
+              (item: basicWithStats) =>
+                cleanItems.push({
+                  type: itemAddonTypes[i + 3],
+                  description: item.description,
+                  imgUrl: item.imgUrl,
+                  name: item.name,
+                  stats: item.stats,
+                })
+            )
+          );
+
         const cleanAddons: AddonData[] = [];
-        Object.keys(rawAddons).forEach((type, i) =>
-          rawAddons[type as keyof typeof rawAddons].forEach((addon) =>
-            cleanAddons.push({
-              type: itemAddonTypes[i],
-              description: addon.description,
-              imgUrl: addon.imgUrl,
-              name: addon.name,
-            })
-          )
-        );
+        Object.keys(rawAddons)
+          .slice(0, 3)
+          .forEach((type, i) =>
+            rawAddons[type as keyof typeof rawAddons].forEach((addon: basic) =>
+              cleanAddons.push({
+                type: itemAddonTypes[i],
+                description: addon.description,
+                imgUrl: addon.imgUrl,
+                name: addon.name,
+              })
+            )
+          );
+        Object.keys(rawAddons)
+          .slice(3, 5)
+          .forEach((type, i) =>
+            rawAddons[type as keyof typeof rawAddons].forEach(
+              (addon: basicWithStats) =>
+                cleanAddons.push({
+                  type: itemAddonTypes[i + 3],
+                  description: addon.description,
+                  imgUrl: addon.imgUrl,
+                  name: addon.name,
+                  stats: addon.stats,
+                })
+            )
+          );
 
         const cleanPerks: PerkData[] = rawPerks.map((rawPerk) => ({
           description: rawPerk.description,

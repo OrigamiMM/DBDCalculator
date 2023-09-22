@@ -8,6 +8,7 @@ import {
   updateQuery,
 } from "../../inventory/inventorySlice";
 import { getDataState } from "../../DBDData/dbdDataSlice";
+import { PerkPopover } from "./PerkPopover";
 
 type Props = {
   current?: number;
@@ -20,6 +21,23 @@ const positions = [
   "col-start-2 row-start-2" + span,
   "col-start-3 row-start-1" + span,
   "col-start-4 row-start-2" + span,
+];
+const descriptionPositions = [
+  "ml-20 translate-x-1/2 translate-y-[min(20%,calc(27em-50%))]",
+  "ml-20 translate-x-1/2 translate-y-[min(20%,calc(27em-50%))]",
+  "mr-20 -translate-x-1/2 translate-y-[min(20%,calc(27em-50%))]",
+  "mr-20 -translate-x-1/2 translate-y-[min(20%,calc(27em-50%))]",
+];
+
+const popoverPerks = [
+  "Deja Vu",
+  "Friendly Competition",
+  "Object of Obsession",
+  "Resilience",
+  "Spine Chill",
+  "Overzealous",
+  "Potential Energy",
+  "Fast Track",
 ];
 
 export const DisplayPerks = ({ current }: Props) => {
@@ -53,23 +71,34 @@ export const DisplayPerks = ({ current }: Props) => {
         const activeSelect = current === i;
         if (perkName) {
           return (
-            <div key={i} className={poisiton}>
+            <li
+              key={i * 1000}
+              className={`relative ${poisiton} grid grid-rows-1 grid-cols-1 place-items-center [&>*]:col-span-full [&>*]:row-span-full`}
+            >
               <Perk
+                descriptionPosition={descriptionPositions[i]}
                 onClick={perkClickHandler.bind(null, i, perkName)}
-                key={i}
                 selected={activeSelect}
                 name={perkName!}
               />
-            </div>
+              {popoverPerks.includes(perkName) && (
+                <PerkPopover index={i} perk={perkName} />
+              )}
+              {perkName === "Prove Thyself" && (
+                <div className="z-10 absolute mr-12 mt-14 md:ml-14 md:mr-0 bg-[#6e2493] text-xs text-white w-9 h-9 drop-shadow-md border-dark outline-1  border-4 rounded-full font-bold hover:scale-110 transition-all duration-150 ease-in-out">
+                  <p className="text-2xl text-center">✓</p>
+                </div>
+              )}
+            </li>
           );
         }
         return (
-          <div key={i} className={poisiton}>
+          <li key={i} className={poisiton}>
             <AddPerk
               selected={activeSelect}
               onAddPerkClick={emptyPerkClickHandler.bind(null, i)}
             />
-          </div>
+          </li>
         );
       })}
     </ul>

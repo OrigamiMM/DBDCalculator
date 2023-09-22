@@ -1,6 +1,7 @@
 import { Header } from "../Header";
 import { Loadout } from "../../features/loadout";
 import { Calculator } from "../../features/calculator";
+import { ButtonModal } from "../UI";
 
 export const SoloLayout = () => {
   return (

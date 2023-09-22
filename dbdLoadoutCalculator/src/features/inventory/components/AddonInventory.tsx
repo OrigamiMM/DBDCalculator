@@ -1,4 +1,3 @@
-import React from "react";
 import { useAppDispatch, useAppSelector } from "../../../app/hooks";
 import { getLoadoutState, updateAddon } from "../../loadout";
 import { selectItemByName } from "../../DBDData/dbdDataSlice";
@@ -7,9 +6,14 @@ import { Addon } from "../../DBDData/components/DBDAddon/Addon";
 type Props = {
   page: number;
   addonNames: string[][];
+  descriptionPosition: string[];
 };
 
-export const AddonInventory = ({ page, addonNames }: Props) => {
+export const AddonInventory = ({
+  page,
+  addonNames,
+  descriptionPosition,
+}: Props) => {
   const dispatch = useAppDispatch();
   let selectedItem = useAppSelector(
     (state) => getLoadoutState(state).selectedItem
@@ -40,12 +44,13 @@ export const AddonInventory = ({ page, addonNames }: Props) => {
   const displayList = organizedList.slice(15 * (page - 1), 15 * page);
 
   return (
-    <ul className="sm:py-3 sm:px-11 grid grid-cols-3 sm:grid-cols-5 place-items-center">
+    <ul className=" grid grid-cols-3 sm:grid-cols-5 place-items-center">
       {displayList.map((pair, i) => {
         const addonActive = pair[0];
         const addonName = pair[1];
         return (
           <Addon
+            descritpionPosition={descriptionPosition[i]}
             key={i}
             name={addonName}
             onClick={() => dispatch(updateAddon(addonName))}

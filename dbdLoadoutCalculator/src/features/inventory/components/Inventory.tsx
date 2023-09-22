@@ -37,7 +37,7 @@ export const Inventory = ({ current }: Props) => {
             <h3 className="text-gray-200 font-bold text-lg">INVENTORY</h3>
             <h4 className="text-gray-400 font-bold leading-3">PERKS</h4>
           </section>
-          <form>
+          <form onSubmit={(e) => e.preventDefault()}>
             <label htmlFor="searchQuery">Search </label>
             <input
               value={query}
@@ -48,7 +48,7 @@ export const Inventory = ({ current }: Props) => {
             />
           </form>
         </div>
-        <section className="min-w-full col-span-full lg:col-start-2 lg:col-span-1">
+        <section className="sm:w-[32em] sm:h-64 md:w-[36em] md:h-80 grid place-items-center col-span-full lg:col-start-2 lg:col-span-1">
           <InventorySelect
             page={currentPage}
             type={current}

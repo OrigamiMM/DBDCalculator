@@ -3,14 +3,21 @@ import { selectItemByName } from "../../dbdDataSlice";
 import squareSelect from "../../../../assets/generalParts/squareSelected.svg";
 import squareHover from "../../../../assets/generalParts/squareHover.svg";
 import { CloudImage } from "../../../../components/CloudImage";
+import { Description } from "../Description";
 
 type Props = {
   onClick: () => void;
   name: string;
   selected: boolean;
+  descriptionPosition: string;
 };
 
-export const Item = ({ onClick, name, selected }: Props) => {
+export const Item = ({
+  onClick,
+  name,
+  selected,
+  descriptionPosition,
+}: Props) => {
   const item = useAppSelector((state) => selectItemByName(state, name))!;
   const overlay = selected ? (
     <img
@@ -28,7 +35,7 @@ export const Item = ({ onClick, name, selected }: Props) => {
     />
   );
 
-  const itemNameId = item.imgUrl.split('.')[0]
+  const itemNameId = item.imgUrl.split(".")[0];
   const itemId = `itemImages/${itemNameId}`;
 
   return (
@@ -38,9 +45,14 @@ export const Item = ({ onClick, name, selected }: Props) => {
     >
       {overlay}
       {/* <img loading="lazy" className="z-10 w-11/12" src={itemImg} alt="" /> */}
-      <div className="z-10 w-11/12">
-        <CloudImage cloudImgID={itemId}/>
+      <div className="peer z-10 w-11/12">
+        <CloudImage cloudImgID={itemId} />
       </div>
+      <Description
+        name={item.name}
+        text={item.description}
+        position={descriptionPosition}
+      />
     </li>
   );
 };

@@ -2,12 +2,18 @@ import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit/dist/createAction";
 import { RootState } from "../../app/store";
 
+type perkModifier = {
+  type: string[];
+  value: number;
+};
+
 interface Loadout {
   currentActive: "perk" | "item" | "addon";
   currentIndex: number;
   selectedItem: string | null;
   selectedAddons: (string | null)[];
   selectedPerks: (string | null)[];
+  perkModifiers: (perkModifier | null)[];
 }
 
 const initialState: Loadout = {
@@ -16,6 +22,7 @@ const initialState: Loadout = {
   selectedItem: null,
   selectedAddons: [null, null],
   selectedPerks: [null, null, null, null],
+  perkModifiers: [null, null, null, null],
 };
 
 export const loadoutSlice = createSlice({
@@ -58,18 +65,31 @@ export const loadoutSlice = createSlice({
       if (newIndex > -1) {
         if (newIndex === state.currentIndex) {
           state.selectedPerks[state.currentIndex] = null;
+          state.perkModifiers[state.currentIndex] = null;
         } else {
           state.currentIndex = newIndex;
         }
       } else {
         state.selectedPerks[state.currentIndex] = action.payload;
+        state.perkModifiers[state.currentIndex] = null;
       }
+    },
+    setModifier(
+      state,
+      action: PayloadAction<{ index: number; modifier: perkModifier }>
+    ) {
+      state.perkModifiers[action.payload.index] = action.payload.modifier;
     },
   },
 });
 
-export const { updateActive, updateItem, updateAddon, updatePerks } =
-  loadoutSlice.actions;
+export const {
+  updateActive,
+  updateItem,
+  setModifier,
+  updateAddon,
+  updatePerks,
+} = loadoutSlice.actions;
 
 export const loadoutReducer = loadoutSlice.reducer;
 

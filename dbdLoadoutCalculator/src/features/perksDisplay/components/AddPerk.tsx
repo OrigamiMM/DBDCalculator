@@ -22,12 +22,12 @@ export const AddPerk = ({ onAddPerkClick, selected }: Props) => {
     />
   );
   return (
-    <li
+    <div
       onClick={onAddPerkClick}
-      className={`group grid grid-rows-1 grid-cols-1 place-items-center w-20 [&>*]:col-span-full [&>*]:row-span-full`}
+      className={`group grid grid-rows-1 grid-cols-1 place-items-center w-20 md:w-24 [&>*]:col-span-full [&>*]:row-span-full`}
     >
       {overlay}
       <img className="z-10 w-11/12" src={addImage} alt="" />
-    </li>
+    </div>
   );
 };

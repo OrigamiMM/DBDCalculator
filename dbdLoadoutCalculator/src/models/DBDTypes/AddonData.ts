@@ -3,4 +3,5 @@ export type AddonData = {
   description: string;
   name: string;
   imgUrl: string;
+  stats?: { charges: number; speed: number };
 };

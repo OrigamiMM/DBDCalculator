@@ -3,15 +3,23 @@ import { selectAddonByName } from "../../dbdDataSlice";
 import squareHover from "../../../../assets/generalParts/squareHover.svg";
 import squareSelect from "../../../../assets/generalParts/squareSelected.svg";
 import { CloudImage } from "../../../../components/CloudImage";
+import { Description } from "../Description";
 
 type Props = {
   onClick: () => void;
   name: string;
   active?: boolean;
   selected: boolean;
+  descritpionPosition: string;
 };
 
-export const Addon = ({ name, active, selected, onClick }: Props) => {
+export const Addon = ({
+  name,
+  active,
+  selected,
+  onClick,
+  descritpionPosition,
+}: Props) => {
   const addon = useAppSelector((state) => selectAddonByName(state, name))!;
   const overlay = selected ? (
     <img
@@ -43,6 +51,11 @@ export const Addon = ({ name, active, selected, onClick }: Props) => {
         </div>
       )}
       {overlay}
+      <Description
+        name={addon.name}
+        text={addon.description}
+        position={descritpionPosition}
+      />
     </li>
   );
 };

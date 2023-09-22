@@ -25,8 +25,8 @@ export const EmptyItemAddon = ({ selected, type, onClick }: Props) => {
     <li
       onClick={onClick}
       className={`group ${
-        type === "item" ? "w-20" : `w-20 px-2`
-      } grid grid-rows-1 grid-cols-1 place-items-center [&>*]:col-span-full [&>*]:row-span-full`}
+        type === "item" ? "" : 'px-2'
+      } w-20 md:w-24 grid grid-rows-1 grid-cols-1 place-items-center [&>*]:col-span-full [&>*]:row-span-full`}
     >
       {overlay}
       <img className="z-10 w-11/12" src={addSquare} alt="" />

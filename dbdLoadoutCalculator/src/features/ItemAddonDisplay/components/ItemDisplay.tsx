@@ -40,6 +40,7 @@ export const ItemDisplay = ({ active }: Props) => {
 
   const content = itemName ? (
     <Item
+      descriptionPosition="ml-20 translate-x-1/2 translate-y-[min(20%,calc(27em-50%))]"
       onClick={itemClickHandler.bind(null, itemName)}
       name={itemName}
       selected={active}

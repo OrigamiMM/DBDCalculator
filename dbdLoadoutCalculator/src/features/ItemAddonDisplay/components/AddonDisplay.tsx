@@ -21,7 +21,7 @@ export const AddonDisplay = ({ activeIndex }: Props) => {
   );
 
   const addonList = useAppSelector((state) => getDataState(state).allAddons);
-  const addonTypeNames = addonList.map((a) => a.name); 
+  const addonTypeNames = addonList.map((a) => a.name);
   const emptyAddonHandler = (index: number) => {
     dispatch(updateQuery(""));
     dispatch(setPage(1));
@@ -35,6 +35,7 @@ export const AddonDisplay = ({ activeIndex }: Props) => {
         if (addon) {
           return (
             <Addon
+              descritpionPosition="mt-20 -translate-x-1/3 translate-y-1/2"
               key={i}
               name={addon}
               onClick={emptyAddonHandler.bind(null, i)}

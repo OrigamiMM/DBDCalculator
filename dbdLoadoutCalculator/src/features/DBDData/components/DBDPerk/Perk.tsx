@@ -6,15 +6,21 @@ import perkHover from "../../../../assets/generalParts/perkHover.svg";
 import perkSelect from "../../../../assets/generalParts/perkSelected.svg";
 
 import { CloudImage } from "../../../../components/CloudImage";
+import { Description } from "../Description";
 
 type Props = {
   onClick: () => void;
   name: string;
-  gridPosition?: string;
   selected: boolean;
+  descriptionPosition: string;
 };
 
-export const Perk = ({ onClick, gridPosition, name, selected }: Props) => {
+export const Perk = ({
+  onClick,
+  name,
+  selected,
+  descriptionPosition,
+}: Props) => {
   const overlay = selected ? (
     <img
       loading="lazy"
@@ -31,11 +37,11 @@ export const Perk = ({ onClick, gridPosition, name, selected }: Props) => {
     />
   );
   const perk = useAppSelector((state) => selectPerkByName(state, name))!;
-  const cloutName = perk.imgUrl.split('.')[0];
+  const cloutName = perk.imgUrl.split(".")[0];
   const perkImgID = `perkImages/${cloutName}`;
   return (
-    <li
-      className={`${gridPosition} relative w-20 md:w-24 grid grid-rows-1 grid-cols-1 place-items-center [&>*]:col-span-full [&>*]:row-span-full`}
+    <div
+      className={`relative w-20 md:w-24 grid grid-rows-1 grid-cols-1 place-items-center [&>*]:col-span-full [&>*]:row-span-full`}
     >
       <div
         onClick={onClick}
@@ -44,8 +50,14 @@ export const Perk = ({ onClick, gridPosition, name, selected }: Props) => {
       {overlay}
       <img loading="lazy" className="w-11/12 z-10" src={purpleBack} alt="" />
       <div className="w-11/12 z-10">
-        <CloudImage cloudImgID={perkImgID}/>
+        <CloudImage cloudImgID={perkImgID} />
       </div>
-    </li>
+      <Description
+        name={perk.name}
+        position={descriptionPosition}
+        text={perk.description}
+        source={perk.source}
+      />
+    </div>
   );
 };
