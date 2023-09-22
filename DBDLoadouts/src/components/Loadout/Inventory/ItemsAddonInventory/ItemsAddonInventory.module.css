@@ -1,9 +1,0 @@
-.itemsAddonInventory {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: repeat(5, var(--invItemSize));
-    grid-template-rows: repeat(3, var(--invItemSize));
-    place-items: center;
-  }
-  

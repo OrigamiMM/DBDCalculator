@@ -1,9 +1,0 @@
-.itemsList {
-  min-height: calc(3 * var(--size));
-  padding-left: calc(0.25 * var(--size));
-  padding-right: calc(0.25 * var(--size));
-  display: grid;
-  align-content: center;
-  grid-template-columns: repeat(5, var(--size));
-  grid-template-rows: repeat(3,  var(--size));
-}
