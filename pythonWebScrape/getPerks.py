@@ -11,6 +11,10 @@ data = {
     'perks' : []
 }
 
+
+
+
+
 entries = soup.find_all('tr')
 counter = 0
 for entry in entries[1:]:
@@ -20,7 +24,13 @@ for entry in entries[1:]:
     #wired encoding for accented characters
     name = trs[1].find('a')['title']
     if name == 'Déjà Vu': name = 'Deja Vu'
-    description = tdText.find("div", class_="formattedPerkDesc").decode_contents()
+    descriptionHTML = tdText.find("div", class_="formattedPerkDesc") #.encode_contents().decode('utf-8') 
+    for span in descriptionHTML.find_all('span', {'class': 'iconLink'}):
+        span.decompose()
+    for a in descriptionHTML.find_all('a'):
+        a.unwrap()
+    description = descriptionHTML.encode_contents().decode('utf-8')
+
     imgUrl = trs[0].find('a')['href']
     sourceSurvivor = 'Any'
     sourceUrl = None

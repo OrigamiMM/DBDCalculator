@@ -58,7 +58,7 @@
     },
     {
       "name": "Background Player",
-      "description": "<div class=\"dynamicBox ptb\"><div class=\"dynamicTitle ptb\">This description is based on the changes featured in the upcoming Patch: 7.3.0</div><div class=\"dynamicContent ptb\">You are not usually the centre of attention and in some cases, this can be a good thing.\n<p>When another Survivor is picked up, <i>Background Player</i> activates for the next <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">10 seconds</span></b>:\n</p><ul><li>When you start running, break into a sprint at <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">150\u00a0%</span></b> of your normal Running Movement speed for <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">5 seconds</span></b>.</li></ul>\n<p><i>Background Player</i> causes the <i><b>Exhausted</b></i> <b>Status Effect</b> for <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">60</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">50</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">40</span></b> <b>seconds</b>.\n</p><p><i>Background Player</i> cannot be used when <i><b>Exhausted</b></i>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"You forget about me?\" \u2014 Renato Lyra</span></i></p></div></div>",
+      "description": "You are not usually the centre of attention and in some cases, this can be a good thing.\n<p>When another Survivor is picked up, <i>Background Player</i> activates for the next <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">10 seconds</span></b>:\n</p><ul><li>When you start running, break into a sprint at <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">150\u00a0%</span></b> of your normal Running Movement speed for <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">4 seconds</span></b>.</li></ul>\n<p><i>Background Player</i> causes the <i><b>Exhausted</b></i> <b>Status Effect</b> for <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">60</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">50</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">40</span></b> <b>seconds</b>.\n</p><p><i>Background Player</i> cannot be used when <i><b>Exhausted</b></i>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"You forget about me?\" \u2014 Renato Lyra</span></i></p>",
       "imgUrl": "BackgroundPlayer.png",
       "sourceSurvivor": "Renato Lyra",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/59/S36_charSelect_portrait.png/revision/latest?cb=20230705193833",
@@ -315,7 +315,7 @@
     {
       "name": "Detective's Hunch",
       "description": "Unlocks potential in your Aura-reading ability.<br/>\n<p>Each time a Generator is completed, the Auras of any Generators, Chests, and Totemswithin <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">32</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">48</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">64</span></b> <b>metres</b> are revealed to you for <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">10 seconds</span></b>.\n</p>\n<ul><li>If you are holding a Map, any objects revealed by <i>Detective's Hunch</i> will automatically be tracked by it.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Are you able to tell us where you were last night?\" \u2014 Detective David Tapp</span></i></p>",
-      "imgUrl": "DetectivesHunch.png",
+      "imgUrl": "Detective'sHunch.png",
       "sourceSurvivor": "Detective David Tapp",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/S12_charSelect_portrait.png/revision/latest?cb=20230705191928",
       "modifiers": null
@@ -387,7 +387,7 @@
     {
       "name": "Flip-Flop",
       "description": "You have an uncanny ability to escape the inevitable.<br/>\n<p>While in the Dying State,  <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">50\u00a0%</span></b> of your Recovery progression is converted into Wiggling progression, up to a maximum of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">40</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">45</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">50</span></b> <b>%</b>, once you are picked up by the Killer.<br/>\n</p>\n<i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Catch ya on the flip-flop.\" \u2014 Ash Williams</span></i>",
-      "imgUrl": "FlipFlop.png",
+      "imgUrl": "Flip-Flop.png",
       "sourceSurvivor": "Ashley J. Williams",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/S17_charSelect_portrait.png/revision/latest?cb=20230725192546",
       "modifiers": null
@@ -507,7 +507,7 @@
     {
       "name": "Light-Footed",
       "description": "Crossing paths with deadly Killers has taught you the value of discretion.\n<p>Whenever you are healthy, <i>Light-Footed</i> activates:\n</p><ul><li><b>Suppresses</b> the sound of your footsteps while running.</li></ul>\n<i>Light-Footed</i> has a cool-down of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">28</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">24</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">20</span></b> <b>seconds</b> after performing a <i>Rush Vault action</i>.\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Come on, cat.\" \u2014 Ellen Ripley</span></i></p>",
-      "imgUrl": "LightFooted.png",
+      "imgUrl": "Light-Footed.png",
       "sourceSurvivor": "Ellen Ripley",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/S39_charSelect_portrait.png/revision/latest?cb=20230808155833",
       "modifiers": null
@@ -603,7 +603,7 @@
     {
       "name": "Open-Handed",
       "description": "Strengthens the potential in your and your team's Aura-reading abilities.\n<ul><li><b>Increases</b> the radius of all Aura-reading abilities emanating from yourself or other Survivors by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">8</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">12</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">16</span></b> <b>metres</b>.</li></ul>\n<p>Survivors can only be affected by one instance of <i>Open-Handed</i> at a time.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Paying attention is what kept me alive through the years. That, and my good looks of course.\" \u2014 Ace Visconti</span></i></p>",
-      "imgUrl": "OpenHanded.png",
+      "imgUrl": "Open-Handed.png",
       "sourceSurvivor": "Ace Visconti",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/S07_charSelect_portrait.png/revision/latest?cb=20230705190028",
       "modifiers": null
@@ -651,7 +651,7 @@
     {
       "name": "Plunderer's Instinct",
       "description": "Unlocks potential in your Aura-reading ability:\n<ul><li>The Auras of closed Chests and dropped Items in the environment within <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">16</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">24</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">32</span></b> <b>metres</b> of your location are revealed to you.</li>\n<li>Grants a <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">considerably</span></b> better chance at finding an Item of a higher Rarity from Chests.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"The pioneers used to loot these babies for hours.\" \u2014 Aizeyu, The Lost Tapes</span></i></p>",
-      "imgUrl": "PlunderersInstinct.png",
+      "imgUrl": "Plunderer'sInstinct.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
       "modifiers": null
@@ -699,7 +699,7 @@
     {
       "name": "Quick & Quiet",
       "description": "You do not make as much noise as others when quickly vaulting over obstacles or hiding in Lockers.\n<ul><li><b>Suppresses</b> both the <i>Loud Noise Notification</i> and the sound effects triggered by rushing to vault Windows, Pallets, or rushing to enter or exit Lockers.</li></ul>\n<p><i>Quick &amp; Quiet</i> has a cool-down of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">30</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">25</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">20</span></b> <b>seconds</b>.</p>",
-      "imgUrl": "QuickQuiet.png",
+      "imgUrl": "Quick&Quiet.png",
       "sourceSurvivor": "Meg Thomas",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/77/S02_charSelect_portrait.png/revision/latest?cb=20230705190636",
       "modifiers": null
@@ -811,7 +811,7 @@
     {
       "name": "Self-Aware",
       "description": "You know your weaknesses and refuse to hide from them.\n<ul><li><b>Increases</b> your Walking speed by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">10</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">15</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">20</span></b> <b>%</b>.</li>\n<li>Unlocks the ability to see your own Scratch Marks.</li></ul>\n",
-      "imgUrl": "SelfAware.png",
+      "imgUrl": "Self-Aware.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
       "modifiers": null
@@ -819,7 +819,7 @@
     {
       "name": "Self-Care",
       "description": "\n<ul><li>Unlocks the <i>Self-Care</i> ability, allowing you to self-heal without needing a Med-Kit at <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">25</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">30</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">35</span></b> <b>%</b> of the normal Healing speed.</li></ul>\n",
-      "imgUrl": "SelfCare.png",
+      "imgUrl": "Self-Care.png",
       "sourceSurvivor": "Claudette Morel",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/65/S03_charSelect_portrait.png/revision/latest?cb=20230725191927",
       "modifiers": null
@@ -827,7 +827,7 @@
     {
       "name": "Self-Preservation",
       "description": "Life is unforgiving.<br/>\n<p>The more confirmation you get of that, the more prepared you become.<br/>\nWhenever another Survivor is hit with a <i>Basic Attack</i> or <i>Special Attack</i> within <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">16 metres</span></b> of you, <i>Self-Preservation</i> activates:\n</p>\n<ul><li>Scratch Marks, <i>Grunts of Pain</i> when injured, and Bleeding are suppressed for the next <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">6</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">8</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">10</span></b> <b>seconds</b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Something I learnt in the industry: when the axe is swinging, keep your head down.\" \u2014 Yun-Jin Lee</span></i></p>",
-      "imgUrl": "SelfPreservation.png",
+      "imgUrl": "Self-Preservation.png",
       "sourceSurvivor": "Yun-Jin Lee",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/79/S25_charSelect_portrait.png/revision/latest?cb=20230705194144",
       "modifiers": null
@@ -1011,7 +1011,7 @@
     {
       "name": "Wake Up!",
       "description": "Unlocks potential in your Aura-reading ability.\n<p>Once all Generators are completed, <i>Wake Up!</i> activates:\n</p><ul><li>The Auras of the Exit Gate Switches are revealed to you within <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">128 metres</span></b>.</li>\n<li>Your Aura is revealed to all other Survivors within <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">128 metres</span></b> of your location while opening an Exit Gate.</li>\n<li><b>Increases</b> your Gate Opening speed by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">15</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">20</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">25</span></b> <b>%</b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Ok, look. If we survive the next 24 hours, then I'll take you out on a real date.\" \u2014 Quentin Smith</span></i></p>",
-      "imgUrl": "WakeUp.png",
+      "imgUrl": "WakeUp!.png",
       "sourceSurvivor": "Quentin Smith",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/S11_charSelect_portrait.png/revision/latest?cb=20230725192602",
       "modifiers": null
@@ -1019,7 +1019,7 @@
     {
       "name": "We'll Make It",
       "description": "Helping others heightens your morale.\n<ul><li><b>Increases</b> your Altruistic Healing speed by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">100\u00a0%</span></b> for the next <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">30</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">60</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">90</span></b> <b>seconds</b> whenever you rescue another Survivor from a Hook</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"I am confident we can all escape in one piece if we help each other.\"</span></i></p>",
-      "imgUrl": "WellMakeIt.png",
+      "imgUrl": "We'llMakeIt.png",
       "sourceSurvivor": "Any",
       "sourceUrl": null,
       "modifiers": null
@@ -1027,7 +1027,7 @@
     {
       "name": "We're Gonna Live Forever",
       "description": "Your few friends deserve the best protection.\n<ul><li><b>Increases</b> your Healing speed by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">100\u00a0%</span></b> when healing a dying Survivor.</li></ul>\n<p>When performing any of the following actions, <i>We're Gonna Live Forever</i> gains <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">1 Token</span></b>:\n</p><ul><li>Performing a Safe Hook Rescue</li>\n<li>Taking a <i>Protection Hit</i> for an injured Survivor.</li>\n<li>Stunning or Blinding the Killer to rescue a carried Survivor</li></ul>\n<p>Consume <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">1 Token</span></b> to grant the <i><b>Endurance</b></i> <b>Status Effect</b> for <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">6</span></b>/<b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">8</span></b>/<b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">10</span></b> <b>seconds</b> to any Survivor healed from the Dying State\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Come on then, let's ave' it! I don't give a shit pal.\" \u2014 David King</span></i></p>",
-      "imgUrl": "WereGonnaLiveForever.png",
+      "imgUrl": "We'reGonnaLiveForever.png",
       "sourceSurvivor": "David King",
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/57/S10_charSelect_portrait.png/revision/latest?cb=20230725192207",
       "modifiers": null
@@ -1048,5 +1048,785 @@
       "sourceUrl": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f7/S32_charSelect_portrait.png/revision/latest?cb=20230725192508",
       "modifiers": null
     }
-  ]
+  ],
+  "items": {
+    "flashlights": [
+      {
+        "name": "Flashlight",
+        "description": "A standard Flashlight.<br/>Can be used to light your way in the darkness.\n<ul><li><b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">8 Charges</span></b>, allowing for a Battery Life of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">8 seconds</span></b>.</li>\n<li>Can be used to temporarily blind the Killer.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Most of the battery life was wastefully used by the previous owner.\"</span></i>\n</p>\n",
+        "imgUrl": "Flashlight.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Sport Flashlight",
+        "description": "A very portable Flashlight with a good grip.<br/>Its efficient technology produces a powerful light while consuming less power.\n<ul><li><b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">8 Charges</span></b>, allowing for a Battery Life of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">8 seconds</span></b>.</li>\n<li>Can be used to temporarily blind the Killer.</li>\n<li><b>Increased</b> Aim accuracy of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">+20\u00a0%</span></b>.</li>\n<li><b>Decreased</b> Battery Depletion rate of <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">-11\u00a0%</span></b>.</li></ul>\n<p><br/>\n</p>\n",
+        "imgUrl": "SportFlashlight.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Utility Flashlight",
+        "description": "A sturdy but heavy Flashlight that packs a lot of power.\n<ul><li><b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">12 Charges</span></b>, allowing for a Battery Life of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">12 seconds</span></b>.</li>\n<li>Can be used to temporarily blind the Killer.</li>\n<li><b>Increased</b> Beam brightness of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">+30\u00a0%</span></b>.</li>\n<li><b>Increased</b> Blindness duration of <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">+15\u00a0%</span></b>.</li>\n<li><b>Reduced</b> Aim accuracy of <b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">-20\u00a0%</span></b>.</li></ul>\n<p><br/>\n</p>\n",
+        "imgUrl": "UtilityFlashlight.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Will O' Wisp",
+        "description": "<b><span class=\"luaClr clr clr5\" style=\"color: #ff0955;\">NO LONGER AVAILABLE IN THE BLOODWEB.</span></b>\n<p>A Flashlight equipped with a special lens cover that adds an orange tint and a little Ghost to the beam.\n</p>\n<ul><li><b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">8 Charges</span></b>, allowing for a Battery Life of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">8 seconds</span></b>.</li>\n<li>Can be used to temporarily blind the Killer.</li>\n<li><b>More</b>friendly Ghosts in your life.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Happy Trick or Treating!\"</span></i>\n</p>\n",
+        "imgUrl": "WillO'Wisp.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Anniversary Flashlight",
+        "description": "<b><span class=\"luaClr clr clr5\" style=\"color: #ff0955;\">NO LONGER AVAILABLE IN THE BLOODWEB.</span></b>\n<p>A festive Flashlight.\n</p>\n<ul><li><b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">8 Charges</span></b>, allowing for a Battery Life of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">8 seconds</span></b>.</li>\n<li>Can be used to temporarily blind the Killer.\n<ul><li>Explodes with confetti upon blinding the Killer.<br/>Surprise!</li></ul></li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"\"Happy Anniversary! Here is to many more!\" \u2014 The Dead by Daylight Team\"</span></i>\n</p>\n",
+        "imgUrl": "AnniversaryFlashlight.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Masquerade Flashlight",
+        "description": "Not even a mask can protect you from this Flashlight's bright beam.\n<ul><li><b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">8 Charges</span></b>, allowing for a Battery Life of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">8 seconds</span></b>.</li>\n<li>Can be used to temporarily blind the Killer.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"\"Happy Anniversary! The future looks bright!\" \u2014 The Dead by Daylight Team\"</span></i>\n</p>\n",
+        "imgUrl": "MasqueradeFlashlight.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      }
+    ],
+    "keys": [
+      {
+        "name": "Broken Key",
+        "description": "The bow and shank of a key, vibrating with remnant power.<br/>The <i>Broken Key's</i> power cannot be triggered by itself.\n<p>Various objects can be attached to its jump ring, which channels the <i>Broken Key's</i> power into various effects.\n</p><p>Press the <i>Use Item button</i> to perform the <i>Mind Channel</i> Action for up to <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">10 seconds</span></b>.\n</p>\n<ul><li>Activates the <i>Broken Key's</i> Aura-reading abilities, depending on its equipped Add-ons.</li></ul>\n<p><br/>\n</p>\n",
+        "imgUrl": "BrokenKey.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Dull Key",
+        "description": "A bent and dull Key that once held great power.<br/>The <i>Dull Key's</i> power cannot be triggered by itself.\n<p>Various objects can be attached to its jump ring, which channels the <i>Dull Key's</i> power into various effects.\n</p><p>Press the <i>Use Item button</i> to perform the <i>Mind Channel</i> Action for up to <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">5 seconds</span></b>.\n</p>\n<ul><li>Activates the <i>Dull Key's</i> Aura-reading abilities, depending on its equipped Add-ons.</li></ul>\n<p>The  <i>Dull Key</i> can be consumed to open the Hatch, if it has not been depleted of its Charges.\n</p>\n",
+        "imgUrl": "DullKey.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Skeleton Key",
+        "description": "A tarnished and crooked Key, vibrating with ominous power.<br/>The <i>Skeleton Key's</i> power cannot be triggered by itself.\n<p>Various objects can be attached to its jump ring, which channels the <i>Skeleton Key's</i> power into various effects.\n</p><p>Press the <i>Use Item button</i> to perform the <i>Mind Channel</i> Action for up to <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">30 seconds</span></b>.\n</p>\n<ul><li>Activates the <i>Skeleton Key's</i>  Aura-reading abilities, depending on its equipped Add-ons.</li></ul>\n<p>The  <i>Skeleton Key</i> can be consumed to open the Hatch, if it has not been depleted of its Charges.\n</p>\n",
+        "imgUrl": "SkeletonKey.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      }
+    ],
+    "maps": [
+      {
+        "name": "Map",
+        "description": "An old piece of parchment made out of a skin-like material that is rolled and sealed with an uncoloured leather string.\n<p>Holding and channelling the <i>Map</i> unlocks great potential in your Aura-reading abilities, revealing the Aura of all tracked objects at the cost of slowly burning it.\n</p>\n<ul><li>Start the Trial with <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">1 Generator</span></b> tracked.</li></ul>\n<p>The <i>Map</i> tracks any of the following objects:\n</p>\n<ul><li>Generators within <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">8 metres</span></b>.</li>\n<li>Generators, Chest, and Totem revealed by Detective's Hunch.</li></ul>\n<p>The <i>Map</i> lasts for <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">20 seconds</span></b>.\n</p>\n",
+        "imgUrl": "Map.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Rainbow Map",
+        "description": "An piece of parchment made out of oddly fresh skin with blood on its edge that has yet to dry, and that is rolled and sealed with multiple coloured ropes and cords.\n<p>Holding and channelling the <i>Rainbow Map</i> unlocks great potential in your Aura-reading abilities, revealing the Aura of all tracked objects at the cost of slowly burning it.\n</p>\n<ul><li>Start the Trial with <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">3 random objects</span></b> tracked.</li></ul>\n<p>The <i>Rainbow Map</i> tracks any of the following objects:\n</p>\n<ul><li>Exit Gate Switches, Generators, and the Hatch when you come within <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">8 metres</span></b>.</li>\n<li>Various Killer Belongings when you come within <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">8 metres</span></b>.</li>\n<li>Generators, Chests, and Totems revealed by Detective's Hunch.</li></ul>\n<p>The <i>Rainbow Map</i> lasts for <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">20 seconds</span></b>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"It disheartens me. All this unspeakable knowledge and gruelling effort and yet nothing tangible, nothing usable to get out of this nightmare.\" \u2014 Vigo's Journal</span></i>\n</p>\n",
+        "imgUrl": "RainbowMap.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      }
+    ],
+    "med-kits": [
+      {
+        "name": "Camping Aid Kit",
+        "description": "A rudimentary First Aid Kit which can save lives in emergencies, even if it's lacking some of its supplies.<br/>Can be used to heal other Survivors:\n<ul><li><b>Increased</b> Altruistic Healing speed of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+35\u00a0%</span></b>.</li></ul>\n<p>Unlocks the Self-Heal action:\n</p>\n<ul><li><b>Reduced</b> Personal Healing speed of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-33\u00a0%</span></b>.</li>\n<li><b>Reduced</b> Item efficiency of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">-33\u00a0%</span></b>.</li></ul>\n<p>The <i>Camping Aid Kit</i> has a Capacity of <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">24 Charges</span></b>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Barely has enough material for a decent patch-up.\"</span></i>\n</p>\n",
+        "imgUrl": "CampingAidKit.png",
+        "stats": {
+          "speed": 0.35,
+          "charges": 24
+        }
+      },
+      {
+        "name": "First Aid Kit",
+        "description": "A standard First Aid Kit with all the necessary equipment for treating common to more serious injuries.<br/>Can be used to heal other Survivors:\n<ul><li><b>Increased</b> Altruistic Healing speed of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+40\u00a0%</span></b>.</li></ul>\n<p>Unlocks the Self-Heal action:\n</p>\n<ul><li><b>Reduced</b> Personal Healing speed of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-33\u00a0%</span></b>.</li>\n<li><b>Reduced</b> Item efficiency of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">-33\u00a0%</span></b>.</li></ul>\n<p>The <i>First Aid Kit</i> has a Capacity of <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">24 Charges</span></b>.\n</p>\n",
+        "imgUrl": "FirstAidKit.png",
+        "stats": {
+          "speed": 0.4,
+          "charges": 24
+        }
+      },
+      {
+        "name": "Emergency Med-Kit",
+        "description": "A sturdy and well organised Med-Kit equipped with top condition emergency supplies.<br/>Can be used to heal other Survivors:\n<ul><li><b>Increased</b> Altruistic Healing speed of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+45\u00a0%</span></b>.</li></ul>\n<p>Unlocks the Self-Heal action:\n</p>\n<ul><li><b>Reduced</b> Personal Healing speed of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-33\u00a0%</span></b>.</li>\n<li><b>Reduced</b> Item efficiency of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">-33\u00a0%</span></b>.</li></ul>\n<p>The <i>Emergency Med-Kit</i> has a Capacity of <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">24 Charges</span></b>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"There is a cure for almost everything...but not for this.\"</span></i>\n</p>\n",
+        "imgUrl": "EmergencyMed-Kit.png",
+        "stats": {
+          "speed": 0.45,
+          "charges": 24
+        }
+      },
+      {
+        "name": "Ranger Med-Kit",
+        "description": "A large metal box containing medical supplies aimed at emergency rescues in hard to reach, often isolated locations.<br/>Can be used to heal other Survivors:\n<ul><li><b>Increased</b> Altruistic Healing speed of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+50\u00a0%</span></b>.</li></ul>\n<p>Unlocks the Self-Heal action:\n</p>\n<ul><li><b>Reduced</b> Personal Healing speed of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-33\u00a0%</span></b>.</li>\n<li><b>Reduced</b> Item efficiency of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">-33\u00a0%</span></b>.</li></ul>\n<p>The <i>Ranger Med-Kit</i> has a Capacity of <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">24 Charges</span></b>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"A small engraved label can be found glued to the back panel: VK.ID-3994723.\"</span></i>\n</p>\n",
+        "imgUrl": "RangerMed-Kit.png",
+        "stats": {
+          "speed": 0.5,
+          "charges": 24
+        }
+      },
+      {
+        "name": "All Hallows' Eve Lunchbox",
+        "description": "<b><span class=\"luaClr clr clr5\" style=\"color: #ff0955;\">NO LONGER AVAILABLE IN THE BLOODWEB.</span></b>\n<p>A plastic lunchbox with phosphorescent Halloween Stickers that has been packed with First-Aid equipment.\n</p>\n<ul><li>Makes you <b>considerably more</b> visible.</li></ul>\n<p>Can be used to heal other Survivors:\n</p>\n<ul><li><b>Increased</b> Altruistic Healing speed of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+40\u00a0%</span></b>.</li></ul>\n<p>Unlocks the Self-Heal action:\n</p>\n<ul><li><b>Reduced</b> Personal Healing speed of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-33\u00a0%</span></b>.</li>\n<li><b>Reduced</b> Item efficiency of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">-33\u00a0%</span></b>.</li></ul>\n<p>The <i>All Hallows' Eve Lunchbox</i> has a Capacity of <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">24 Charges</span></b>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Safety first! Make sure you can be seen when trick or treating.\"</span></i>\n</p>\n",
+        "imgUrl": "AllHallows'EveLunchbox.png",
+        "stats": {
+          "speed": 0.4,
+          "charges": 24
+        }
+      },
+      {
+        "name": "Anniversary Med-Kit",
+        "description": "<b><span class=\"luaClr clr clr5\" style=\"color: #ff0955;\">NO LONGER AVAILABLE IN THE BLOODWEB.</span></b>\n<p>A festive Med-Kit that explodes with confetti upon fully healing a Survivor. Surprise!\n</p>\n<ul><li><b>Increased</b> confetti of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+100\u00a0%</span></b>.</li></ul>\n<p>Can be used to heal other Survivors:\n</p>\n<ul><li><b>Increased</b> Altruistic Healing speed of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+40\u00a0%</span></b>.</li></ul>\n<p>Unlocks the Self-Heal action:\n</p>\n<ul><li><b>Reduced</b> Personal Healing speed of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">-33\u00a0%</span></b>.</li>\n<li><b>Reduced</b> Item efficiency of <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">-33\u00a0%</span></b>.</li></ul>\n<p>The <i>Anniversary Med-Kit</i> has a Capacity of <b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">24 Charges</span></b>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Happy Anniversary! Here's to many more!\" \u2014 The Dead by Daylight Team</span></i>\n</p>\n",
+        "imgUrl": "AnniversaryMed-Kit.png",
+        "stats": {
+          "speed": 0.4,
+          "charges": 24
+        }
+      },
+      {
+        "name": "Masquerade Med-Kit",
+        "description": "A festive Med-Kit with a shocking surprise, giving a whole new meaning to the term \"Health Scare\".\n<ul><li><b>Increased</b> confetti of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+100\u00a0%</span></b>.</li></ul>\n<p>Can be used to heal other Survivors:\n</p>\n<ul><li><b>Increased</b> Altruistic Healing speed of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+40\u00a0%</span></b>.</li></ul>\n<p>Unlocks the Self-Heal action:\n</p>\n<ul><li><b>Reduced</b> Personal Healing speed of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">-33\u00a0%</span></b>.</li>\n<li><b>Reduced</b> Item efficiency of <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">-33\u00a0%</span></b>.</li></ul>\n<p>The <i>Masquerade Med-Kit</i> has a Capacity of <b><span class=\"luaClr clr clr3\" style=\"color: #199b1e;\">24 Charges</span></b>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Happy Anniversary! To your health!\" \u2014 The Dead by Daylight Team</span></i>\n</p>\n",
+        "imgUrl": "MasqueradeMed-Kit.png",
+        "stats": {
+          "speed": 0.4,
+          "charges": 24
+        }
+      }
+    ],
+    "toolboxes": [
+      {
+        "name": "Worn-Out Tools",
+        "description": "A metal box containing out of condition tools that could break at any moment.<br/>Even without training, can be used to repair or break various mechanical components.\n<ul><li><b>Increased</b> Generator Repair speed of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+50\u00a0%</span></b>.</li>\n<li><b>Reduced</b> Good Skill Check Success zone of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-10\u00a0%</span></b>.</li>\n<li>Unlocks the Sabotage action.</li></ul>\n<p>The <i>Worn-Out Toolbox</i> has a Capacity of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">16 Charges</span></b>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"You call these tools? ... Really?\"</span></i>\n</p>\n",
+        "imgUrl": "Worn-OutTools.png",
+        "stats": {
+          "speed": 0.5,
+          "charges": 16
+        }
+      },
+      {
+        "name": "Toolbox",
+        "description": "A metal box containing a set of basic tools.<br/>Even without training, can be used to repair or break various mechanical components.\n<ul><li><b>Increased</b> Generator Repair speed of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+50\u00a0%</span></b>.</li>\n<li>Unlocks the Sabotage action.</li>\n<li><b>Increased</b> Hook Sabotage speed of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+10\u00a0%</span></b>.</li></ul>\n<p>The <i>Toolbox</i> has a Capacity of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">20 Charges</span></b>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"It is unclear as to where these tools come from. Were they brought in by one of us or did they belong to one of the monsters?\"</span></i>\n</p>\n",
+        "imgUrl": "Toolbox.png",
+        "stats": {
+          "speed": 0.5,
+          "charges": 20
+        }
+      },
+      {
+        "name": "Mechanic's Toolbox",
+        "description": "A metal box with specialised mechanics tools.<br/>Even without training, can be used to repair or break various mechanical components.\n<ul><li><b>Increased</b> Generator Repair speed of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+75\u00a0%</span></b>.</li>\n<li>Unlocks the Sabotage action.</li>\n<li><b>Decreased</b> Hook Sabotage speed of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-10\u00a0%</span></b>.</li></ul>\n<p>The <i>Mechanic's Toolbox</i> has a Capacity of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">16 Charges</span></b>.\n</p>\n",
+        "imgUrl": "Mechanic'sToolbox.png",
+        "stats": {
+          "speed": 0.75,
+          "charges": 16
+        }
+      },
+      {
+        "name": "Commodious Toolbox",
+        "description": "A large metal box containing basic tool and extra mechanical parts.<br/>Even without training, can be used to repair or break various mechanical components.\n<ul><li><b>Increased</b> Generator Repair speed by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+50\u00a0%</span></b>.</li>\n<li>Unlocks the Sabotage action.</li></ul>\n<p>The <i>Commodious Toolbox</i> has a Capacity of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">32 Charges</span></b>.\n</p>\n",
+        "imgUrl": "CommodiousToolbox.png",
+        "stats": {
+          "speed": 0.5,
+          "charges": 32
+        }
+      },
+      {
+        "name": "Engineer's Toolbox",
+        "description": "A metal box with highly specialised tools meant for engineering.<br/>Most of the tools can be used by neophytes to make quick repairs or break various mechanical components.\n<ul><li><b>Increased</b> Generator Repair speed of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+100\u00a0%</span></b>.</li>\n<li>Unlocks the Sabotage action.</li>\n<li><b>Decreased</b> Hook Sabotage speed of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-25\u00a0%</span></b>.</li></ul>\n<p>The <i>Engineer's Toolbox</i> has a Capacity of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">16 Charges</span></b>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"I've created tools beyond compare and stood paralysed as they were stolen from me. These are but a poor replica, spat out by The Fog.\" \u2014 Vigo's Journal</span></i>\n</p>\n",
+        "imgUrl": "Engineer'sToolbox.png",
+        "stats": {
+          "speed": 1.0,
+          "charges": 16
+        }
+      },
+      {
+        "name": "Alex's Toolbox",
+        "description": "A metal box containing mainly saws and vice grips of varying sizes but also other tools.<br/>Even though the content of this Toolbox is clearly aimed at destructive deeds, it can be used to repair various mechanical components as well.\n<ul><li><b>Increased</b> Generator Repair speed of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+10\u00a0%</span></b>.</li>\n<li>Unlocks the Sabotage action.</li>\n<li><b>Increased</b> Hook Sabotage speed of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+50\u00a0%</span></b>.</li></ul>\n<p><i>Alex's Toolbox</i> has a Capacity of <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">24 Charges</span></b>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Most of the tools are identified as 'owned by Alex'.\"</span></i>\n</p>\n",
+        "imgUrl": "Alex'sToolbox.png",
+        "stats": {
+          "speed": 0.1,
+          "charges": 24
+        }
+      },
+      {
+        "name": "Anniversary Toolbox",
+        "description": "<b><span class=\"luaClr clr clr5\" style=\"color: #ff0955;\">NO LONGER AVAILABLE IN THE BLOODWEB.</span></b>\n<p>A Toolbox that is slightly explosive.\n</p>\n<ul><li><b>Increased</b> Generator Repair speed of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+50\u00a0%</span></b>.</li>\n<li>Detonates a firework once depleted.<br/>Yay!</li>\n<li>Unlocks the Sabotage action.</li></ul>\n<p>The <i>Anniversary Toolbox</i> has a Capacity of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">32 Charges</span></b>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Nothing says happy anniversary like detonating a firework and praying the Killer does not notice.<br/>Good luck and thank you for celebrating with us!\" \u2014 The Dead by Daylight Team</span></i>\n</p>\n",
+        "imgUrl": "AnniversaryToolbox.png",
+        "stats": {
+          "speed": 0.5,
+          "charges": 32
+        }
+      },
+      {
+        "name": "Festive Toolbox",
+        "description": "<b><span class=\"luaClr clr clr5\" style=\"color: #ff0955;\">NO LONGER AVAILABLE IN THE BLOODWEB.</span></b>\n<p>A Toolbox packed to the brim with fireworks, it is prepared to celebrate all your life's successes... and failures.\n</p>\n<ul><li><b>Increased</b> Generator Repair speed of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+50\u00a0%</span></b>.</li>\n<li>Succeeding a Great Skill Check detonates a small cluster of firecrackers.</li>\n<li>Missing a Skill Check detonates fireworks.</li>\n<li>Unlocks the Sabotage action.</li></ul>\n<p>The <i>Festive Toolbox</i> has a Capacity of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">32 Charges</span></b>.\n</p>\n",
+        "imgUrl": "FestiveToolbox.png",
+        "stats": {
+          "speed": 0.5,
+          "charges": 32
+        }
+      },
+      {
+        "name": "Masquerade Toolbox",
+        "description": "A Toolbox with all of the standard gadgets: wrenches, screwdrivers, fireworks, a hammer...\n<ul><li><b>Increased</b> Generator Repair speed of <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+50\u00a0%</span></b>.</li>\n<li>Detonates a firework once depleted.<br/>Yay!</li>\n<li>Unlocks the Sabotage action.</li></ul>\n<p>The <i>Masquerade Toolbox</i> has a Capacity of <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">32 Charges</span></b>.\n</p><p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Happy Anniversary! We're fixin' to have a big party!\" \u2014 The Dead by Daylight Team</span></i>\n</p>\n",
+        "imgUrl": "MasqueradeToolbox.png",
+        "stats": {
+          "speed": 0.5,
+          "charges": 32
+        }
+      }
+    ]
+  },
+  "addons": {
+    "flashlight": [
+      {
+        "name": "Broken Bulb",
+        "description": "<b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">NO LONGER AVAILABLE IN THE BLOODWEB</span></b>\n<p>A damaged bulb that causes a spooky flickering effect.\n</p>\n<ul><li>Causes the <i>Flashlight</i> to flicker.</li>\n<li><b>Increases</b> the Beam brightness of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+15\u00a0%</span></b>.</li>\n<li><b>Increases</b> the Blindness duration of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+30\u00a0%</span></b>.</li>\n<li><b>Increases</b> the spookiness.</li></ul>\n<p><i><b>Haunted by Daylight</b> Event Item.</i>\n</p>\n",
+        "imgUrl": "BrokenBulb.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Wide Lens",
+        "description": "A thin wide lens in perfect condition.<br/>Designed to spread the Flashlight beam at the cost of reducing its range of effectiveness.\n<ul><li><b>Increases</b> the Beam width of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+25\u00a0%</span></b>.</li>\n<li><b>Shortens</b> the Beam reach of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-25\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "WideLens.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Power Bulb",
+        "description": "A tiny Flashlight bulb that packs more wattage for a brighter, more powerful light beam.\n<ul><li><b>Increases</b> the Beam brightness of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+20\u00a0%</span></b>.</li>\n<li><b>Increases</b> the Blindness duration of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+10\u00a0%</span></b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Even the most powerful light cannot pierce through The Black Fog's darkness.\"</span></i>\n</p>\n",
+        "imgUrl": "PowerBulb.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Leather Grip",
+        "description": "A leather strip wrapped around the Flashlight for more grip.\n<ul><li><b>Increases</b> the Aim accuracy of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+20\u00a0%</span></b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Too many have fallen due to sweaty hands.\"</span></i>\n</p>\n",
+        "imgUrl": "LeatherGrip.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Battery",
+        "description": "A standard battery of unknown brand.\n<ul><li><b>Extends</b> the Battery life of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+2 seconds</span></b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Another nearly empty battery.\"</span></i>\n</p>\n",
+        "imgUrl": "Battery.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "TIR Optic",
+        "description": "A lens and reflector combo which can magnify a Flashlight's beam.\n<ul><li><b>Increases</b> the Beam brightness of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+30\u00a0%</span></b>.</li>\n<li><b>Increases</b> the Blindness duration of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+15\u00a0%</span></b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Let the light burn them out of their dark shroud.\"</span></i>\n</p>\n",
+        "imgUrl": "TIROptic.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Rubber Grip",
+        "description": "A rubber grip specifically fitting Flashlights for more grip.\n<ul><li><b>Increases</b> the Aim accuracy of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+40\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "RubberGrip.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Low Amp Filament",
+        "description": "A filament bulb designed to extend a Flashlight battery's life.\n<ul><li><b>Decreases</b> the Battery Depletion rate of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">-20\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "LowAmpFilament.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Heavy Duty Battery",
+        "description": "A battery marked as <i>\"industrial strength\"</i>.\n<ul><li><b>Extends</b> the Battery life of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+4 seconds</span></b>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"A battery advertised as lasting 8 hours lasts only a couple of seconds in The Black Fog.\"</span></i>\n</p>\n",
+        "imgUrl": "HeavyDutyBattery.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Focus Lens",
+        "description": "A thick glass lens that focuses the Flashlight beam to increase its intensity.\n<ul><li><b>Extends</b> the Beam reach of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+25\u00a0%</span></b>.</li>\n<li><b>Increases</b> the Beam brightness of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+20\u00a0%</span></b>.</li>\n<li><b>Increases</b> the Blindness duration of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">+10\u00a0%</span></b>.</li>\n<li><b>Decreases</b> the Beam width of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">-15\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "FocusLens.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Long Life Battery",
+        "description": "A recent model of battery that lasts longer.\n<ul><li><b>Extends</b> the Battery life of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+6 seconds</span></b>.</li></ul>\n",
+        "imgUrl": "LongLifeBattery.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Intense Halogen",
+        "description": "A chemical bulb that generates an intensely clear light.\n<ul><li><b>Increases</b> the Beam brightness of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+40\u00a0%</span></b>.</li>\n<li><b>Increases</b> the Blindness duration of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+20\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "IntenseHalogen.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "High-End Sapphire Lens",
+        "description": "A wide lens made of un-scratch-able sapphire that optimises the power and range of the light beam.\n<ul><li><b>Extends</b> the Beam reach of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+25\u00a0%</span></b>.</li>\n<li><b>Increases</b> the Beam brightness of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+30\u00a0%</span></b>.</li>\n<li><b>Increases</b> the Blindness duration of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">+15\u00a0%</span></b>.</li>\n<li><b>Decreases</b> the Beam width of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr4\" style=\"color: #ac3ee3;\">+25\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "High-EndSapphireLens.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Odd Bulb",
+        "description": "A heavy and completely opaque bulb of unknown origin which emits a faint light even when turned off.\n<ul><li><b>Increases</b> the Beam brightness of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+50\u00a0%</span></b>.</li>\n<li><b>Increases</b> the Blindness duration of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+25\u00a0%</span></b>.</li>\n<li><b>Increases</b> the Battery Depletion rate of the <i>Flashlight</i> by <b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">+14\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "OddBulb.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      }
+    ],
+    "key": [
+      {
+        "name": "Prayer Rope",
+        "description": "Tightly knitted rope used in praying rituals.\n<ul><li><b>Adds <span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">10 seconds</span></b> of use to the <i>Key</i>.</li></ul>\n<p><i><span class=\"luaClr clr clr9\" style=\"color: #e7cda2;\">\"Pray all you want, your words are getting lost somewhere up there, in The Fog.\"</span></i>\n</p>\n",
+        "imgUrl": "PrayerRope.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Scratched Pearl",
+        "description": "A porous and scratched white pearl.<br/>A minuscule jump ring allows the pearl to be attached to the Key.\n<ul><li><b>Increases</b> the <i>Key's</i> Aura-reading range by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+12 metres</span></b>.</li></ul>\n",
+        "imgUrl": "ScratchedPearl.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Prayer Beads",
+        "description": "A chain of matte beads of various sizes used in praying ritual.\n<ul><li><b>Adds <span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">15 seconds</span></b> of use to the <i>Key</i>.</li></ul>\n",
+        "imgUrl": "PrayerBeads.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Eroded Token",
+        "description": "A heavily worn out token made of brass.<br/>If an inscription or drawing was once engraved in it, it has today completely disappeared.<br/>Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\n<ul><li>Unlocks the ability to reveal the Auras of other Survivors within <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">24 metres</span></b>.</li></ul>\n<p>Does not stack with <i>Gold Token</i>.\n</p>\n",
+        "imgUrl": "ErodedToken.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Gold Token",
+        "description": "A gold token with a dull appearance.<br/>Both faces are smooth and void of any inscriptions.<br/>Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\n<ul><li>Unlocks the ability to reveal the Auras of other Survivors within <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">48 metres</span></b>.</li></ul>\n<p>Does not stack with <i>Eroded Token</i>.\n</p>\n",
+        "imgUrl": "GoldToken.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Weaved Ring",
+        "description": "A mundane key ring in appearance with an unusual bluish dark sheen.<br/>The ring binds the Key to the user, preventing its loss even in the darkest of times.\n<ul><li>In case of death, lose this Add-on instead of the <i>Key</i> itself.</li></ul>\n",
+        "imgUrl": "WeavedRing.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Milky Glass",
+        "description": "This opaque piece of glass emits a dull vibrating noise.<br/>When the Key is used to unlock the Hatch, the glass token protects the Key from breaking, channelling The Black Fog's energy into the glass instead.\n<ul><li>Opening the Hatch with a <i>Key</i> loses this Add-on instead of the <i>Key</i> itself.</li></ul>\n",
+        "imgUrl": "MilkyGlass.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Blood Amber",
+        "description": "A blood-red amber striped with black veins.<br/>The amber is warm to the touch.<br/>Can be attached to the Key using its jump ring to channel the Key's Aura-reading ability.\n<ul><li>Unlocks the ability to reveal the Aura of the Killer within <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">32 metres</span></b>.</li>\n<li><b>Increases</b> the <i>Key's</i> Depletion rate by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+100\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "BloodAmber.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Unique Wedding Ring",
+        "description": "An engraved wedding ring that emerged from The Fog and resonates with an indescribable and incomprehensible energy.\n<ul><li>Reveals the Aura of the <i><b>Obsession</b></i> at all times, without the need to channel the <i>Key's</i> energy.</li></ul>\n<p>Lowers the odds of becoming the Killer's initial <i><b>Obsession</b></i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">-100\u00a0%</span></b>.\n</p>\n",
+        "imgUrl": "UniqueWeddingRing.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      }
+    ],
+    "map": [
+      {
+        "name": "Map Addendum",
+        "description": "A fragmented piece of a thick fibrous material.<br/>A partial and faded map is drawn on it which by itself is useless.\n<ul><li><b>Adds <span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">5 seconds</span></b> of use to the <i>Map</i>.</li></ul>\n",
+        "imgUrl": "MapAddendum.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Yellow Wire",
+        "description": "A small electrical wire.<br/>Both ends are heavily damaged like it has been forcefully torn out of its intended location.<br/>Can be tied around the Map to enhance its Aura-reading ability.\n<ul><li>Unlocks the ability to track the Exit Gate Switches.</li></ul>\n",
+        "imgUrl": "YellowWire.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Unusual Stamp",
+        "description": "A wooden stamp with a cross-hatched rubber pad used to mark documents.<br/>It is unclear as to how or by whom this stamp was originally used.\n<ul><li><b>Increases</b> the <i>Map's</i> Tracking range by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+8 metres</span></b>.</li></ul>\n",
+        "imgUrl": "UnusualStamp.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Retardant Jelly",
+        "description": "A slimy, translucent substance with a ghastly lavender shade.<br/>This jelly from unknown origin is highly resistant to heat.\n<ul><li><b>Decreases</b> the <i>Map's</i> Depletion rate by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">-20\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "RetardantJelly.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Red Twine",
+        "description": "A bristly and rough piece of twine of a deep red colour.<br/>Can be tied around the Map to enhance its Aura-reading ability.\n<ul><li>Unlocks the ability to track <b>Killer Belongings</b>.</li></ul>\n",
+        "imgUrl": "RedTwine.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Glass Bead",
+        "description": "A strange bead circled with gold that can be used to magnify the map and mark a specific position.<br/>The bead emits an energy which can be felt and seen by Survivors.\n<p>Press the <i>Secondary Action button</i> while using the <i>Map</i> to use the <i>Glass Bead</i>:\n</p>\n<ul><li>Place a <b>Pillar of Light</b> at your current location that can be seen by all Survivors.</li></ul>\n",
+        "imgUrl": "GlassBead.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Odd Stamp",
+        "description": "A stamp carved out of sturdy blonde wood.<br/>The text found at the base is incomprehensible: <i>\"kw'zvre'od\"</i>.\n<ul><li><b>Increases</b> the <i>Map's</i> Tracking range by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+12 metres</span></b>.</li></ul>\n",
+        "imgUrl": "OddStamp.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Black Silk Cord",
+        "description": "A smooth black cord with a soft appearance.<br/>Can be tied around the Map to enhance its Aura-reading ability.\n<ul><li>Unlocks the ability to track the Hatch.</li></ul>\n",
+        "imgUrl": "BlackSilkCord.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Crystal Bead",
+        "description": "An intricate set of lenses wrapped up in an astonishingly complex apparatus.<br/>The gears controlling the lenses' focus move by themselves as to focus on something invisible to humans.\n<ul><li>Reveals the Auras generated by the <i>Map</i> to all Survivors.</li></ul>\n",
+        "imgUrl": "CrystalBead.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      }
+    ],
+    "med-kit": [
+      {
+        "name": "Refined Serum",
+        "description": "<b><span class=\"luaClr clr clr8\" style=\"color: #d41c1c;\">NO LONGER AVAILABLE IN THE BLOODWEB</span></b>\n<p>A refined version of the Putrid Serum that is mostly safe for human consumption.<br/>Mostly.\n</p><p>Press the <i>Secondary Action button</i> while healing yourself or another Survivor with a <i>Med-Kit</i> to use the <i>Refined Serum</i>:\n</p>\n<ul><li><b>Increases</b> the Movement speed of the affected Survivor by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+5\u00a0%</span></b> for the next <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">16 seconds</span></b>.</li>\n<li>Creates a Blight trail behind the affected Survivor.</li></ul>\n<p><i>Refined Serum</i> consumes the <i>Med-Kit</i> on use.\n</p><p><i><b>Haunted by Daylight</b> Event Item.</i>\n</p>\n",
+        "imgUrl": "RefinedSerum.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Rubber Gloves",
+        "description": "Disposable medical gloves to avoid cross-contamination.\n<ul><li><b>Increases</b> the Great Success zone of <i>Healing Skill Checks</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+10\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "RubberGloves.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Butterfly Tape",
+        "description": "Medical quality tape used to close small wounds.\n<ul><li><b>Increases</b> the Healing speed of <i>Med-Kits</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+5\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "ButterflyTape.png",
+        "stats": {
+          "speed": 0.05,
+          "charges": null
+        }
+      },
+      {
+        "name": "Bandages",
+        "description": "A pack of bandages usually found in First Aid Kits.\n<ul><li><b>Increases</b> the Charges of <i>Med-Kits</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+8 Charges</span></b>.</li></ul>\n",
+        "imgUrl": "Bandages.png",
+        "stats": {
+          "speed": null,
+          "charges": 8
+        }
+      },
+      {
+        "name": "Sponge",
+        "description": "A mundane sponge used to soak up extra blood, providing easier access to wounds.\n<ul><li><b>Increases</b> the Great Success zone of <i>Healing Skill Checks</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+20\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "Sponge.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Self Adherent Wrap",
+        "description": "A pack of bandages that stick to themselves without the need of clips for a faster patch-up that requires less readjustments.\n<ul><li><b>Increases</b> the Healing speed of <i>Med-Kits</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+5\u00a0%</span></b>.</li>\n<li><b>Increases</b> the Charges of <i>Med-Kits</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+8 Charges</span></b>.</li></ul>\n",
+        "imgUrl": "SelfAdherentWrap.png",
+        "stats": {
+          "speed": 0.05,
+          "charges": 8
+        }
+      },
+      {
+        "name": "Needle & Thread",
+        "description": "Not exactly a medical device.<br/>However, it can be used to quickly and painfully close up a wound.\n<ul><li><b>Increases</b> the Odds of triggering <i>Healing Skill Checks</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+10\u00a0%</span></b>.</li>\n<li><b>Increases</b> the Progression bonus for succeeding at <i>Great Healing Skill Checks</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+5\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "Needle&Thread.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Medical Scissors",
+        "description": "Scissors designed to easily cut through textiles.\n<ul><li><b>Increases</b> the Healing speed of <i>Med-Kits</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+10\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "MedicalScissors.png",
+        "stats": {
+          "speed": 0.1,
+          "charges": null
+        }
+      },
+      {
+        "name": "Surgical Suture",
+        "description": "A medical device used to close and hold body tissue.<br/>Even though it is very effective, the surgical suture is challenging to use.\n<ul><li><b>Increases</b> the Odds of triggering <i>Healing Skill Checks</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+15\u00a0%</span></b>.</li>\n<li><b>Increases</b> the Progression bonus for succeeding at <i>Great Healing Skill Checks</i> by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">+10\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "SurgicalSuture.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Gauze Roll",
+        "description": "A sterile gauze used for a variety of wounds.<br/>Part of a total wound care system.\n<ul><li><b>Increases</b> the Charges of <i>Med-Kits</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+10 Charges</span></b>.</li></ul>\n",
+        "imgUrl": "GauzeRoll.png",
+        "stats": {
+          "speed": null,
+          "charges": 10
+        }
+      },
+      {
+        "name": "Styptic Agent",
+        "description": "A white powder with coagulant properties.<br/>Apply the agent to a wound to stop it from haemorrhaging.\n<p>Press the <i>Secondary Action button</i> while healing yourself or another Survivor with a <i>Med-Kit</i> to use the <i>Styptic Agent</i>:\n</p>\n<ul><li>Grants the <i><b>Endurance</b></i> <b>Status Effect</b> for <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">5 seconds</span></b>.</li></ul>\n<p><i>Styptic Agent</i> consumes the <i>Med-Kit</i> on use.\n</p>\n",
+        "imgUrl": "StypticAgent.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Abdominal Dressing",
+        "description": "A highly absorbent pad that prevents bodily fluid leakage when applied to large abdominal wounds.\n<ul><li><b>Increases</b> the Healing speed of <i>Med-Kits</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+15\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "AbdominalDressing.png",
+        "stats": {
+          "speed": 0.15,
+          "charges": null
+        }
+      },
+      {
+        "name": "Gel Dressings",
+        "description": "A pack of gel forming pads used to patch up heavily exuding wounds.\n<ul><li><b>Increases</b> the Charges of <i>Med-Kits</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+16 Charges</span></b>.</li></ul>\n",
+        "imgUrl": "GelDressings.png",
+        "stats": {
+          "speed": null,
+          "charges": 16
+        }
+      },
+      {
+        "name": "Anti-Haemorrhagic Syringe",
+        "description": "An anti-haemorrhagic substance that stops the bleeding in a matter of seconds.\n<p>Press the <i>Secondary Action button</i> while healing yourself or another Survivor with a <i>Med-Kit</i> to use the <i>Anti-Haemorrhagic Syringe</i>:\n</p>\n<ul><li>Automatically heals the affected Survivor <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">1</span> Health State</b> over the next <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">16 seconds</span></b>.\n<ul><li>Healing Speed modifiers affect the Healing time.</li>\n<li>Taking damage or being picked up by the Killer cancels the Healing effect.</li></ul></li></ul>\n<p><i>Anti-Haemorrhagic Syringe</i> consumes the <i>Med-Kit</i> on use.\n</p>\n",
+        "imgUrl": "Anti-HaemorrhagicSyringe.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      }
+    ],
+    "toolbox": [
+      {
+        "name": "Scraps",
+        "description": "Springs, screws and gears.<br/>Mostly unusable junk.\n<ul><li><b>Increases</b> the Capacity of the <i>Toolbox</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+8 charges</span></b>.</li></ul>\n",
+        "imgUrl": "Scraps.png",
+        "stats": {
+          "speed": null,
+          "charges": 8
+        }
+      },
+      {
+        "name": "Instructions",
+        "description": "Someone quickly painted what seems to be repair instructions on this piece of bark.\n<ul><li><b>Suppresses</b> all normal Skill Checks that are usually triggered while repairing a Generator.</li></ul>\n",
+        "imgUrl": "Instructions.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Clean Rag",
+        "description": "A mundane rag.<br/>Suspiciously clean.\n<ul><li><b>Increases</b> the Repair speed of the <i>Toolbox</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+20\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "CleanRag.png",
+        "stats": {
+          "speed": 0.2,
+          "charges": null
+        }
+      },
+      {
+        "name": "Wire Spool",
+        "description": "A portable but heavy spool of copper wire.\n<ul><li><b>Increases</b> the Capacity of the <i>Toolbox</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+12 charges</span></b>.</li></ul>\n",
+        "imgUrl": "WireSpool.png",
+        "stats": {
+          "speed": null,
+          "charges": 12
+        }
+      },
+      {
+        "name": "Spring Clamp",
+        "description": "Useful tool to clamp hoses or hold wires in place and prevent damage or injury.\n<ul><li><b>Reduces</b> the range at which your Generator-Repair noises can be heard by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">-8 metres</span></b>.</li></ul>\n",
+        "imgUrl": "SpringClamp.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Socket Swivels",
+        "description": "Swivels provide bend and flexibility for bolts that are out of reach, deep within mechanical devices.\n<ul><li><b>Increases</b> the Repair speed of the <i>Toolbox</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+30\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "SocketSwivels.png",
+        "stats": {
+          "speed": 0.3,
+          "charges": null
+        }
+      },
+      {
+        "name": "Protective Gloves",
+        "description": "Thick gloves, which reduce manual dexterity but protect hands from injury.\n<ul><li><b>Suppresses</b> the <i>Loud Noise Notification</i> to the Killer that is usually triggered after sabotaging a Hook .</li></ul>\n",
+        "imgUrl": "ProtectiveGloves.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Cutting Wire",
+        "description": "A rudimentary cutting tool made from a jagged metal wire and two wooden handles.\n<ul><li><b>Increases</b> the Sabotage speed of the <i>Toolbox</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+15\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "CuttingWire.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Hacksaw",
+        "description": "A small hand saw mounted with a metal cutting blade.\n<ul><li><b>Increases</b> the Sabotage speed of the <i>Toolbox</i> by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+20\u00a0%</span></b>.</li></ul>\n",
+        "imgUrl": "Hacksaw.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Grip Wrench",
+        "description": "An adjustable wrench with a tough grip.<br/>Essential in any Toolbox.\n<ul><li><b>Increases</b> the Auto-Repair timer for sabotaged Hooks by <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">+15 seconds</span></b>.</li></ul>\n",
+        "imgUrl": "GripWrench.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      },
+      {
+        "name": "Brand New Part",
+        "description": "This intricate mechanical part feels oddly out of place.<br/>It is clean and shiny as if straight out of the factory.\n<p>Replaces the <i>Toolbox Repair</i> prompt with an <i>Install Brand New Part</i> prompt instead:\n</p>\n<ul><li>Installing the <i>Brand New Part</i> triggers <b><span class=\"luaClr clr clr2\" style=\"color: #e8c252;\">1</span> difficult Skill Check</b>.</li>\n<li><b>Reduces</b> that Generator's Repair requirement permanently by <b><span class=\"luaClr clr clr6\" style=\"color: #ff8800;\">-10 Charges</span></b> after succeeding the Skill Check.</li></ul>\n<p><i>Brand New Part</i> is consumed on use.\n</p>\n",
+        "imgUrl": "BrandNewPart.png",
+        "stats": {
+          "speed": null,
+          "charges": null
+        }
+      }
+    ]
+  }
 }
