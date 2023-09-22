@@ -51,7 +51,7 @@ export const dbdDataSlice = createSlice({
   reducers: {},
   extraReducers(builder) {
     builder
-      .addCase(fetchDBDData.pending, (state, action) => {
+      .addCase(fetchDBDData.pending, (state) => {
         state.status = "loading";
       })
       .addCase(fetchDBDData.fulfilled, (state, action) => {
@@ -144,7 +144,7 @@ export const dbdDataSlice = createSlice({
         state.allPerks = cleanPerks;
         state.allItems = cleanItems;
       })
-      .addCase(fetchDBDData.rejected, (state, action) => {
+      .addCase(fetchDBDData.rejected, (state) => {
         state.status = "failed";
         state.error = "Something happened";
       });

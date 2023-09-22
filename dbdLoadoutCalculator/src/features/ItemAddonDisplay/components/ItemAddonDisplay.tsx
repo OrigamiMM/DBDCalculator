@@ -2,9 +2,8 @@ import { useAppSelector } from "../../../app/hooks";
 import { DisplayCardSection } from "../../../components/UI/DisplayCard";
 import { ItemDisplay } from "./ItemDisplay";
 import { AddonDisplay } from "./AddonDisplay";
-type Props = {};
 
-export const ItemAddonDisplay = (props: Props) => {
+export const ItemAddonDisplay = () => {
   const currentInv = useAppSelector((state) => state.loadout.currentActive);
   const currentIndex = useAppSelector((state) => state.loadout.currentIndex);
 
