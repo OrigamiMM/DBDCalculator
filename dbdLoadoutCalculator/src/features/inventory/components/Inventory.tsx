@@ -35,7 +35,7 @@ export const Inventory = ({ current }: Props) => {
         <div className="col-span-full flex justify-between flex-wrap">
           <section className="">
             <h3 className="text-gray-200 font-bold text-lg">INVENTORY</h3>
-            <h4 className="text-gray-400 font-bold leading-3">PERKS</h4>
+            <h4 className="text-gray-400 font-bold leading-3 uppercase">{`${current}s`}</h4>
           </section>
           <form onSubmit={(e) => e.preventDefault()}>
             <label htmlFor="searchQuery">Search </label>
