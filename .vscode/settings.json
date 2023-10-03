@@ -1,0 +1,17 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none",
+    "explorer.decorations.colors": true,
+    "explorer.excludeGitIgnore": false,
+    "explorer.expandSingleFolderWorkspaces": true,
+    "explorer.fileNesting.enabled": false,
+    "explorer.fileNesting.expand": true,
+    "outline.problems.badges": true,
+    "outline.icons": true,
+    "outline.problems.colors": true,
+    "outline.problems.enabled": true,
+    "outline.showArrays": true,
+    "outline.showVariables": true
+}

@@ -1,0 +1,221 @@
+Adrenaline
+self
+toggle
+any
+run, 150%
+------
+Balanced Landing
+self
+toggle
+any
+run; 150%
+------
+Better than New
+other
+toggle
+any
+self-heal, unlock, cleanse, bless; 16%
+------
+Blood Pact
+all
+toggle
+any
+haste; 7%
+------
+Boon: Circle of Healing
+all
+toggle
+any
+altruistic-heal; 100%
+------
+Boon: Dark Theory 
+all
+toggle
+any
+haste; 2%
+-----
+Boon: Exponential
+all
+toggle
+any
+recovery; 100%
+-----
+Boon: Shadow Step
+all
+toggle
+any
+none; 0%
+-----
+Botany Knowledge
+self
+none
+any
+altruistic-heal, self-heal; 50%
+-----
+Counterforce
+self
+none
+any
+cleanse; 20%
+-----
+Desperate Measures
+self
+stack 4
+any
+altruistic-heal, self-heal, unhook; 14%
+-----
+Dramaturgy
+self
+toggle
+any
+haste; 25%
+-----
+Déjà Vu
+self
+toggle
+any
+repair; 6%
+-----
+Empathic Connection
+self
+none
+any
+altruistic-heal; 10%
+-----
+Fast Track
+self
+token 27
+any
+progression: 1%
+-----
+For the People
+other
+toggle
+healthy
+altruistic-heal; instant
+-----
+Friendly Competition
+all
+toggle
+any 
+repair; 5%
+-----
+Guardian
+other
+toggle
+any
+haste; 7%
+-----
+Hope
+self
+toggle
+any
+haste; 7%
+-----
+Hyperfocus
+self
+token 6 x
+any
+progression-bonus; 30%
+-----
+Leader
+other
+none
+any
+self-heal, altruistic-heal, unhook, cleanse, open, unlock; 25%
+-----
+Lithe
+self
+toggle
+any
+run; 150%
+-----
+Made For This
+self
+toggle
+any
+haste; 3%
+-----
+No Mither
+self
+none
+any
+recovery; 25%
+-----
+Object of Obsession
+self
+toggle
+any
+repair, self-heal, altruistic-heal, cleanse; 6%
+-----
+Overzealous
+self
+toggle 2
+repair; 10%
+repair; 20%
+-----
+Potential Energy
+self
+token 20
+any
+repair-progression; 1%
+-----
+Prove Thyself
+all
+stack 3
+any
+base-repair; 30%
+-----
+Quick Gambit
+other
+toggle
+any
+repair; 8%
+-----
+Reactive Healing
+self
+toggle
+any
+self-heal-progression; 50%
+-----
+Resilience
+self
+none
+injured
+repair, self-heal, altruistic-heal, sabotage, unhook, vault, cleanse, bless, open, unlock; 9%
+-----
+Resurgence
+self
+toggle
+any
+self-heal-progression; 50%
+-----
+Smash Hit
+self
+toggle
+any
+run; 150%
+-----
+Spine Chill
+self
+toggle
+any
+repair, self-heal, altruistic-heal, sabotage, unhook, cleanse, bless, open, unlock; 6%
+-----
+Sprint Burst
+self
+toggle
+any
+run; 150%
+-----
+Teamwork: Power of Teamwork
+all
+toggle
+any
+haste; 5%
+-----
+We'll Make instant
+self
+toggle
+any
+altruistic-heal; 100%

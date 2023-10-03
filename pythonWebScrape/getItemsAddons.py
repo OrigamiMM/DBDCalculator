@@ -40,14 +40,20 @@ for itemIndex, itemTable in enumerate(tables[2:7]):
         stats = None
         speed=None
         charges = None
-        description = cols[2].get_text()
+        descriptionText = cols[2].text
+        descriptionHTML = cols[2]
+        for span in descriptionHTML.find_all('span', {'class': 'iconLink'}):
+            span.decompose()
+        for a in descriptionHTML.find_all('a'):
+            a.unwrap()
+        description = descriptionHTML.encode_contents().decode('utf-8')
 
         speedPattern = re.compile(r'speed of (\S+)')
         capacityPattern = re.compile(r'Capacity of (\S+)')
 
         if item == "med-kits" or item == "toolboxes":
-            speedMatch = speedPattern.search(description)
-            capMatch = capacityPattern.search(description)
+            speedMatch = speedPattern.search(descriptionText)
+            capMatch = capacityPattern.search(descriptionText)
             if speedMatch:
                speed = speedMatch.group(1).strip()
                #speed = int(speed[1:])*.01
@@ -87,27 +93,33 @@ for addonIndex, addonTable in enumerate(tables[3:8]):
         name = cols[1].find('a').text
        
         stats = None
-        description = cols[2].get_text()
+        descriptionText = cols[2].text
+        descriptionHTML = cols[2]
+        for span in descriptionHTML.find_all('span', {'class': 'iconLink'}):
+            span.decompose()
+        for a in descriptionHTML.find_all('a'):
+            a.unwrap()
+        description = descriptionHTML.encode_contents().decode('utf-8')
         speed=None
         charges = None
         if addon == "med-kit":
             pattern = re.compile(r'Healing speed of Med-Kits by (\S+)')
-            match = pattern.search(description)
+            match = pattern.search(descriptionText)
             if match:
                 speed = match.group(1).strip()
                 speed = int(speed)*.01
             pattern2 = re.compile(r'Charges of Med-Kits by (\S+)')
-            match2 = pattern2.search(description)
+            match2 = pattern2.search(descriptionText)
             if match2:
                 charges = int(match2.group(1).strip())
         elif addon == "toolbox":
             pattern = re.compile(r'Repair speed of the Toolbox by (\S+)')
-            match = pattern.search(description)
+            match = pattern.search(descriptionText)
             if match:
                 speed = match.group(1).strip()
                 speed = int(speed)*.01
             pattern2 = re.compile(r'Capacity of the Toolbox by (\S+)')
-            match2 = pattern2.search(description.strip())
+            match2 = pattern2.search(descriptionText.strip())
             if match2:
                 charges = int(match2.group(1).strip())
         stats = {

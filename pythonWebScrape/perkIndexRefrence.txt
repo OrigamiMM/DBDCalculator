@@ -1,0 +1,131 @@
+0 Ace in the Hole
+1 Adrenaline
+2 Aftercare
+3 Alert
+4 Any Means Necessary
+5 Appraisal
+6 Autodidact
+7 Background Player
+8 Balanced Landing
+9 Better than New
+10 Bite the Bullet
+11 Blast Mine
+12 Blood Pact
+13 Blood Rush
+14 Boil Over
+15 Bond
+16 Boon: Circle of Healing
+17 Boon: Dark Theory
+18 Boon: Exponential
+19 Boon: Shadow Step
+20 Borrowed Time
+21 Botany Knowledge
+22 Breakdown
+23 Breakout
+24 Buckle Up
+25 Built to Last
+26 Calm Spirit
+27 Chemical Trap
+28 Clairvoyance
+29 Corrective Action
+30 Counterforce
+31 Cut Loose
+32 Dance With Me
+33 Dark Sense
+34 Dead Hard
+35 Deception
+36 Decisive Strike
+37 Deliverance
+38 Desperate Measures
+39 Detective's Hunch
+40 Distortion
+41 Diversion
+42 Dramaturgy
+43 Deja Vu
+44 Empathic Connection
+45 Empathy
+46 Fast Track
+47 Flashbang
+48 Flip-Flop
+49 Fogwise
+50 For the People
+51 Friendly Competition
+52 Guardian
+53 Head On
+54 Hope
+55 Hyperfocus
+56 Inner Focus
+57 Inner Healing
+58 Iron Will
+59 Kindred
+60 Kinship
+61 Leader
+62 Left Behind
+63 Light-Footed
+64 Lightweight
+65 Lithe
+66 Low Profile
+67 Lucky Break
+68 Lucky Star
+69 Made for This
+70 Mettle of Man
+71 No Mither
+72 No One Left Behind
+73 Object of Obsession
+74 Off the Record
+75 Open-Handed
+76 Overcome
+77 Overzealous
+78 Parental Guidance
+79 Pharmacy
+80 Plot Twist
+81 Plunderer's Instinct
+82 Poised
+83 Potential Energy
+84 Power Struggle
+85 Premonition
+86 Prove Thyself
+87 Quick & Quiet
+88 Quick Gambit
+89 Reactive Healing
+90 Reassurance
+91 Red Herring
+92 Renewal
+93 Repressed Alliance
+94 Residual Manifest
+95 Resilience
+96 Resurgence
+97 Rookie Spirit
+98 Saboteur
+99 Scavenger
+100 Scene Partner
+101 Self-Aware
+102 Self-Care
+103 Self-Preservation
+104 Situational Awareness
+105 Slippery Meat
+106 Small Game
+107 Smash Hit
+108 Sole Survivor
+109 Solidarity
+110 Soul Guard
+111 Spine Chill
+112 Sprint Burst
+113 Stake Out
+114 Streetwise
+115 Teamwork: Collective Stealth
+116 Teamwork: Power of Two
+117 Technician
+118 Tenacity
+119 This Is Not Happening
+120 Troubleshooter
+121 Unbreakable
+122 Up the Ante
+123 Urban Evasion
+124 Vigil
+125 Visionary
+126 Wake Up!
+127 We'll Make It
+128 We're Gonna Live Forever
+129 Windows of Opportunity
+130 Wiretap
