@@ -10,7 +10,7 @@ export const TogglePopover = ({ perk, changeValue, value }: Props) => {
   let val = 0.06;
   if (perk === "Resilience") val = 0.09;
   else if (perk === "Friendly Competition") val = 0.05;
-
+  else if (perk === 'Sole Survivor') val = 0.75
   const switchHandler = (e: boolean) => {
     if (e) {
       changeValue(val);
@@ -18,11 +18,15 @@ export const TogglePopover = ({ perk, changeValue, value }: Props) => {
       changeValue(0);
     }
   };
+
+  let displayText = `Toggle Perk for ${val * 100}% Boost`;
+  if (perk === 'Sole Survivor') displayText = 'Toggle to be last survivor for 75% Boost'
+
   return (
     <form className="mt-4">
       <div className="flex items-center gap-6">
         <label className="" htmlFor="toggle-perk">
-          {`Toggle Perk for ${val * 100}% Boost`}
+          {displayText}
         </label>
         <Switch.Root
           checked={value !== 0}
