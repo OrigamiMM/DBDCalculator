@@ -15,6 +15,7 @@ const togglePerks = [
   "Object of Obsession",
   "Resilience",
   "Spine Chill",
+  'Sole Survivor'
 ];
 
 const tokenPerks = ["Fast Track", "Potential Energy"];

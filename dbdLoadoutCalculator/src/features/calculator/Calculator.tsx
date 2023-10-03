@@ -20,7 +20,12 @@ export const Calculator = () => {
   const activeModifiers = useAppSelector(
     (state) => getLoadoutState(state).perkModifiers
   );
-  const hasProve = useAppSelector(state => getLoadoutState(state).selectedPerks).includes('Prove Thyself')
+
+  const selectedPerks = useAppSelector(
+    (state) => getLoadoutState(state).selectedPerks
+  )
+  const hasProve = selectedPerks.includes("Prove Thyself");
+  const hasStreet = selectedPerks.includes("Streetwise")
 
   const addons = [
     useAppSelector((state) =>
@@ -31,13 +36,19 @@ export const Calculator = () => {
     ),
   ];
 
+  const soleActive =
+    activeModifiers.findIndex(
+      (m) => m?.value == 0.75 && m.type[0] == "repair"
+    ) > -1;
+
   let objectiveDisplay;
   if (objectiveTask === "generator") {
     const perkInstance = {
       fastTrackBonus: 0,
       repairBonusSpeed: 0,
       genBonus: 0,
-      hasProve
+      hasProve,
+      soleActive,
     };
     activeModifiers.forEach((m) => {
       if (m?.type.includes("repair")) {
@@ -61,6 +72,7 @@ export const Calculator = () => {
         (addons[0]?.stats?.speed || 0) +
         (addons[1]?.stats?.speed || 0);
     }
+    if(hasStreet) itemStats.charges *= 1.25
     objectiveDisplay = (
       <GeneratorTime perkStats={perkInstance} toolBoxStats={itemStats} />
     );

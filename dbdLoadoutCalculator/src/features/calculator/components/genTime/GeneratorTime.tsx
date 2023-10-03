@@ -9,6 +9,7 @@ type Props = {
     fastTrackBonus: number;
     genBonus: number;
     hasProve: boolean;
+    soleActive: boolean;
   };
   toolBoxStats: { charges: number; speed: number; hasBNP: boolean };
 };
@@ -18,7 +19,11 @@ export const GeneratorTime = ({ perkStats, toolBoxStats }: Props) => {
   const [numTeammates, setTeammates] = useState(0);
   const soloTime = calcGenTime(perkStats, toolBoxStats, numGreatSkill);
   const teamTime = calcTeamGenTime(perkStats, toolBoxStats, numTeammates);
-  
+
+  if (perkStats.soleActive && numTeammates !== 0) {
+    setTeammates(0);
+  }
+
   return (
     <div>
       <hr className="m-auto h-1 bg-dark border-0 mt-3 mb-3" />
@@ -37,15 +42,20 @@ export const GeneratorTime = ({ perkStats, toolBoxStats }: Props) => {
       </section>
       <hr className="m-auto h-1 bg-dark border-0 mt-3 mb-3" />
       <section>
-        <div>
-          <h3 className="text-center font-bold text-2xl mb-3">
-            Base Kit Surviors
-          </h3>
+        <div className="text-center">
+          {perkStats.soleActive && (
+            <p className="font-semibold text-red-500">Sole Survivor Active</p>
+          )}
+          <h3 className="font-bold text-2xl mb-3">Base Kit Surviors</h3>
           <TimeDisplay max={90} calculated={teamTime} />
         </div>
-        <div>
+        <div
+          className={
+            perkStats.soleActive ? "opacity-50 pointer-events-none" : ""
+          }
+        >
           <NumberInput
-          title="Other Survivors"
+            title="Other Survivors"
             min={0}
             max={3}
             val={numTeammates}

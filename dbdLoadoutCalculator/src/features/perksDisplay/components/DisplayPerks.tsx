@@ -30,6 +30,7 @@ const descriptionPositions = [
 ];
 
 const popoverPerks = [
+  'Sole Survivor',
   "Deja Vu",
   "Friendly Competition",
   "Object of Obsession",
@@ -84,7 +85,7 @@ export const DisplayPerks = ({ current }: Props) => {
               {popoverPerks.includes(perkName) && (
                 <PerkPopover index={i} perk={perkName} />
               )}
-              {perkName === "Prove Thyself" && (
+              {(perkName === "Prove Thyself" || perkName === "Streetwise") && (
                 <div className="z-10 absolute mr-12 mt-14 md:ml-14 md:mr-0 bg-[#6e2493] text-xs text-white w-9 h-9 drop-shadow-md border-dark outline-1  border-4 rounded-full font-bold hover:scale-110 transition-all duration-150 ease-in-out">
                   <p className="text-2xl text-center">✓</p>
                 </div>

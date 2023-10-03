@@ -5,13 +5,15 @@ type Props = {
   onConfirm: () => void;
 };
 
+const version = "v0.1.1";
+
 export const ModalManager = ({ type, onConfirm }: Props) => {
   if (type === "help") {
     return (
       <ButtonModal onButtonClick={onConfirm} modalTitle="Help">
         <h3 className="text-2xl font-semibold">
           Welcome to DBD Loadout Calculator!
-          <span className="text-sm text-gray-300 mt-4"> v0.1.0</span>
+          <span className="text-sm text-gray-300 mt-4"> {version}</span>
         </h3>
 
         <section className="w-[50ch] text-gray-200">
@@ -52,6 +54,9 @@ export const ModalManager = ({ type, onConfirm }: Props) => {
           <p className="text-2xl underline text-gray-300 mb-4">
             Be sure to read the info tab for currently supported operations!
           </p>
+          <p>
+            Last Updated: <span className="text-blue-300">10/3/23</span>
+          </p>
         </section>
       </ButtonModal>
     );
@@ -84,7 +89,7 @@ export const ModalManager = ({ type, onConfirm }: Props) => {
               </li>
               <li>
                 While this site does not directly collect or store user data as
-                of v0.1.0, data fetches are done through Google Firebase and
+                of {version}, data fetches are done through Google Firebase and
                 service records user analytics. More information on{" "}
                 <a
                   target="_blank"
@@ -100,7 +105,7 @@ export const ModalManager = ({ type, onConfirm }: Props) => {
           </section>
           <h3 className="underline text-2xl font-semibold">
             General Info for
-            <span className="text-gold mt-4"> v0.1.0</span>
+            <span className="text-gold mt-4"> {version}</span>
           </h3>
           <section className="text-gray-200">
             <h4 className="text-xl">Currently Supported:</h4>
@@ -133,7 +138,7 @@ export const ModalManager = ({ type, onConfirm }: Props) => {
                     <p>
                       <span className="text-purple-400 font-semibold italic">
                         Deja Vu, Friendly Competition, Object of Obession,
-                        Resilience, and Spine Chill
+                        Resilience, Sole Survivor, and Spine Chill
                       </span>{" "}
                       are added as{" "}
                       <span className="text-gold italic">Toggle perks</span>
@@ -167,6 +172,14 @@ export const ModalManager = ({ type, onConfirm }: Props) => {
                         Prove Thyself
                       </span>{" "}
                       is added as a always in effect perk
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <span className="text-purple-400 font-semibold italic">
+                        Streetwise
+                      </span>{" "}
+                      is added as an always in effect perk that provides item <span className="text-orange-400">Efficiency</span> buff{" "}
                     </p>
                   </li>
                 </ul>

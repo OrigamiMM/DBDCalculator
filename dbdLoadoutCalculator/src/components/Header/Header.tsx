@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ModalManager } from "./ModalManager";
 
 export const Header = () => {
-  const [ModalInfo, setModalInfo] = useState<"none" | "help" | "info">("none");
+  const [ModalInfo, setModalInfo] = useState<"none" | "help" | "info">("help");
   const buttonHandler = (type: "help" | "info") => {
     setModalInfo(type)
   };
