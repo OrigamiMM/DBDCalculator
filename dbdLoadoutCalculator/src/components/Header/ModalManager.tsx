@@ -55,7 +55,7 @@ export const ModalManager = ({ type, onConfirm }: Props) => {
             Be sure to read the info tab for currently supported operations!
           </p>
           <p>
-            Last Updated: <span className="text-blue-300">10/3/23</span>
+            Last Updated: <span className="text-blue-300">12/3/23</span>
           </p>
         </section>
       </ButtonModal>
