@@ -1,6 +1,13 @@
 # DBDCalculator
 
-### Goals for the first iteration of the calculator: Perk builder and calculate single objective time (Generators)
+## Website link
+Website currently found [https://www.dbd-loadouts.com/](https://www.dbd-loadouts.com/)
+
+### Who is this website for?
+Website is a tool for players of Dead by Daylight to quickly calculate objective times based on what they have equipped in their inventory. 
+There are factors that play into objective time such as base speed, perk and items buffs, enemy debuffs, and more not even counting updates made to the game.
+
+### Goals for the calculator: Perk builder and calculate single objective time (Generators)
 This file has described large overall milestones with bullet points made to split up into smaller subgoals. Each subgoal would be a separate branch before we merge. Each overall milestone is then merged into production.
 This file should always be updated.
 1. Generate JSON data files for perks, items and addons
